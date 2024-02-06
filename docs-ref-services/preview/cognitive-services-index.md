@@ -1,7 +1,7 @@
 | Reference | Package | Source |
 |---|---|---|
 |[Content Safety](ai-content-safety-rest-readme.md)|[@azure-rest/ai-content-safety](https://www.npmjs.com/package/@azure-rest/ai-content-safety)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/contentsafety/ai-content-safety-rest)|
-|Document Translation|[@azure-rest/ai-document-translator](https://www.npmjs.com/package/@azure-rest/ai-document-translator)|[GitHub](https://github.com/Azure/azure-sdk-for-js)|
+|[Document Translation](ai-document-translator-rest-readme.md)|[@azure-rest/ai-document-translator](https://www.npmjs.com/package/@azure-rest/ai-document-translator)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/documenttranslator/ai-document-translator-rest)|
 |[Personalizer](ai-personalizer-rest-readme.md)|[@azure-rest/ai-personalizer](https://www.npmjs.com/package/@azure-rest/ai-personalizer)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/personalizer/ai-personalizer-rest)|
 |[Text Translation](ai-translation-text-rest-readme.md)|[@azure-rest/ai-translation-text](https://www.npmjs.com/package/@azure-rest/ai-translation-text)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/translation/ai-translation-text-rest)|
 |[Image Analysis](ai-vision-image-analysis-rest-readme.md)|[@azure-rest/ai-vision-image-analysis](https://www.npmjs.com/package/@azure-rest/ai-vision-image-analysis)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/vision/ai-vision-image-analysis-rest)|
