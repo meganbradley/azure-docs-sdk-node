@@ -734,9 +734,6 @@
       "name": "@azure/core-lro@2.6.0"
     },
     {
-      "name": "@azure/core-paging@1.5.0"
-    },
-    {
       "name": "@azure/core-rest-pipeline@1.12.0",
       "folder": "./types/latest"
     },
