@@ -2157,10 +2157,6 @@
           href: ~/docs-ref-services/latest/core-xml-readme.md
           children:
           - '@azure/core-xml'
-      - name: Paging
-        href: ~/docs-ref-services/latest/core-paging-readme.md
-        children:
-        - '@azure/core-paging'
     - name: MS REST
       landingPageType: Service
       items:
