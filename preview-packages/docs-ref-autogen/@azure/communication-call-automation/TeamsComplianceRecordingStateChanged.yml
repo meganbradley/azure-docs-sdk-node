@@ -1,0 +1,132 @@
+### YamlMime:TSType
+name: TeamsComplianceRecordingStateChanged
+uid: '@azure/communication-call-automation.TeamsComplianceRecordingStateChanged'
+package: '@azure/communication-call-automation'
+summary: Event when Teams Compliance Recording state has been changed.
+fullName: TeamsComplianceRecordingStateChanged
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: callConnectionId
+    uid: >-
+      @azure/communication-call-automation.TeamsComplianceRecordingStateChanged.callConnectionId
+    package: '@azure/communication-call-automation'
+    summary: Call connection ID.
+    fullName: callConnectionId
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'callConnectionId: string'
+      return:
+        description: ''
+        type: string
+  - name: correlationId
+    uid: >-
+      @azure/communication-call-automation.TeamsComplianceRecordingStateChanged.correlationId
+    package: '@azure/communication-call-automation'
+    summary: >-
+      Correlation ID for event to call correlation. Also called ChainId for
+      skype chain ID.
+    fullName: correlationId
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'correlationId: string'
+      return:
+        description: ''
+        type: string
+  - name: kind
+    uid: >-
+      @azure/communication-call-automation.TeamsComplianceRecordingStateChanged.kind
+    package: '@azure/communication-call-automation'
+    summary: kind of this event.
+    fullName: kind
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'kind: "TeamsComplianceRecordingStateChanged"'
+      return:
+        description: ''
+        type: '"TeamsComplianceRecordingStateChanged"'
+  - name: serverCallId
+    uid: >-
+      @azure/communication-call-automation.TeamsComplianceRecordingStateChanged.serverCallId
+    package: '@azure/communication-call-automation'
+    summary: Server call ID.
+    fullName: serverCallId
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'serverCallId: string'
+      return:
+        description: ''
+        type: string
+inheritedProperties:
+  - name: recordingId
+    uid: >-
+      @azure/communication-call-automation.TeamsComplianceRecordingStateChanged.recordingId
+    package: '@azure/communication-call-automation'
+    summary: >-
+      The call recording id
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: recordingId
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'recordingId?: string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Omit.recordingId
+  - name: recordingType
+    uid: >-
+      @azure/communication-call-automation.TeamsComplianceRecordingStateChanged.recordingType
+    package: '@azure/communication-call-automation'
+    summary: ''
+    fullName: recordingType
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'recordingType?: string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Omit.recordingType
+  - name: startDateTime
+    uid: >-
+      @azure/communication-call-automation.TeamsComplianceRecordingStateChanged.startDateTime
+    package: '@azure/communication-call-automation'
+    summary: >-
+      The time of the recording started
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: startDateTime
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'startDateTime?: Date'
+      return:
+        description: ''
+        type: Date
+    inheritanceDescription: <b>Inherited From</b> Omit.startDateTime
+  - name: state
+    uid: >-
+      @azure/communication-call-automation.TeamsComplianceRecordingStateChanged.state
+    package: '@azure/communication-call-automation'
+    summary: ''
+    fullName: state
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'state?: string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Omit.state
+extends: >-
+  Omit&lt;RestTeamsComplianceRecordingStateChanged, "callConnectionId" |
+  "serverCallId" | "correlationId"&gt;
