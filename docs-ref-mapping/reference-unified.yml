@@ -670,10 +670,6 @@
         href: ~/docs-ref-services/{moniker}/arm-cosmosdb-readme.md
         children:
         - '@azure/arm-cosmosdb'
-      - name: Resource Management - CosmosDB for PostgreSQL
-        href: ~/docs-ref-services/{moniker}/arm-cosmosdbforpostgresql-readme.md
-        children:
-        - '@azure/arm-cosmosdbforpostgresql'
   - name: Cost Management
     href: ~/docs-ref-services/{moniker}/cost-management.md
     landingPageType: Service
@@ -878,7 +874,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: Dns
+  - name: DNS
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1206,6 +1202,10 @@
       href: ~/docs-ref-services/{moniker}/identity-readme.md
       children:
       - '@azure/identity'
+    - name: Azure Identity Broker
+      href: ~/docs-ref-services/{moniker}/identity-broker-readme.md
+      children:
+      - '@azure/identity-broker'
     - name: Token Cache Persistence Plugin
       href: ~/docs-ref-services/{moniker}/identity-cache-persistence-readme.md
       children:
@@ -1264,6 +1264,10 @@
       href: ~/docs-ref-services/{moniker}/iot-device-update-readme.md
       children:
       - '@azure/iot-device-update'
+    - name: IoT Models Repository
+      href: ~/docs-ref-services/{moniker}/iot-modelsrepository-readme.md
+      children:
+      - '@azure/iot-modelsrepository'
     - name: IoT Hub - IoT Common
       href: ~/docs-ref-services/{moniker}/iot-common-readme.md
       children:
@@ -1910,7 +1914,7 @@
         href: ~/docs-ref-services/{moniker}/arm-portal-readme.md
         children:
         - '@azure/arm-portal'
-  - name: Postgresql
+  - name: PostgreSQL
     href: ~/docs-ref-services/{moniker}/postgresql.md
     landingPageType: Service
     items:
