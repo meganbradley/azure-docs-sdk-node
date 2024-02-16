@@ -1,0 +1,14 @@
+{
+  "Name": "@azure/monitor-opentelemetry",
+  "Version": "1.3.0-alpha.20240214.1",
+  "DevVersion": "1.3.0-alpha.20240216.1",
+  "DirectoryPath": "sdk/monitor/monitor-opentelemetry",
+  "ServiceDirectory": "monitor",
+  "ReadMePath": "sdk/monitor/monitor-opentelemetry/README.md",
+  "ChangeLogPath": "sdk/monitor/monitor-opentelemetry/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-monitor-opentelemetry",
+  "ReleaseStatus": "2024-02-13"
+}
