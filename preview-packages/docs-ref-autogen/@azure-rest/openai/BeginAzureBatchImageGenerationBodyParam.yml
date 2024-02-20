@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: BeginAzureBatchImageGenerationBodyParam
+uid: '@azure-rest/openai.BeginAzureBatchImageGenerationBodyParam'
+package: '@azure-rest/openai'
+summary: ''
+fullName: BeginAzureBatchImageGenerationBodyParam
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationBodyParam.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body?: ImageGenerationOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ImageGenerationOptions" />

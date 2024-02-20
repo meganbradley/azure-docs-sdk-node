@@ -1,0 +1,85 @@
+### YamlMime:TSType
+name: AudioTranslationOutput
+uid: '@azure-rest/openai.AudioTranslationOutput'
+package: '@azure-rest/openai'
+summary: >-
+  Result information for an operation that translated spoken audio into written
+  text.
+fullName: AudioTranslationOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: duration
+    uid: '@azure-rest/openai.AudioTranslationOutput.duration'
+    package: '@azure-rest/openai'
+    summary: >-
+      The total duration of the audio processed to produce accompanying
+      translation information.
+    fullName: duration
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'duration?: number'
+      return:
+        description: ''
+        type: number
+  - name: language
+    uid: '@azure-rest/openai.AudioTranslationOutput.language'
+    package: '@azure-rest/openai'
+    summary: >-
+      The spoken language that was detected in the translated audio data.
+
+      This is expressed as a two-letter ISO-639-1 language code like 'en' or
+      'fr'.
+    fullName: language
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'language?: string'
+      return:
+        description: ''
+        type: string
+  - name: segments
+    uid: '@azure-rest/openai.AudioTranslationOutput.segments'
+    package: '@azure-rest/openai'
+    summary: >-
+      A collection of information about the timing, probabilities, and other
+      detail of each processed audio segment.
+    fullName: segments
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'segments?: AudioTranslationSegmentOutput[]'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.AudioTranslationSegmentOutput" />[]
+  - name: task
+    uid: '@azure-rest/openai.AudioTranslationOutput.task'
+    package: '@azure-rest/openai'
+    summary: >-
+      The label that describes which operation type generated the accompanying
+      response data.
+
+
+      Possible values: "transcribe", "translate"
+    fullName: task
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'task?: string'
+      return:
+        description: ''
+        type: string
+  - name: text
+    uid: '@azure-rest/openai.AudioTranslationOutput.text'
+    package: '@azure-rest/openai'
+    summary: The translated text for the provided audio data.
+    fullName: text
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'text: string'
+      return:
+        description: ''
+        type: string

@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: GetChatCompletionsParameters
+uid: '@azure-rest/openai.GetChatCompletionsParameters'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetChatCompletionsParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GetChatCompletionsParameters = GetChatCompletionsBodyParam &
+    RequestParameters

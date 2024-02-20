@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: BeginAzureBatchImageGenerationDefaultResponse
+uid: '@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse'
+package: '@azure-rest/openai'
+summary: ''
+fullName: BeginAzureBatchImageGenerationDefaultResponse
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body: ErrorResponse'
+      return:
+        description: ''
+        type: ErrorResponse
+  - name: headers
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse.headers'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: headers
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'headers: RawHttpHeaders & BeginAzureBatchImageGenerationDefaultHeaders'
+      return:
+        description: ''
+        type: >-
+          RawHttpHeaders & <xref
+          uid="@azure-rest/openai.BeginAzureBatchImageGenerationDefaultHeaders"
+          />
+  - name: status
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse.status'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: status
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'status: string'
+      return:
+        description: ''
+        type: string
+inheritedProperties:
+  - name: request
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse.request'
+    package: '@azure-rest/openai'
+    summary: The request that generated this response.
+    fullName: request
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'request: PipelineRequest'
+      return:
+        description: ''
+        type: PipelineRequest
+    inheritanceDescription: <b>Inherited From</b> HttpResponse.request
+extends: HttpResponse

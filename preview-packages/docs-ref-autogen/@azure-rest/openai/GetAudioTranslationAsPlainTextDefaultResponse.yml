@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: GetAudioTranslationAsPlainTextDefaultResponse
+uid: '@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultResponse'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioTranslationAsPlainTextDefaultResponse
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultResponse.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body: ErrorResponse'
+      return:
+        description: ''
+        type: ErrorResponse
+  - name: headers
+    uid: '@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultResponse.headers'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: headers
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'headers: RawHttpHeaders & GetAudioTranslationAsPlainTextDefaultHeaders'
+      return:
+        description: ''
+        type: >-
+          RawHttpHeaders & <xref
+          uid="@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultHeaders"
+          />
+  - name: status
+    uid: '@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultResponse.status'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: status
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'status: string'
+      return:
+        description: ''
+        type: string
+inheritedProperties:
+  - name: request
+    uid: '@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultResponse.request'
+    package: '@azure-rest/openai'
+    summary: The request that generated this response.
+    fullName: request
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'request: PipelineRequest'
+      return:
+        description: ''
+        type: PipelineRequest
+    inheritanceDescription: <b>Inherited From</b> HttpResponse.request
+extends: HttpResponse

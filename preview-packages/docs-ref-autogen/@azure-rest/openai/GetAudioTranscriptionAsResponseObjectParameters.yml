@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: GetAudioTranscriptionAsResponseObjectParameters
+uid: '@azure-rest/openai.GetAudioTranscriptionAsResponseObjectParameters'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioTranscriptionAsResponseObjectParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GetAudioTranscriptionAsResponseObjectParameters =
+    GetAudioTranscriptionAsResponseObjectMediaTypesParam &
+      GetAudioTranscriptionAsResponseObjectBodyParam &
+      RequestParameters

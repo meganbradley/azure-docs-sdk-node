@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: ChatCompletionsToolDefinition
+uid: '@azure-rest/openai.ChatCompletionsToolDefinition'
+package: '@azure-rest/openai'
+summary: >-
+  An abstract representation of a tool that can be used by the model to improve
+  a chat completions response.
+fullName: ChatCompletionsToolDefinition
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ChatCompletionsToolDefinition =
+    | ChatCompletionsToolDefinitionParent
+    | ChatCompletionsFunctionToolDefinition

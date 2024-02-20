@@ -1,0 +1,38 @@
+### YamlMime:TSType
+name: EmbeddingItemOutput
+uid: '@azure-rest/openai.EmbeddingItemOutput'
+package: '@azure-rest/openai'
+summary: Representation of a single embeddings relatedness comparison.
+fullName: EmbeddingItemOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: embedding
+    uid: '@azure-rest/openai.EmbeddingItemOutput.embedding'
+    package: '@azure-rest/openai'
+    summary: >-
+      List of embeddings value for the input prompt. These represent a
+      measurement of the
+
+      vector-based relatedness of the provided input.
+    fullName: embedding
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'embedding: number[]'
+      return:
+        description: ''
+        type: number[]
+  - name: index
+    uid: '@azure-rest/openai.EmbeddingItemOutput.index'
+    package: '@azure-rest/openai'
+    summary: Index of the prompt to which the EmbeddingItem corresponds.
+    fullName: index
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'index: number'
+      return:
+        description: ''
+        type: number

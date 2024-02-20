@@ -1,0 +1,23 @@
+### YamlMime:TSType
+name: BeginAzureBatchImageGeneration202Headers
+uid: '@azure-rest/openai.BeginAzureBatchImageGeneration202Headers'
+package: '@azure-rest/openai'
+summary: ''
+fullName: BeginAzureBatchImageGeneration202Headers
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: operation-location
+    uid: >-
+      @azure-rest/openai.BeginAzureBatchImageGeneration202Headers.operation-location
+    package: '@azure-rest/openai'
+    summary: The location for monitoring the operation state.
+    fullName: operation-location
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'operation-location: string'
+      return:
+        description: ''
+        type: string
