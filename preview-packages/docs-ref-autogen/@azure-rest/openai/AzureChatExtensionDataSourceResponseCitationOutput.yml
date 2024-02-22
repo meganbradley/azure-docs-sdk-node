@@ -1,0 +1,81 @@
+### YamlMime:TSType
+name: AzureChatExtensionDataSourceResponseCitationOutput
+uid: '@azure-rest/openai.AzureChatExtensionDataSourceResponseCitationOutput'
+package: '@azure-rest/openai'
+summary: >-
+  A single instance of additional context information available when Azure
+  OpenAI chat extensions are involved
+
+  in the generation of a corresponding chat completions response. This context
+  information is only populated when
+
+  using an Azure OpenAI request configured to use a matching extension.
+fullName: AzureChatExtensionDataSourceResponseCitationOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: chunk_id
+    uid: >-
+      @azure-rest/openai.AzureChatExtensionDataSourceResponseCitationOutput.chunk_id
+    package: '@azure-rest/openai'
+    summary: The chunk ID of the citation.
+    fullName: chunk_id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'chunk_id?: string'
+      return:
+        description: ''
+        type: string
+  - name: content
+    uid: >-
+      @azure-rest/openai.AzureChatExtensionDataSourceResponseCitationOutput.content
+    package: '@azure-rest/openai'
+    summary: The content of the citation.
+    fullName: content
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'content: string'
+      return:
+        description: ''
+        type: string
+  - name: filepath
+    uid: >-
+      @azure-rest/openai.AzureChatExtensionDataSourceResponseCitationOutput.filepath
+    package: '@azure-rest/openai'
+    summary: The file path of the citation.
+    fullName: filepath
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'filepath?: string'
+      return:
+        description: ''
+        type: string
+  - name: title
+    uid: >-
+      @azure-rest/openai.AzureChatExtensionDataSourceResponseCitationOutput.title
+    package: '@azure-rest/openai'
+    summary: The title of the citation.
+    fullName: title
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'title?: string'
+      return:
+        description: ''
+        type: string
+  - name: url
+    uid: '@azure-rest/openai.AzureChatExtensionDataSourceResponseCitationOutput.url'
+    package: '@azure-rest/openai'
+    summary: The URL of the citation.
+    fullName: url
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'url?: string'
+      return:
+        description: ''
+        type: string

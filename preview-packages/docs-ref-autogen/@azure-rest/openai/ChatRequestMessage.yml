@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: ChatRequestMessage
+uid: '@azure-rest/openai.ChatRequestMessage'
+package: '@azure-rest/openai'
+summary: An abstract representation of a chat message as provided in a request.
+fullName: ChatRequestMessage
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ChatRequestMessage =
+    | ChatRequestMessageParent
+    | ChatRequestSystemMessage
+    | ChatRequestUserMessage
+    | ChatRequestAssistantMessage
+    | ChatRequestToolMessage
+    | ChatRequestFunctionMessage

@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: GetCompletions
+uid: '@azure-rest/openai.GetCompletions'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetCompletions
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(GetCompletionsParameters)
+    uid: '@azure-rest/openai.GetCompletions.post'
+    package: '@azure-rest/openai'
+    summary: >-
+      Gets completions for the provided input prompts.
+
+      Completions support a wide variety of tasks and generate text that
+      continues from or "completes"
+
+      provided prompt data.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: GetCompletionsParameters):
+        StreamableMethod<GetCompletions200Response |
+        GetCompletionsDefaultResponse>
+      parameters:
+        - id: options
+          type: <xref uid="@azure-rest/openai.GetCompletionsParameters" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetCompletions200Response" /> | <xref
+          uid="@azure-rest/openai.GetCompletionsDefaultResponse" />&gt;

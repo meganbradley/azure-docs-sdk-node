@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: OnYourDataVectorizationSourceParent
+uid: '@azure-rest/openai.OnYourDataVectorizationSourceParent'
+package: '@azure-rest/openai'
+summary: >-
+  An abstract representation of a vectorization source for Azure OpenAI On Your
+  Data with vector search.
+fullName: OnYourDataVectorizationSourceParent
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@azure-rest/openai.OnYourDataVectorizationSourceParent.type'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: string'
+      return:
+        description: ''
+        type: string

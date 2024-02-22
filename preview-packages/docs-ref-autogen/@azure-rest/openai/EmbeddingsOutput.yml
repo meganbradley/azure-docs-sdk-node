@@ -1,0 +1,40 @@
+### YamlMime:TSType
+name: EmbeddingsOutput
+uid: '@azure-rest/openai.EmbeddingsOutput'
+package: '@azure-rest/openai'
+summary: >-
+  Representation of the response data from an embeddings request.
+
+  Embeddings measure the relatedness of text strings and are commonly used for
+  search, clustering,
+
+  recommendations, and other similar scenarios.
+fullName: EmbeddingsOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: data
+    uid: '@azure-rest/openai.EmbeddingsOutput.data'
+    package: '@azure-rest/openai'
+    summary: Embedding values for the prompts submitted in the request.
+    fullName: data
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'data: EmbeddingItemOutput[]'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.EmbeddingItemOutput" />[]
+  - name: usage
+    uid: '@azure-rest/openai.EmbeddingsOutput.usage'
+    package: '@azure-rest/openai'
+    summary: Usage counts for tokens input using the embeddings API.
+    fullName: usage
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'usage: EmbeddingsUsageOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.EmbeddingsUsageOutput" />

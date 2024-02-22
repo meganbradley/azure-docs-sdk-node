@@ -1,0 +1,70 @@
+### YamlMime:TSType
+name: GetAudioTranscriptionAsPlainText
+uid: '@azure-rest/openai.GetAudioTranscriptionAsPlainText'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioTranscriptionAsPlainText
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(GetAudioTranscriptionAsPlainTextParameters)
+    uid: '@azure-rest/openai.GetAudioTranscriptionAsPlainText.post'
+    package: '@azure-rest/openai'
+    summary: >-
+      Gets transcribed text and associated metadata from provided spoken audio
+      data. Audio will be transcribed in the
+
+      written language corresponding to the language it was spoken in.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: GetAudioTranscriptionAsPlainTextParameters):
+        StreamableMethod<GetAudioTranscriptionAsPlainText200Response |
+        GetAudioTranscriptionAsPlainTextDefaultResponse>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure-rest/openai.GetAudioTranscriptionAsPlainTextParameters"
+            />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetAudioTranscriptionAsPlainText200Response"
+          /> | <xref
+          uid="@azure-rest/openai.GetAudioTranscriptionAsPlainTextDefaultResponse"
+          />&gt;
+  - name: post(GetAudioTranscriptionAsResponseObjectParameters)
+    uid: '@azure-rest/openai.GetAudioTranscriptionAsPlainText.post_1'
+    package: '@azure-rest/openai'
+    summary: >-
+      Gets transcribed text and associated metadata from provided spoken audio
+      data. Audio will be transcribed in the
+
+      written language corresponding to the language it was spoken in.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options: GetAudioTranscriptionAsResponseObjectParameters):
+        StreamableMethod<GetAudioTranscriptionAsResponseObject200Response |
+        GetAudioTranscriptionAsResponseObjectDefaultResponse>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure-rest/openai.GetAudioTranscriptionAsResponseObjectParameters"
+            />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetAudioTranscriptionAsResponseObject200Response"
+          /> | <xref
+          uid="@azure-rest/openai.GetAudioTranscriptionAsResponseObjectDefaultResponse"
+          />&gt;

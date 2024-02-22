@@ -1,0 +1,298 @@
+### YamlMime:TSType
+name: CompletionsOptions
+uid: '@azure-rest/openai.CompletionsOptions'
+package: '@azure-rest/openai'
+summary: >-
+  The configuration information for a completions request.
+
+  Completions support a wide variety of tasks and generate text that continues
+  from or "completes"
+
+  provided prompt data.
+fullName: CompletionsOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: best_of
+    uid: '@azure-rest/openai.CompletionsOptions.best_of'
+    package: '@azure-rest/openai'
+    summary: >-
+      A value that controls how many completions will be internally generated
+      prior to response
+
+      formulation.
+
+      When used together with n, best_of controls the number of candidate
+      completions and must be
+
+      greater than n.
+
+      Because this setting can generate many completions, it may quickly consume
+      your token quota.
+
+      Use carefully and ensure reasonable settings for max_tokens and stop.
+    fullName: best_of
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'best_of?: number'
+      return:
+        description: ''
+        type: number
+  - name: echo
+    uid: '@azure-rest/openai.CompletionsOptions.echo'
+    package: '@azure-rest/openai'
+    summary: >-
+      A value specifying whether completions responses should include input
+      prompts as prefixes to
+
+      their generated output.
+    fullName: echo
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'echo?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: frequency_penalty
+    uid: '@azure-rest/openai.CompletionsOptions.frequency_penalty'
+    package: '@azure-rest/openai'
+    summary: >-
+      A value that influences the probability of generated tokens appearing
+      based on their cumulative
+
+      frequency in generated text.
+
+      Positive values will make tokens less likely to appear as their frequency
+      increases and
+
+      decrease the likelihood of the model repeating the same statements
+      verbatim.
+    fullName: frequency_penalty
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'frequency_penalty?: number'
+      return:
+        description: ''
+        type: number
+  - name: logit_bias
+    uid: '@azure-rest/openai.CompletionsOptions.logit_bias'
+    package: '@azure-rest/openai'
+    summary: >-
+      A map between GPT token IDs and bias scores that influences the
+      probability of specific tokens
+
+      appearing in a completions response. Token IDs are computed via external
+      tokenizer tools, while
+
+      bias scores reside in the range of -100 to 100 with minimum and maximum
+      values corresponding to
+
+      a full ban or exclusive selection of a token, respectively. The exact
+      behavior of a given bias
+
+      score varies by model.
+    fullName: logit_bias
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'logit_bias?: Record<string, number>'
+      return:
+        description: ''
+        type: Record&lt;string, number&gt;
+  - name: logprobs
+    uid: '@azure-rest/openai.CompletionsOptions.logprobs'
+    package: '@azure-rest/openai'
+    summary: >-
+      A value that controls the emission of log probabilities for the provided
+      number of most likely
+
+      tokens within a completions response.
+    fullName: logprobs
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'logprobs?: number'
+      return:
+        description: ''
+        type: number
+  - name: max_tokens
+    uid: '@azure-rest/openai.CompletionsOptions.max_tokens'
+    package: '@azure-rest/openai'
+    summary: The maximum number of tokens to generate.
+    fullName: max_tokens
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'max_tokens?: number'
+      return:
+        description: ''
+        type: number
+  - name: model
+    uid: '@azure-rest/openai.CompletionsOptions.model'
+    package: '@azure-rest/openai'
+    summary: >-
+      The model name to provide as part of this completions request.
+
+      Not applicable to Azure OpenAI, where deployment information should be
+      included in the Azure
+
+      resource URI that's connected to.
+    fullName: model
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'model?: string'
+      return:
+        description: ''
+        type: string
+  - name: 'n'
+    uid: '@azure-rest/openai.CompletionsOptions.n'
+    package: '@azure-rest/openai'
+    summary: >-
+      The number of completions choices that should be generated per provided
+      prompt as part of an
+
+      overall completions response.
+
+      Because this setting can generate many completions, it may quickly consume
+      your token quota.
+
+      Use carefully and ensure reasonable settings for max_tokens and stop.
+    fullName: 'n'
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'n?: number'
+      return:
+        description: ''
+        type: number
+  - name: presence_penalty
+    uid: '@azure-rest/openai.CompletionsOptions.presence_penalty'
+    package: '@azure-rest/openai'
+    summary: >-
+      A value that influences the probability of generated tokens appearing
+      based on their existing
+
+      presence in generated text.
+
+      Positive values will make tokens less likely to appear when they already
+      exist and increase the
+
+      model's likelihood to output new topics.
+    fullName: presence_penalty
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'presence_penalty?: number'
+      return:
+        description: ''
+        type: number
+  - name: prompt
+    uid: '@azure-rest/openai.CompletionsOptions.prompt'
+    package: '@azure-rest/openai'
+    summary: The prompts to generate completions from.
+    fullName: prompt
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'prompt: string[]'
+      return:
+        description: ''
+        type: string[]
+  - name: stop
+    uid: '@azure-rest/openai.CompletionsOptions.stop'
+    package: '@azure-rest/openai'
+    summary: A collection of textual sequences that will end completions generation.
+    fullName: stop
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'stop?: string[]'
+      return:
+        description: ''
+        type: string[]
+  - name: stream
+    uid: '@azure-rest/openai.CompletionsOptions.stream'
+    package: '@azure-rest/openai'
+    summary: >-
+      A value indicating whether chat completions should be streamed for this
+      request.
+    fullName: stream
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'stream?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: temperature
+    uid: '@azure-rest/openai.CompletionsOptions.temperature'
+    package: '@azure-rest/openai'
+    summary: >-
+      The sampling temperature to use that controls the apparent creativity of
+      generated completions.
+
+      Higher values will make output more random while lower values will make
+      results more focused
+
+      and deterministic.
+
+      It is not recommended to modify temperature and top_p for the same
+      completions request as the
+
+      interaction of these two settings is difficult to predict.
+    fullName: temperature
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'temperature?: number'
+      return:
+        description: ''
+        type: number
+  - name: top_p
+    uid: '@azure-rest/openai.CompletionsOptions.top_p'
+    package: '@azure-rest/openai'
+    summary: >-
+      An alternative to sampling with temperature called nucleus sampling. This
+      value causes the
+
+      model to consider the results of tokens with the provided probability
+      mass. As an example, a
+
+      value of 0.15 will cause only the tokens comprising the top 15% of
+      probability mass to be
+
+      considered.
+
+      It is not recommended to modify temperature and top_p for the same
+      completions request as the
+
+      interaction of these two settings is difficult to predict.
+    fullName: top_p
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'top_p?: number'
+      return:
+        description: ''
+        type: number
+  - name: user
+    uid: '@azure-rest/openai.CompletionsOptions.user'
+    package: '@azure-rest/openai'
+    summary: >-
+      An identifier for the caller or end user of the operation. This may be
+      used for tracking
+
+      or rate-limiting purposes.
+    fullName: user
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'user?: string'
+      return:
+        description: ''
+        type: string

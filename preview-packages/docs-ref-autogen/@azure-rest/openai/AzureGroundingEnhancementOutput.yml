@@ -1,0 +1,26 @@
+### YamlMime:TSType
+name: AzureGroundingEnhancementOutput
+uid: '@azure-rest/openai.AzureGroundingEnhancementOutput'
+package: '@azure-rest/openai'
+summary: >-
+  The grounding enhancement that returns the bounding box of the objects
+  detected in the image.
+fullName: AzureGroundingEnhancementOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: lines
+    uid: '@azure-rest/openai.AzureGroundingEnhancementOutput.lines'
+    package: '@azure-rest/openai'
+    summary: The lines of text detected by the grounding enhancement.
+    fullName: lines
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'lines: AzureGroundingEnhancementLineOutput[]'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure-rest/openai.AzureGroundingEnhancementLineOutput"
+          />[]

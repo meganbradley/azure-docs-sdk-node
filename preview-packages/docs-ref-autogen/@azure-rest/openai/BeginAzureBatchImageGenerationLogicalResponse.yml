@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: BeginAzureBatchImageGenerationLogicalResponse
+uid: '@azure-rest/openai.BeginAzureBatchImageGenerationLogicalResponse'
+package: '@azure-rest/openai'
+summary: The final response for long-running beginAzureBatchImageGeneration operation
+fullName: BeginAzureBatchImageGenerationLogicalResponse
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationLogicalResponse.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body: BatchImageGenerationOperationResponseOutput'
+      return:
+        description: ''
+        type: >-
+          <xref
+          uid="@azure-rest/openai.BatchImageGenerationOperationResponseOutput"
+          />
+  - name: status
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationLogicalResponse.status'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: status
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'status: "200"'
+      return:
+        description: ''
+        type: '"200"'
+inheritedProperties:
+  - name: headers
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationLogicalResponse.headers'
+    package: '@azure-rest/openai'
+    summary: The HTTP response headers.
+    fullName: headers
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'headers: RawHttpHeaders'
+      return:
+        description: ''
+        type: RawHttpHeaders
+    inheritanceDescription: <b>Inherited From</b> HttpResponse.headers
+  - name: request
+    uid: '@azure-rest/openai.BeginAzureBatchImageGenerationLogicalResponse.request'
+    package: '@azure-rest/openai'
+    summary: The request that generated this response.
+    fullName: request
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'request: PipelineRequest'
+      return:
+        description: ''
+        type: PipelineRequest
+    inheritanceDescription: <b>Inherited From</b> HttpResponse.request
+extends: HttpResponse
