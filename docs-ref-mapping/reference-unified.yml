@@ -1264,6 +1264,10 @@
       href: ~/docs-ref-services/{moniker}/iot-device-update-readme.md
       children:
       - '@azure/iot-device-update'
+    - name: IoT Models Repository
+      href: ~/docs-ref-services/{moniker}/iot-modelsrepository-readme.md
+      children:
+      - '@azure/iot-modelsrepository'
     - name: IoT Hub - IoT Common
       href: ~/docs-ref-services/{moniker}/iot-common-readme.md
       children:
