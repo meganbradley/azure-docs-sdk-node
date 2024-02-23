@@ -878,7 +878,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: DNS
+  - name: Dns
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1264,6 +1264,10 @@
       href: ~/docs-ref-services/{moniker}/iot-device-update-readme.md
       children:
       - '@azure/iot-device-update'
+    - name: IoT Models Repository
+      href: ~/docs-ref-services/{moniker}/iot-modelsrepository-readme.md
+      children:
+      - '@azure/iot-modelsrepository'
     - name: IoT Hub - IoT Common
       href: ~/docs-ref-services/{moniker}/iot-common-readme.md
       children:
@@ -2342,6 +2346,16 @@
         href: ~/docs-ref-services/{moniker}/arm-sphere-readme.md
         children:
         - '@azure/arm-sphere'
+  - name: Springappdiscovery
+    href: ~/docs-ref-services/{moniker}/springappdiscovery.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Springappdiscovery
+        href: ~/docs-ref-services/{moniker}/arm-springappdiscovery-readme.md
+        children:
+        - '@azure/arm-springappdiscovery'
   - name: SQL
     href: ~/docs-ref-services/{moniker}/sql.md
     landingPageType: Service
