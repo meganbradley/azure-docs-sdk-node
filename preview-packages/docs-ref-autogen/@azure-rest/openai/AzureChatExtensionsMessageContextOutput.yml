@@ -1,0 +1,48 @@
+### YamlMime:TSType
+name: AzureChatExtensionsMessageContextOutput
+uid: '@azure-rest/openai.AzureChatExtensionsMessageContextOutput'
+package: '@azure-rest/openai'
+summary: >-
+  A representation of the additional context information available when Azure
+  OpenAI chat extensions are involved
+    in the generation of a corresponding chat completions response. This context information is only populated when
+    using an Azure OpenAI request configured to use a matching extension.
+fullName: AzureChatExtensionsMessageContextOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: citations
+    uid: '@azure-rest/openai.AzureChatExtensionsMessageContextOutput.citations'
+    package: '@azure-rest/openai'
+    summary: >-
+      The contextual information associated with the Azure chat extensions used
+      for a chat completions request.
+        These messages describe the data source retrievals, plugin invocations, and other intermediate steps taken in the
+        course of generating a chat completions response that was augmented by capabilities from Azure OpenAI chat
+        extensions.
+    fullName: citations
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'citations?: AzureChatExtensionDataSourceResponseCitationOutput[]'
+      return:
+        description: ''
+        type: >-
+          <xref
+          uid="@azure-rest/openai.AzureChatExtensionDataSourceResponseCitationOutput"
+          />[]
+  - name: intent
+    uid: '@azure-rest/openai.AzureChatExtensionsMessageContextOutput.intent'
+    package: '@azure-rest/openai'
+    summary: >-
+      The detected intent from the chat history, used to pass to the next turn
+      to carry over the context.
+    fullName: intent
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'intent?: string'
+      return:
+        description: ''
+        type: string

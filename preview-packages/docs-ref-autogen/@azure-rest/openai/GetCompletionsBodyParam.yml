@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: GetCompletionsBodyParam
+uid: '@azure-rest/openai.GetCompletionsBodyParam'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetCompletionsBodyParam
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.GetCompletionsBodyParam.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body?: CompletionsOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.CompletionsOptions" />
