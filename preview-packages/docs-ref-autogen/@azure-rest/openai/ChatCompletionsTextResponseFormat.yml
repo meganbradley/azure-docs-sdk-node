@@ -1,0 +1,27 @@
+### YamlMime:TSType
+name: ChatCompletionsTextResponseFormat
+uid: '@azure-rest/openai.ChatCompletionsTextResponseFormat'
+package: '@azure-rest/openai'
+summary: >-
+  The standard Chat Completions response format that can freely generate text
+  and is not guaranteed to produce response
+
+  content that adheres to a specific schema.
+fullName: ChatCompletionsTextResponseFormat
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@azure-rest/openai.ChatCompletionsTextResponseFormat.type'
+    package: '@azure-rest/openai'
+    summary: The discriminated object type, which is always 'text' for this format.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "text"'
+      return:
+        description: ''
+        type: '"text"'
+extends: <xref uid="@azure-rest/openai.ChatCompletionsResponseFormatParent" />
