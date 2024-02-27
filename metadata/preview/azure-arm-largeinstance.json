@@ -1,0 +1,14 @@
+{
+  "Name": "@azure/arm-largeinstance",
+  "Version": "1.0.0-alpha.20240227.1",
+  "DevVersion": "1.0.0-alpha.20240227.1",
+  "DirectoryPath": "sdk/largeinstance/arm-largeinstance",
+  "ServiceDirectory": "largeinstance",
+  "ReadMePath": "sdk/largeinstance/arm-largeinstance/README.md",
+  "ChangeLogPath": "sdk/largeinstance/arm-largeinstance/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-arm-largeinstance",
+  "ReleaseStatus": "2024-02-023"
+}
