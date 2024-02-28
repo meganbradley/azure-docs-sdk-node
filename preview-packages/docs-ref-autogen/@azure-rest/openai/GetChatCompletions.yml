@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: GetChatCompletions
+uid: '@azure-rest/openai.GetChatCompletions'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetChatCompletions
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(GetChatCompletionsParameters)
+    uid: '@azure-rest/openai.GetChatCompletions.post'
+    package: '@azure-rest/openai'
+    summary: >-
+      Gets chat completions for the provided chat messages.
+
+      Completions support a wide variety of tasks and generate text that
+      continues from or "completes"
+
+      provided prompt data.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: GetChatCompletionsParameters):
+        StreamableMethod<GetChatCompletions200Response |
+        GetChatCompletionsDefaultResponse>
+      parameters:
+        - id: options
+          type: <xref uid="@azure-rest/openai.GetChatCompletionsParameters" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetChatCompletions200Response" /> | <xref
+          uid="@azure-rest/openai.GetChatCompletionsDefaultResponse" />&gt;
