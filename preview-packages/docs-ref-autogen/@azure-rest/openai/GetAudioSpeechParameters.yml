@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GetAudioSpeechParameters
+uid: '@azure-rest/openai.GetAudioSpeechParameters'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioSpeechParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GetAudioSpeechParameters = GetAudioSpeechBodyParam & RequestParameters

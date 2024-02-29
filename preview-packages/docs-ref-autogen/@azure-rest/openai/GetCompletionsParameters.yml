@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GetCompletionsParameters
+uid: '@azure-rest/openai.GetCompletionsParameters'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetCompletionsParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GetCompletionsParameters = GetCompletionsBodyParam & RequestParameters

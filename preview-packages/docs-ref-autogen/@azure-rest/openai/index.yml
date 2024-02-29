@@ -1,0 +1,474 @@
+### YamlMime:TSPackage
+uid: '@azure-rest/openai'
+name: '@azure-rest/openai'
+summary: ''
+type: package
+interfaces:
+  - '@azure-rest/openai.AudioSpeechOptions'
+  - '@azure-rest/openai.AudioTranscriptionOptions'
+  - '@azure-rest/openai.AudioTranscriptionOutput'
+  - '@azure-rest/openai.AudioTranscriptionSegmentOutput'
+  - '@azure-rest/openai.AudioTranslationOptions'
+  - '@azure-rest/openai.AudioTranslationOutput'
+  - '@azure-rest/openai.AudioTranslationSegmentOutput'
+  - '@azure-rest/openai.AzureChatEnhancementConfiguration'
+  - '@azure-rest/openai.AzureChatEnhancementsOutput'
+  - '@azure-rest/openai.AzureChatExtensionConfigurationParent'
+  - '@azure-rest/openai.AzureChatExtensionDataSourceResponseCitationOutput'
+  - '@azure-rest/openai.AzureChatExtensionsMessageContextOutput'
+  - '@azure-rest/openai.AzureChatGroundingEnhancementConfiguration'
+  - '@azure-rest/openai.AzureChatOCREnhancementConfiguration'
+  - '@azure-rest/openai.AzureCosmosDBChatExtensionConfiguration'
+  - '@azure-rest/openai.AzureCosmosDBChatExtensionParameters'
+  - '@azure-rest/openai.AzureCosmosDBFieldMappingOptions'
+  - '@azure-rest/openai.AzureGroundingEnhancementCoordinatePointOutput'
+  - '@azure-rest/openai.AzureGroundingEnhancementLineOutput'
+  - '@azure-rest/openai.AzureGroundingEnhancementLineSpanOutput'
+  - '@azure-rest/openai.AzureGroundingEnhancementOutput'
+  - '@azure-rest/openai.AzureMachineLearningIndexChatExtensionConfiguration'
+  - '@azure-rest/openai.AzureMachineLearningIndexChatExtensionParameters'
+  - '@azure-rest/openai.AzureSearchChatExtensionConfiguration'
+  - '@azure-rest/openai.AzureSearchChatExtensionParameters'
+  - '@azure-rest/openai.AzureSearchIndexFieldMappingOptions'
+  - '@azure-rest/openai.BatchImageGenerationOperationResponseOutput'
+  - '@azure-rest/openai.BeginAzureBatchImageGeneration'
+  - '@azure-rest/openai.BeginAzureBatchImageGeneration202Headers'
+  - '@azure-rest/openai.BeginAzureBatchImageGeneration202Response'
+  - '@azure-rest/openai.BeginAzureBatchImageGenerationBodyParam'
+  - '@azure-rest/openai.BeginAzureBatchImageGenerationDefaultHeaders'
+  - '@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse'
+  - '@azure-rest/openai.BeginAzureBatchImageGenerationLogicalResponse'
+  - '@azure-rest/openai.ChatChoiceLogProbabilityInfoOutput'
+  - '@azure-rest/openai.ChatChoiceOutput'
+  - '@azure-rest/openai.ChatCompletionsFunctionToolCall'
+  - '@azure-rest/openai.ChatCompletionsFunctionToolCallOutput'
+  - '@azure-rest/openai.ChatCompletionsFunctionToolDefinition'
+  - '@azure-rest/openai.ChatCompletionsFunctionToolSelection'
+  - '@azure-rest/openai.ChatCompletionsJsonResponseFormat'
+  - '@azure-rest/openai.ChatCompletionsNamedFunctionToolSelection'
+  - '@azure-rest/openai.ChatCompletionsNamedToolSelectionParent'
+  - '@azure-rest/openai.ChatCompletionsOptions'
+  - '@azure-rest/openai.ChatCompletionsOutput'
+  - '@azure-rest/openai.ChatCompletionsResponseFormatParent'
+  - '@azure-rest/openai.ChatCompletionsTextResponseFormat'
+  - '@azure-rest/openai.ChatCompletionsToolCallOutputParent'
+  - '@azure-rest/openai.ChatCompletionsToolCallParent'
+  - '@azure-rest/openai.ChatCompletionsToolDefinitionParent'
+  - '@azure-rest/openai.ChatFinishDetailsOutputParent'
+  - '@azure-rest/openai.ChatMessageContentItemParent'
+  - '@azure-rest/openai.ChatMessageImageContentItem'
+  - '@azure-rest/openai.ChatMessageImageUrl'
+  - '@azure-rest/openai.ChatMessageTextContentItem'
+  - '@azure-rest/openai.ChatRequestAssistantMessage'
+  - '@azure-rest/openai.ChatRequestFunctionMessage'
+  - '@azure-rest/openai.ChatRequestMessageParent'
+  - '@azure-rest/openai.ChatRequestSystemMessage'
+  - '@azure-rest/openai.ChatRequestToolMessage'
+  - '@azure-rest/openai.ChatRequestUserMessage'
+  - '@azure-rest/openai.ChatResponseMessageOutput'
+  - '@azure-rest/openai.ChatTokenLogProbabilityInfoOutput'
+  - '@azure-rest/openai.ChatTokenLogProbabilityResultOutput'
+  - '@azure-rest/openai.ChoiceOutput'
+  - '@azure-rest/openai.CompletionsLogProbabilityModelOutput'
+  - '@azure-rest/openai.CompletionsOptions'
+  - '@azure-rest/openai.CompletionsOutput'
+  - '@azure-rest/openai.CompletionsUsageOutput'
+  - '@azure-rest/openai.ContentFilterBlocklistIdResultOutput'
+  - '@azure-rest/openai.ContentFilterCitedDetectionResultOutput'
+  - '@azure-rest/openai.ContentFilterDetectionResultOutput'
+  - '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput'
+  - '@azure-rest/openai.ContentFilterResultOutput'
+  - '@azure-rest/openai.ContentFilterResultsForChoiceOutput'
+  - '@azure-rest/openai.ContentFilterResultsForPromptOutput'
+  - '@azure-rest/openai.DeploymentOutput'
+  - '@azure-rest/openai.ElasticsearchChatExtensionConfiguration'
+  - '@azure-rest/openai.ElasticsearchChatExtensionParameters'
+  - '@azure-rest/openai.ElasticsearchIndexFieldMappingOptions'
+  - '@azure-rest/openai.EmbeddingItemOutput'
+  - '@azure-rest/openai.EmbeddingsOptions'
+  - '@azure-rest/openai.EmbeddingsOutput'
+  - '@azure-rest/openai.EmbeddingsUsageOutput'
+  - '@azure-rest/openai.FunctionCall'
+  - '@azure-rest/openai.FunctionCallOutput'
+  - '@azure-rest/openai.FunctionDefinition'
+  - '@azure-rest/openai.FunctionName'
+  - '@azure-rest/openai.GetAudioSpeech'
+  - '@azure-rest/openai.GetAudioSpeech200Response'
+  - '@azure-rest/openai.GetAudioSpeechBodyParam'
+  - '@azure-rest/openai.GetAudioSpeechDefaultHeaders'
+  - '@azure-rest/openai.GetAudioSpeechDefaultResponse'
+  - '@azure-rest/openai.GetAudioTranscriptionAsPlainText'
+  - '@azure-rest/openai.GetAudioTranscriptionAsPlainText200Response'
+  - '@azure-rest/openai.GetAudioTranscriptionAsPlainTextBodyParam'
+  - '@azure-rest/openai.GetAudioTranscriptionAsPlainTextDefaultHeaders'
+  - '@azure-rest/openai.GetAudioTranscriptionAsPlainTextDefaultResponse'
+  - '@azure-rest/openai.GetAudioTranscriptionAsResponseObject200Response'
+  - '@azure-rest/openai.GetAudioTranscriptionAsResponseObjectBodyParam'
+  - '@azure-rest/openai.GetAudioTranscriptionAsResponseObjectDefaultHeaders'
+  - '@azure-rest/openai.GetAudioTranscriptionAsResponseObjectDefaultResponse'
+  - '@azure-rest/openai.GetAudioTranscriptionAsResponseObjectMediaTypesParam'
+  - '@azure-rest/openai.GetAudioTranslationAsPlainText'
+  - '@azure-rest/openai.GetAudioTranslationAsPlainText200Response'
+  - '@azure-rest/openai.GetAudioTranslationAsPlainTextBodyParam'
+  - '@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultHeaders'
+  - '@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultResponse'
+  - '@azure-rest/openai.GetAudioTranslationAsResponseObject200Response'
+  - '@azure-rest/openai.GetAudioTranslationAsResponseObjectBodyParam'
+  - '@azure-rest/openai.GetAudioTranslationAsResponseObjectDefaultHeaders'
+  - '@azure-rest/openai.GetAudioTranslationAsResponseObjectDefaultResponse'
+  - '@azure-rest/openai.GetAudioTranslationAsResponseObjectMediaTypesParam'
+  - '@azure-rest/openai.GetAzureBatchImageGenerationOperationStatus'
+  - '@azure-rest/openai.GetAzureBatchImageGenerationOperationStatus200Response'
+  - '@azure-rest/openai.GetAzureBatchImageGenerationOperationStatusDefaultHeaders'
+  - >-
+    @azure-rest/openai.GetAzureBatchImageGenerationOperationStatusDefaultResponse
+  - '@azure-rest/openai.GetChatCompletions'
+  - '@azure-rest/openai.GetChatCompletions200Response'
+  - '@azure-rest/openai.GetChatCompletionsBodyParam'
+  - '@azure-rest/openai.GetChatCompletionsDefaultHeaders'
+  - '@azure-rest/openai.GetChatCompletionsDefaultResponse'
+  - '@azure-rest/openai.GetCompletions'
+  - '@azure-rest/openai.GetCompletions200Response'
+  - '@azure-rest/openai.GetCompletionsBodyParam'
+  - '@azure-rest/openai.GetCompletionsDefaultHeaders'
+  - '@azure-rest/openai.GetCompletionsDefaultResponse'
+  - '@azure-rest/openai.GetEmbeddings'
+  - '@azure-rest/openai.GetEmbeddings200Response'
+  - '@azure-rest/openai.GetEmbeddingsBodyParam'
+  - '@azure-rest/openai.GetEmbeddingsDefaultHeaders'
+  - '@azure-rest/openai.GetEmbeddingsDefaultResponse'
+  - '@azure-rest/openai.GetImageGenerations'
+  - '@azure-rest/openai.GetImageGenerations200Response'
+  - '@azure-rest/openai.GetImageGenerationsBodyParam'
+  - '@azure-rest/openai.GetImageGenerationsDefaultHeaders'
+  - '@azure-rest/openai.GetImageGenerationsDefaultResponse'
+  - '@azure-rest/openai.ImageGenerationDataOutput'
+  - '@azure-rest/openai.ImageGenerationOptions'
+  - '@azure-rest/openai.ImageGenerationOptionsOutput'
+  - '@azure-rest/openai.ImageGenerationsOutput'
+  - '@azure-rest/openai.MaxTokensFinishDetailsOutput'
+  - '@azure-rest/openai.OnYourDataAccessTokenAuthenticationOptions'
+  - '@azure-rest/openai.OnYourDataApiKeyAuthenticationOptions'
+  - '@azure-rest/openai.OnYourDataAuthenticationOptionsParent'
+  - '@azure-rest/openai.OnYourDataConnectionStringAuthenticationOptions'
+  - '@azure-rest/openai.OnYourDataDeploymentNameVectorizationSource'
+  - '@azure-rest/openai.OnYourDataEncodedApiKeyAuthenticationOptions'
+  - '@azure-rest/openai.OnYourDataEndpointVectorizationSource'
+  - '@azure-rest/openai.OnYourDataKeyAndKeyIdAuthenticationOptions'
+  - '@azure-rest/openai.OnYourDataModelIdVectorizationSource'
+  - >-
+    @azure-rest/openai.OnYourDataSystemAssignedManagedIdentityAuthenticationOptions
+  - >-
+    @azure-rest/openai.OnYourDataUserAssignedManagedIdentityAuthenticationOptions
+  - '@azure-rest/openai.OnYourDataVectorizationSourceParent'
+  - '@azure-rest/openai.PineconeChatExtensionConfiguration'
+  - '@azure-rest/openai.PineconeChatExtensionParameters'
+  - '@azure-rest/openai.PineconeFieldMappingOptions'
+  - '@azure-rest/openai.Routes'
+  - '@azure-rest/openai.StopFinishDetailsOutput'
+typeAliases:
+  - '@azure-rest/openai.AzureChatExtensionConfiguration'
+  - '@azure-rest/openai.BeginAzureBatchImageGenerationParameters'
+  - '@azure-rest/openai.ChatCompletionsNamedToolSelection'
+  - '@azure-rest/openai.ChatCompletionsResponseFormat'
+  - '@azure-rest/openai.ChatCompletionsToolCall'
+  - '@azure-rest/openai.ChatCompletionsToolCallOutput'
+  - '@azure-rest/openai.ChatCompletionsToolDefinition'
+  - '@azure-rest/openai.ChatFinishDetailsOutput'
+  - '@azure-rest/openai.ChatMessageContentItem'
+  - '@azure-rest/openai.ChatRequestMessage'
+  - '@azure-rest/openai.GetAudioSpeechParameters'
+  - '@azure-rest/openai.GetAudioTranscriptionAsPlainTextParameters'
+  - '@azure-rest/openai.GetAudioTranscriptionAsResponseObjectParameters'
+  - '@azure-rest/openai.GetAudioTranslationAsPlainTextParameters'
+  - '@azure-rest/openai.GetAudioTranslationAsResponseObjectParameters'
+  - '@azure-rest/openai.GetAzureBatchImageGenerationOperationStatusParameters'
+  - '@azure-rest/openai.GetChatCompletionsParameters'
+  - '@azure-rest/openai.GetCompletionsParameters'
+  - '@azure-rest/openai.GetEmbeddingsParameters'
+  - '@azure-rest/openai.GetImageGenerationsParameters'
+  - '@azure-rest/openai.OnYourDataAuthenticationOptions'
+  - '@azure-rest/openai.OnYourDataVectorizationSource'
+  - '@azure-rest/openai.OpenAIClient'
+functions:
+  - name: default(string, TokenCredential | KeyCredential, ClientOptions)
+    uid: '@azure-rest/openai.default'
+    package: '@azure-rest/openai'
+    summary: Initialize a new instance of `OpenAIClient`
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function default(endpoint: string, credentials: TokenCredential |
+        KeyCredential, options?: ClientOptions): OpenAIClient
+      parameters:
+        - id: endpoint
+          type: string
+          description: >-
+            Supported Cognitive Services endpoints (protocol and hostname, for
+            example:
+
+            https://westus.api.cognitive.microsoft.com).
+        - id: credentials
+          type: TokenCredential | KeyCredential
+          description: uniquely identify client credential
+        - id: options
+          type: ClientOptions
+          description: the parameter for all optional parameters
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.OpenAIClient" />
+  - name: >-
+      getLongRunningPoller<TResult>(Client,
+      BeginAzureBatchImageGenerationDefaultResponse |
+      BeginAzureBatchImageGeneration202Response,
+      CreateHttpPollerOptions<TResult, OperationState<TResult>>)
+    uid: '@azure-rest/openai.getLongRunningPoller'
+    package: '@azure-rest/openai'
+    summary: >-
+      Helper function that builds a Poller object to help polling a long running
+      operation.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getLongRunningPoller<TResult>(client: Client, initialResponse:
+        BeginAzureBatchImageGenerationDefaultResponse |
+        BeginAzureBatchImageGeneration202Response, options?:
+        CreateHttpPollerOptions<TResult, OperationState<TResult>>):
+        Promise<SimplePollerLike<OperationState<TResult>, TResult>>
+      parameters:
+        - id: client
+          type: Client
+          description: Client to use for sending the request to get additional pages.
+        - id: initialResponse
+          type: >-
+            <xref
+            uid="@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse"
+            /> | <xref
+            uid="@azure-rest/openai.BeginAzureBatchImageGeneration202Response"
+            />
+          description: The initial response.
+        - id: options
+          type: >-
+            CreateHttpPollerOptions&lt;TResult,
+            OperationState&lt;TResult&gt;&gt;
+          description: Options to set a resume state or custom polling interval.
+      return:
+        description: >-
+          - A poller object to poll for operation state updates and eventually
+          get the final response.
+        type: >-
+          Promise&lt;SimplePollerLike&lt;OperationState&lt;TResult&gt;,
+          TResult&gt;&gt;
+  - name: >-
+      isUnexpected(GetAudioTranscriptionAsPlainText200Response |
+      GetAudioTranscriptionAsResponseObject200Response |
+      GetAudioTranscriptionAsPlainTextDefaultResponse)
+    uid: '@azure-rest/openai.isUnexpected'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response:
+        GetAudioTranscriptionAsPlainText200Response |
+        GetAudioTranscriptionAsResponseObject200Response |
+        GetAudioTranscriptionAsPlainTextDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref
+            uid="@azure-rest/openai.GetAudioTranscriptionAsPlainText200Response"
+            /> | <xref
+            uid="@azure-rest/openai.GetAudioTranscriptionAsResponseObject200Response"
+            /> | <xref
+            uid="@azure-rest/openai.GetAudioTranscriptionAsPlainTextDefaultResponse"
+            />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: >-
+      isUnexpected(GetAudioTranslationAsPlainText200Response |
+      GetAudioTranslationAsResponseObject200Response |
+      GetAudioTranslationAsPlainTextDefaultResponse)
+    uid: '@azure-rest/openai.isUnexpected_1'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response:
+        GetAudioTranslationAsPlainText200Response |
+        GetAudioTranslationAsResponseObject200Response |
+        GetAudioTranslationAsPlainTextDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref
+            uid="@azure-rest/openai.GetAudioTranslationAsPlainText200Response"
+            /> | <xref
+            uid="@azure-rest/openai.GetAudioTranslationAsResponseObject200Response"
+            /> | <xref
+            uid="@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultResponse"
+            />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: isUnexpected(GetCompletions200Response | GetCompletionsDefaultResponse)
+    uid: '@azure-rest/openai.isUnexpected_2'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response: GetCompletions200Response |
+        GetCompletionsDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref uid="@azure-rest/openai.GetCompletions200Response" /> | <xref
+            uid="@azure-rest/openai.GetCompletionsDefaultResponse" />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: >-
+      isUnexpected(GetChatCompletions200Response |
+      GetChatCompletionsDefaultResponse)
+    uid: '@azure-rest/openai.isUnexpected_3'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response: GetChatCompletions200Response |
+        GetChatCompletionsDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref uid="@azure-rest/openai.GetChatCompletions200Response" /> |
+            <xref uid="@azure-rest/openai.GetChatCompletionsDefaultResponse" />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: >-
+      isUnexpected(GetImageGenerations200Response |
+      GetImageGenerationsDefaultResponse)
+    uid: '@azure-rest/openai.isUnexpected_4'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response: GetImageGenerations200Response |
+        GetImageGenerationsDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref uid="@azure-rest/openai.GetImageGenerations200Response" /> |
+            <xref uid="@azure-rest/openai.GetImageGenerationsDefaultResponse" />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: isUnexpected(GetAudioSpeech200Response | GetAudioSpeechDefaultResponse)
+    uid: '@azure-rest/openai.isUnexpected_5'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response: GetAudioSpeech200Response |
+        GetAudioSpeechDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref uid="@azure-rest/openai.GetAudioSpeech200Response" /> | <xref
+            uid="@azure-rest/openai.GetAudioSpeechDefaultResponse" />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: isUnexpected(GetEmbeddings200Response | GetEmbeddingsDefaultResponse)
+    uid: '@azure-rest/openai.isUnexpected_6'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response: GetEmbeddings200Response |
+        GetEmbeddingsDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref uid="@azure-rest/openai.GetEmbeddings200Response" /> | <xref
+            uid="@azure-rest/openai.GetEmbeddingsDefaultResponse" />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: >-
+      isUnexpected(GetAzureBatchImageGenerationOperationStatus200Response |
+      GetAzureBatchImageGenerationOperationStatusDefaultResponse)
+    uid: '@azure-rest/openai.isUnexpected_7'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response:
+        GetAzureBatchImageGenerationOperationStatus200Response |
+        GetAzureBatchImageGenerationOperationStatusDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref
+            uid="@azure-rest/openai.GetAzureBatchImageGenerationOperationStatus200Response"
+            /> | <xref
+            uid="@azure-rest/openai.GetAzureBatchImageGenerationOperationStatusDefaultResponse"
+            />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: >-
+      isUnexpected(BeginAzureBatchImageGenerationLogicalResponse |
+      BeginAzureBatchImageGenerationDefaultResponse |
+      BeginAzureBatchImageGeneration202Response)
+    uid: '@azure-rest/openai.isUnexpected_8'
+    package: '@azure-rest/openai'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response:
+        BeginAzureBatchImageGenerationLogicalResponse |
+        BeginAzureBatchImageGenerationDefaultResponse |
+        BeginAzureBatchImageGeneration202Response): response
+      parameters:
+        - id: response
+          type: >-
+            <xref
+            uid="@azure-rest/openai.BeginAzureBatchImageGenerationLogicalResponse"
+            /> | <xref
+            uid="@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse"
+            /> | <xref
+            uid="@azure-rest/openai.BeginAzureBatchImageGeneration202Response"
+            />
+          description: ''
+      return:
+        description: ''
+        type: response
