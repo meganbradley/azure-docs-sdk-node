@@ -1,0 +1,31 @@
+### YamlMime:TSType
+name: GetEmbeddings
+uid: '@azure-rest/openai.GetEmbeddings'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetEmbeddings
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(GetEmbeddingsParameters)
+    uid: '@azure-rest/openai.GetEmbeddings.post'
+    package: '@azure-rest/openai'
+    summary: Return the embeddings for a given prompt.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: GetEmbeddingsParameters):
+        StreamableMethod<GetEmbeddings200Response |
+        GetEmbeddingsDefaultResponse>
+      parameters:
+        - id: options
+          type: <xref uid="@azure-rest/openai.GetEmbeddingsParameters" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetEmbeddings200Response" /> | <xref
+          uid="@azure-rest/openai.GetEmbeddingsDefaultResponse" />&gt;

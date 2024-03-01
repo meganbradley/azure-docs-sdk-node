@@ -1,0 +1,41 @@
+### YamlMime:TSType
+name: OnYourDataUserAssignedManagedIdentityAuthenticationOptions
+uid: '@azure-rest/openai.OnYourDataUserAssignedManagedIdentityAuthenticationOptions'
+package: '@azure-rest/openai'
+summary: >-
+  The authentication options for Azure OpenAI On Your Data when using a
+  user-assigned managed identity.
+fullName: OnYourDataUserAssignedManagedIdentityAuthenticationOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: managed_identity_resource_id
+    uid: >-
+      @azure-rest/openai.OnYourDataUserAssignedManagedIdentityAuthenticationOptions.managed_identity_resource_id
+    package: '@azure-rest/openai'
+    summary: >-
+      The resource ID of the user-assigned managed identity to use for
+      authentication.
+    fullName: managed_identity_resource_id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'managed_identity_resource_id: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: >-
+      @azure-rest/openai.OnYourDataUserAssignedManagedIdentityAuthenticationOptions.type
+    package: '@azure-rest/openai'
+    summary: The authentication type of user-assigned managed identity.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "user_assigned_managed_identity"'
+      return:
+        description: ''
+        type: '"user_assigned_managed_identity"'
+extends: <xref uid="@azure-rest/openai.OnYourDataAuthenticationOptionsParent" />

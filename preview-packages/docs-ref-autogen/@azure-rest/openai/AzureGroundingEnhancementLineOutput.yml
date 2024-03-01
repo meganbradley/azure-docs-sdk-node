@@ -1,0 +1,40 @@
+### YamlMime:TSType
+name: AzureGroundingEnhancementLineOutput
+uid: '@azure-rest/openai.AzureGroundingEnhancementLineOutput'
+package: '@azure-rest/openai'
+summary: >-
+  A content line object consisting of an adjacent sequence of content elements,
+  such as words and selection marks.
+fullName: AzureGroundingEnhancementLineOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: spans
+    uid: '@azure-rest/openai.AzureGroundingEnhancementLineOutput.spans'
+    package: '@azure-rest/openai'
+    summary: >-
+      An array of spans that represent detected objects and its bounding box
+      information.
+    fullName: spans
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'spans: AzureGroundingEnhancementLineSpanOutput[]'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure-rest/openai.AzureGroundingEnhancementLineSpanOutput"
+          />[]
+  - name: text
+    uid: '@azure-rest/openai.AzureGroundingEnhancementLineOutput.text'
+    package: '@azure-rest/openai'
+    summary: The text within the line.
+    fullName: text
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'text: string'
+      return:
+        description: ''
+        type: string
