@@ -878,7 +878,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: Dns
+  - name: DNS
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1206,6 +1206,10 @@
       href: ~/docs-ref-services/{moniker}/identity-readme.md
       children:
       - '@azure/identity'
+    - name: Azure Identity Broker
+      href: ~/docs-ref-services/{moniker}/identity-broker-readme.md
+      children:
+      - '@azure/identity-broker'
     - name: Token Cache Persistence Plugin
       href: ~/docs-ref-services/{moniker}/identity-cache-persistence-readme.md
       children:
@@ -1264,6 +1268,10 @@
       href: ~/docs-ref-services/{moniker}/iot-device-update-readme.md
       children:
       - '@azure/iot-device-update'
+    - name: IoT Models Repository
+      href: ~/docs-ref-services/{moniker}/iot-modelsrepository-readme.md
+      children:
+      - '@azure/iot-modelsrepository'
     - name: IoT Hub - IoT Common
       href: ~/docs-ref-services/{moniker}/iot-common-readme.md
       children:
@@ -1390,6 +1398,16 @@
         href: ~/docs-ref-services/{moniker}/arm-labservices-readme.md
         children:
         - '@azure/arm-labservices'
+  - name: Largeinstance
+    href: ~/docs-ref-services/{moniker}/largeinstance.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Largeinstance
+        href: ~/docs-ref-services/{moniker}/arm-largeinstance-readme.md
+        children:
+        - '@azure/arm-largeinstance'
   - name: Liftr-Astronomer
     href: ~/docs-ref-services/{moniker}/liftr-astronomer.md
     landingPageType: Service
