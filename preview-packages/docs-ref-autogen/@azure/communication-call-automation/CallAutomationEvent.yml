@@ -18,6 +18,8 @@ syntax: |
     | CallTransferFailed
     | ParticipantsUpdated
     | RecordingStateChanged
+    | TeamsComplianceRecordingStateChanged
+    | TeamsRecordingStateChanged
     | PlayCompleted
     | PlayFailed
     | PlayCanceled
@@ -29,3 +31,9 @@ syntax: |
     | ContinuousDtmfRecognitionStopped
     | SendDtmfTonesCompleted
     | SendDtmfTonesFailed
+    | CancelAddParticipantSucceeded
+    | CancelAddParticipantFailed
+    | TranscriptionStarted
+    | TranscriptionStopped
+    | TranscriptionUpdated
+    | TranscriptionFailed

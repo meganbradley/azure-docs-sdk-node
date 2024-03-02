@@ -1,0 +1,31 @@
+### YamlMime:TSType
+name: GetImageGenerations
+uid: '@azure-rest/openai.GetImageGenerations'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetImageGenerations
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(GetImageGenerationsParameters)
+    uid: '@azure-rest/openai.GetImageGenerations.post'
+    package: '@azure-rest/openai'
+    summary: Creates an image given a prompt.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: GetImageGenerationsParameters):
+        StreamableMethod<GetImageGenerations200Response |
+        GetImageGenerationsDefaultResponse>
+      parameters:
+        - id: options
+          type: <xref uid="@azure-rest/openai.GetImageGenerationsParameters" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetImageGenerations200Response" /> | <xref
+          uid="@azure-rest/openai.GetImageGenerationsDefaultResponse" />&gt;
