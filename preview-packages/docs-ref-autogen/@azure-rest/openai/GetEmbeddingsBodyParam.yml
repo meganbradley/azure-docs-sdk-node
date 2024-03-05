@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: GetEmbeddingsBodyParam
+uid: '@azure-rest/openai.GetEmbeddingsBodyParam'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetEmbeddingsBodyParam
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.GetEmbeddingsBodyParam.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body?: EmbeddingsOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.EmbeddingsOptions" />

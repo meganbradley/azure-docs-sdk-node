@@ -1,0 +1,26 @@
+### YamlMime:TSType
+name: AzureChatExtensionConfigurationParent
+uid: '@azure-rest/openai.AzureChatExtensionConfigurationParent'
+package: '@azure-rest/openai'
+summary: >-
+  A representation of configuration data for a single Azure OpenAI chat
+  extension. This will be used by a chat
+    completions request that should use Azure OpenAI chat extensions to augment the response behavior.
+    The use of this configuration is compatible only with Azure OpenAI.
+fullName: AzureChatExtensionConfigurationParent
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@azure-rest/openai.AzureChatExtensionConfigurationParent.type'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: string'
+      return:
+        description: ''
+        type: string

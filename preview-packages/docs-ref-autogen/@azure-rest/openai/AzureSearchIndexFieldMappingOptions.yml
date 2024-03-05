@@ -1,0 +1,97 @@
+### YamlMime:TSType
+name: AzureSearchIndexFieldMappingOptions
+uid: '@azure-rest/openai.AzureSearchIndexFieldMappingOptions'
+package: '@azure-rest/openai'
+summary: >-
+  Optional settings to control how fields are processed when using a configured
+  Azure Search resource.
+fullName: AzureSearchIndexFieldMappingOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: content_fields
+    uid: '@azure-rest/openai.AzureSearchIndexFieldMappingOptions.content_fields'
+    package: '@azure-rest/openai'
+    summary: The names of index fields that should be treated as content.
+    fullName: content_fields
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'content_fields?: string[]'
+      return:
+        description: ''
+        type: string[]
+  - name: content_fields_separator
+    uid: >-
+      @azure-rest/openai.AzureSearchIndexFieldMappingOptions.content_fields_separator
+    package: '@azure-rest/openai'
+    summary: The separator pattern that content fields should use.
+    fullName: content_fields_separator
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'content_fields_separator?: string'
+      return:
+        description: ''
+        type: string
+  - name: filepath_field
+    uid: '@azure-rest/openai.AzureSearchIndexFieldMappingOptions.filepath_field'
+    package: '@azure-rest/openai'
+    summary: The name of the index field to use as a filepath.
+    fullName: filepath_field
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'filepath_field?: string'
+      return:
+        description: ''
+        type: string
+  - name: image_vector_fields
+    uid: '@azure-rest/openai.AzureSearchIndexFieldMappingOptions.image_vector_fields'
+    package: '@azure-rest/openai'
+    summary: The names of fields that represent image vector data.
+    fullName: image_vector_fields
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'image_vector_fields?: string[]'
+      return:
+        description: ''
+        type: string[]
+  - name: title_field
+    uid: '@azure-rest/openai.AzureSearchIndexFieldMappingOptions.title_field'
+    package: '@azure-rest/openai'
+    summary: The name of the index field to use as a title.
+    fullName: title_field
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'title_field?: string'
+      return:
+        description: ''
+        type: string
+  - name: url_field
+    uid: '@azure-rest/openai.AzureSearchIndexFieldMappingOptions.url_field'
+    package: '@azure-rest/openai'
+    summary: The name of the index field to use as a URL.
+    fullName: url_field
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'url_field?: string'
+      return:
+        description: ''
+        type: string
+  - name: vector_fields
+    uid: '@azure-rest/openai.AzureSearchIndexFieldMappingOptions.vector_fields'
+    package: '@azure-rest/openai'
+    summary: The names of fields that represent vector data.
+    fullName: vector_fields
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'vector_fields?: string[]'
+      return:
+        description: ''
+        type: string[]

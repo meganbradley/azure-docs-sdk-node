@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: GetImageGenerationsDefaultHeaders
+uid: '@azure-rest/openai.GetImageGenerationsDefaultHeaders'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetImageGenerationsDefaultHeaders
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: x-ms-error-code
+    uid: '@azure-rest/openai.GetImageGenerationsDefaultHeaders.x-ms-error-code'
+    package: '@azure-rest/openai'
+    summary: String error code indicating what went wrong.
+    fullName: x-ms-error-code
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'x-ms-error-code?: string'
+      return:
+        description: ''
+        type: string

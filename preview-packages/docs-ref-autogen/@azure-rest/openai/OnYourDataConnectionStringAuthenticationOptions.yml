@@ -1,0 +1,38 @@
+### YamlMime:TSType
+name: OnYourDataConnectionStringAuthenticationOptions
+uid: '@azure-rest/openai.OnYourDataConnectionStringAuthenticationOptions'
+package: '@azure-rest/openai'
+summary: >-
+  The authentication options for Azure OpenAI On Your Data when using a
+  connection string.
+fullName: OnYourDataConnectionStringAuthenticationOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: connection_string
+    uid: >-
+      @azure-rest/openai.OnYourDataConnectionStringAuthenticationOptions.connection_string
+    package: '@azure-rest/openai'
+    summary: The connection string to use for authentication.
+    fullName: connection_string
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'connection_string: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: '@azure-rest/openai.OnYourDataConnectionStringAuthenticationOptions.type'
+    package: '@azure-rest/openai'
+    summary: The authentication type of connection string.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "connection_string"'
+      return:
+        description: ''
+        type: '"connection_string"'
+extends: <xref uid="@azure-rest/openai.OnYourDataAuthenticationOptionsParent" />
