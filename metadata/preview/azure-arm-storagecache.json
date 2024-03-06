@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-storagecache",
-  "Version": "7.1.0-beta.1",
-  "DevVersion": null,
+  "Version": "7.1.0-alpha.20240226.1",
+  "DevVersion": "7.1.0-alpha.20240305.1",
   "DirectoryPath": "sdk/storagecache/arm-storagecache",
   "ServiceDirectory": "storagecache",
   "ReadMePath": "sdk/storagecache/arm-storagecache/README.md",
