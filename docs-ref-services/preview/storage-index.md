@@ -8,3 +8,4 @@
 |[Resource Management - Data Lake Analytics](arm-datalake-analytics-readme.md)|[@azure/arm-datalake-analytics](https://www.npmjs.com/package/@azure/arm-datalake-analytics)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/)|
 |[Resource Management - Storage Cache](arm-storagecache-readme.md)|[@azure/arm-storagecache](https://www.npmjs.com/package/@azure/arm-storagecache)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/storagecache/arm-storagecache)|
 |[Resource Management - Storage Mover](arm-storagemover-readme.md)|[@azure/arm-storagemover](https://www.npmjs.com/package/@azure/arm-storagemover)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/storagemover/arm-storagemover)|
+|[Resource Management - Storage Sync](arm-storagesync-readme.md)|[@azure/arm-storagesync](https://www.npmjs.com/package/@azure/arm-storagesync)|[GitHub](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/storagesync/arm-storagesync)|
