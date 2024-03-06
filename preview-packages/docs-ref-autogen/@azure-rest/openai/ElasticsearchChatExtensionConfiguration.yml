@@ -1,0 +1,43 @@
+### YamlMime:TSType
+name: ElasticsearchChatExtensionConfiguration
+uid: '@azure-rest/openai.ElasticsearchChatExtensionConfiguration'
+package: '@azure-rest/openai'
+summary: >-
+  A specific representation of configurable options for Elasticsearch when using
+  it as an Azure OpenAI chat
+
+  extension.
+fullName: ElasticsearchChatExtensionConfiguration
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: parameters
+    uid: '@azure-rest/openai.ElasticsearchChatExtensionConfiguration.parameters'
+    package: '@azure-rest/openai'
+    summary: The parameters to use when configuring Elasticsearch®.
+    fullName: parameters
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'parameters: ElasticsearchChatExtensionParameters'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ElasticsearchChatExtensionParameters" />
+  - name: type
+    uid: '@azure-rest/openai.ElasticsearchChatExtensionConfiguration.type'
+    package: '@azure-rest/openai'
+    summary: >-
+      The type label to use when configuring Azure OpenAI chat extensions. This
+      should typically not be changed from its
+
+      default value for Elasticsearch®.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "elasticsearch"'
+      return:
+        description: ''
+        type: '"elasticsearch"'
+extends: <xref uid="@azure-rest/openai.AzureChatExtensionConfigurationParent" />
