@@ -7,6 +7,9 @@
       "name": "@azure-rest/communication-job-router@1.0.0"
     },
     {
+      "name": "@azure-rest/communication-messages@1.0.1"
+    },
+    {
       "name": "@azure-rest/confidential-ledger@1.0.0"
     },
     {
