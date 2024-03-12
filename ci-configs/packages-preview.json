@@ -514,10 +514,10 @@
       "name": "@azure/synapse-spark@1.0.0-beta.4"
     },
     {
-      "name": "@azure/template@1.0.12-beta.3571404"
+      "name": "@azure/template@1.0.12-alpha.20240312.5"
     },
     {
-      "name": "@azure/template-dpg@1.0.0-beta.1"
+      "name": "@azure/template-dpg@1.0.0-alpha.20240312.5"
     },
     {
       "name": "@azure/video-analyzer-edge@1.0.0-beta.4"
