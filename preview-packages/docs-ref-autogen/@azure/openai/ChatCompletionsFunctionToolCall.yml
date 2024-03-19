@@ -37,6 +37,18 @@ properties:
       return:
         description: ''
         type: string
+  - name: index
+    uid: '@azure/openai.ChatCompletionsFunctionToolCall.index'
+    package: '@azure/openai'
+    summary: The index of the tool call.
+    fullName: index
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'index?: number'
+      return:
+        description: ''
+        type: number
   - name: type
     uid: '@azure/openai.ChatCompletionsFunctionToolCall.type'
     package: '@azure/openai'

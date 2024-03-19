@@ -1,0 +1,156 @@
+### YamlMime:TSType
+name: AzureCosmosDBChatExtensionParameters
+uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters'
+package: '@azure-rest/openai'
+summary: >-
+  Parameters to use when configuring Azure OpenAI On Your Data chat extensions
+  when using Azure Cosmos DB for
+
+  MongoDB vCore. The supported authentication type is ConnectionString.
+fullName: AzureCosmosDBChatExtensionParameters
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: authentication
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.authentication'
+    package: '@azure-rest/openai'
+    summary: >-
+      The authentication method to use when accessing the defined data source.
+
+      Each data source type supports a specific set of available authentication
+      methods; please see the documentation of
+
+      the data source for supported mechanisms.
+
+      If not otherwise provided, On Your Data will attempt to use System Managed
+      Identity (default credential)
+
+      authentication.
+    fullName: authentication
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'authentication?: OnYourDataAuthenticationOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.OnYourDataAuthenticationOptions" />
+  - name: container_name
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.container_name'
+    package: '@azure-rest/openai'
+    summary: The name of the Azure Cosmos DB resource container.
+    fullName: container_name
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'container_name: string'
+      return:
+        description: ''
+        type: string
+  - name: database_name
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.database_name'
+    package: '@azure-rest/openai'
+    summary: The MongoDB vCore database name to use with Azure Cosmos DB.
+    fullName: database_name
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'database_name: string'
+      return:
+        description: ''
+        type: string
+  - name: embedding_dependency
+    uid: >-
+      @azure-rest/openai.AzureCosmosDBChatExtensionParameters.embedding_dependency
+    package: '@azure-rest/openai'
+    summary: The embedding dependency for vector search.
+    fullName: embedding_dependency
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'embedding_dependency: OnYourDataVectorizationSource'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.OnYourDataVectorizationSource" />
+  - name: fields_mapping
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.fields_mapping'
+    package: '@azure-rest/openai'
+    summary: >-
+      Customized field mapping behavior to use when interacting with the search
+      index.
+    fullName: fields_mapping
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'fields_mapping: AzureCosmosDBFieldMappingOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.AzureCosmosDBFieldMappingOptions" />
+  - name: index_name
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.index_name'
+    package: '@azure-rest/openai'
+    summary: The MongoDB vCore index name to use with Azure Cosmos DB.
+    fullName: index_name
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'index_name: string'
+      return:
+        description: ''
+        type: string
+  - name: in_scope
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.in_scope'
+    package: '@azure-rest/openai'
+    summary: Whether queries should be restricted to use of indexed data.
+    fullName: in_scope
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'in_scope?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: role_information
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.role_information'
+    package: '@azure-rest/openai'
+    summary: >-
+      Give the model instructions about how it should behave and any context it
+      should reference when generating a response. You can describe the
+      assistant's personality and tell it how to format responses. There's a 100
+      token limit for it, and it counts against the overall token limit.
+    fullName: role_information
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'role_information?: string'
+      return:
+        description: ''
+        type: string
+  - name: strictness
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.strictness'
+    package: '@azure-rest/openai'
+    summary: >-
+      The configured strictness of the search relevance filtering. The higher of
+      strictness, the higher of the precision but lower recall of the answer.
+    fullName: strictness
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'strictness?: number'
+      return:
+        description: ''
+        type: number
+  - name: top_n_documents
+    uid: '@azure-rest/openai.AzureCosmosDBChatExtensionParameters.top_n_documents'
+    package: '@azure-rest/openai'
+    summary: >-
+      The configured top number of documents to feature for the configured
+      query.
+    fullName: top_n_documents
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'top_n_documents?: number'
+      return:
+        description: ''
+        type: number

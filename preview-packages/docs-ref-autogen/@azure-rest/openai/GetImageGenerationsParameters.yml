@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: GetImageGenerationsParameters
+uid: '@azure-rest/openai.GetImageGenerationsParameters'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetImageGenerationsParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GetImageGenerationsParameters = GetImageGenerationsBodyParam &
+    RequestParameters
