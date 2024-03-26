@@ -46,3 +46,4 @@ properties:
       return:
         description: ''
         type: '"KeyAndKeyId"'
+extends: <xref uid="@azure/openai.OnYourDataAuthenticationOptions" />

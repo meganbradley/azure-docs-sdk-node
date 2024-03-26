@@ -10,20 +10,18 @@ remarks: ''
 isDeprecated: false
 type: interface
 properties:
-  - name: function
-    uid: '@azure/openai.ChatCompletionsNamedFunctionToolSelection.function'
+  - name: name
+    uid: '@azure/openai.ChatCompletionsNamedFunctionToolSelection.name'
     package: '@azure/openai'
-    summary: >-
-      Specifies a tool the model should use. Used to force the model to call a
-      specific function.
-    fullName: function
+    summary: The name of the function that should be called.
+    fullName: name
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function: { name: string }'
+      content: 'name: string'
       return:
         description: ''
-        type: '{ name: string }'
+        type: string
   - name: type
     uid: '@azure/openai.ChatCompletionsNamedFunctionToolSelection.type'
     package: '@azure/openai'
@@ -36,3 +34,4 @@ properties:
       return:
         description: ''
         type: '"function"'
+extends: <xref uid="@azure/openai.ChatCompletionsNamedToolSelection" />

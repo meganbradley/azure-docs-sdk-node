@@ -32,10 +32,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'authentication?: OnYourDataAuthenticationOptions'
+      content: 'authentication?: OnYourDataAuthenticationOptionsUnion'
       return:
         description: ''
-        type: <xref uid="@azure/openai.OnYourDataAuthenticationOptions" />
+        type: <xref uid="@azure/openai.OnYourDataAuthenticationOptionsUnion" />
   - name: embeddingDependency
     uid: >-
       @azure/openai.AzureCognitiveSearchChatExtensionConfiguration.embeddingDependency
@@ -45,10 +45,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'embeddingDependency?: OnYourDataVectorizationSource'
+      content: 'embeddingDependency?: OnYourDataVectorizationSourceUnion'
       return:
         description: ''
-        type: <xref uid="@azure/openai.OnYourDataVectorizationSource" />
+        type: <xref uid="@azure/openai.OnYourDataVectorizationSourceUnion" />
   - name: embeddingEndpoint
     uid: >-
       @azure/openai.AzureCognitiveSearchChatExtensionConfiguration.embeddingEndpoint
@@ -167,10 +167,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'queryType?: AzureCognitiveSearchQueryType'
+      content: 'queryType?: string'
       return:
         description: ''
-        type: <xref uid="@azure/openai.AzureCognitiveSearchQueryType" />
+        type: string
   - name: roleInformation
     uid: >-
       @azure/openai.AzureCognitiveSearchChatExtensionConfiguration.roleInformation

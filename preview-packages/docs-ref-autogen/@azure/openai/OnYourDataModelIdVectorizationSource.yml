@@ -38,3 +38,4 @@ properties:
       return:
         description: ''
         type: '"ModelId"'
+extends: <xref uid="@azure/openai.OnYourDataVectorizationSource" />

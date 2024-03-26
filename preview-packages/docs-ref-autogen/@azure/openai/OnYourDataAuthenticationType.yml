@@ -9,9 +9,4 @@ fullName: OnYourDataAuthenticationType
 remarks: ''
 isDeprecated: false
 syntax: |
-  type OnYourDataAuthenticationType =
-    | "APIKey"
-    | "ConnectionString"
-    | "KeyAndKeyId"
-    | "SystemAssignedManagedIdentity"
-    | "UserAssignedManagedIdentity"
+  type OnYourDataAuthenticationType = string

@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: GetAudioTranscriptionAsPlainTextBodyParam
+uid: '@azure-rest/openai.GetAudioTranscriptionAsPlainTextBodyParam'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioTranscriptionAsPlainTextBodyParam
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.GetAudioTranscriptionAsPlainTextBodyParam.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body?: AudioTranscriptionOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.AudioTranscriptionOptions" />

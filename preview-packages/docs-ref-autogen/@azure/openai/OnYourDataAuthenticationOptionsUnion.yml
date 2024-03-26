@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: OnYourDataAuthenticationOptionsUnion
+uid: '@azure/openai.OnYourDataAuthenticationOptionsUnion'
+package: '@azure/openai'
+summary: Alias for OnYourDataAuthenticationOptionsUnion
+fullName: OnYourDataAuthenticationOptionsUnion
+remarks: ''
+isDeprecated: false
+syntax: |
+  type OnYourDataAuthenticationOptionsUnion =
+    | OnYourDataApiKeyAuthenticationOptions
+    | OnYourDataConnectionStringAuthenticationOptions
+    | OnYourDataKeyAndKeyIdAuthenticationOptions
+    | OnYourDataSystemAssignedManagedIdentityAuthenticationOptions
+    | OnYourDataUserAssignedManagedIdentityAuthenticationOptions
+    | OnYourDataAuthenticationOptions

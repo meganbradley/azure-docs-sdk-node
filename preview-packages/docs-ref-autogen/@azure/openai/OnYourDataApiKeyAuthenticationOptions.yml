@@ -34,3 +34,4 @@ properties:
       return:
         description: ''
         type: '"APIKey"'
+extends: <xref uid="@azure/openai.OnYourDataAuthenticationOptions" />

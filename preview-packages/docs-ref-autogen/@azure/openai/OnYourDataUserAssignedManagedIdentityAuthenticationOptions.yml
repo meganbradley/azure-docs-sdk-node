@@ -38,3 +38,4 @@ properties:
       return:
         description: ''
         type: '"UserAssignedManagedIdentity"'
+extends: <xref uid="@azure/openai.OnYourDataAuthenticationOptions" />

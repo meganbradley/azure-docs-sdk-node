@@ -42,3 +42,4 @@ properties:
       return:
         description: ''
         type: '"DeploymentName"'
+extends: <xref uid="@azure/openai.OnYourDataVectorizationSource" />

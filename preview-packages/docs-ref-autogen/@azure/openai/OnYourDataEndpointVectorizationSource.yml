@@ -22,10 +22,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'authentication: OnYourDataAuthenticationOptions'
+      content: 'authentication: OnYourDataAuthenticationOptionsUnion'
       return:
         description: ''
-        type: <xref uid="@azure/openai.OnYourDataAuthenticationOptions" />
+        type: <xref uid="@azure/openai.OnYourDataAuthenticationOptionsUnion" />
   - name: endpoint
     uid: '@azure/openai.OnYourDataEndpointVectorizationSource.endpoint'
     package: '@azure/openai'
@@ -54,3 +54,4 @@ properties:
       return:
         description: ''
         type: '"Endpoint"'
+extends: <xref uid="@azure/openai.OnYourDataVectorizationSource" />

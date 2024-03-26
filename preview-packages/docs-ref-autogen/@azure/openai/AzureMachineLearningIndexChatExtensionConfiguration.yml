@@ -32,10 +32,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'authentication?: OnYourDataAuthenticationOptions'
+      content: 'authentication?: OnYourDataAuthenticationOptionsUnion'
       return:
         description: ''
-        type: <xref uid="@azure/openai.OnYourDataAuthenticationOptions" />
+        type: <xref uid="@azure/openai.OnYourDataAuthenticationOptionsUnion" />
   - name: filter
     uid: '@azure/openai.AzureMachineLearningIndexChatExtensionConfiguration.filter'
     package: '@azure/openai'
