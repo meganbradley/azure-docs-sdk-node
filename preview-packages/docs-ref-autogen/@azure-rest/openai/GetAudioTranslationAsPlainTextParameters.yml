@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: GetAudioTranslationAsPlainTextParameters
+uid: '@azure-rest/openai.GetAudioTranslationAsPlainTextParameters'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioTranslationAsPlainTextParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GetAudioTranslationAsPlainTextParameters =
+    GetAudioTranslationAsPlainTextBodyParam & RequestParameters

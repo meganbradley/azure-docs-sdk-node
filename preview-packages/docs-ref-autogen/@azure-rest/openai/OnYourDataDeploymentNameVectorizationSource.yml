@@ -1,0 +1,46 @@
+### YamlMime:TSType
+name: OnYourDataDeploymentNameVectorizationSource
+uid: '@azure-rest/openai.OnYourDataDeploymentNameVectorizationSource'
+package: '@azure-rest/openai'
+summary: >-
+  The details of a a vectorization source, used by Azure OpenAI On Your Data
+  when applying vector search, that is based
+
+  on an internal embeddings model deployment name in the same Azure OpenAI
+  resource.
+fullName: OnYourDataDeploymentNameVectorizationSource
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: deployment_name
+    uid: >-
+      @azure-rest/openai.OnYourDataDeploymentNameVectorizationSource.deployment_name
+    package: '@azure-rest/openai'
+    summary: >-
+      The embedding model deployment name within the same Azure OpenAI resource.
+      This enables you to use vector search without Azure OpenAI api-key and
+      without Azure OpenAI public network access.
+    fullName: deployment_name
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'deployment_name: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: '@azure-rest/openai.OnYourDataDeploymentNameVectorizationSource.type'
+    package: '@azure-rest/openai'
+    summary: >-
+      The type of vectorization source to use. Always 'DeploymentName' for this
+      type.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "deployment_name"'
+      return:
+        description: ''
+        type: '"deployment_name"'
+extends: <xref uid="@azure-rest/openai.OnYourDataVectorizationSourceParent" />

@@ -143,10 +143,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'profanityAction?: "NoAction" | "Marked" | "Deleted"'
+      content: 'profanityAction?: string'
       return:
         description: ''
-        type: '"NoAction" | "Marked" | "Deleted"'
+        type: string
   - name: profanityMarker
     uid: >-
       @azure-rest/ai-translation-text.TranslateQueryParamProperties.profanityMarker
@@ -158,10 +158,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'profanityMarker?: "Asterisk" | "Tag"'
+      content: 'profanityMarker?: string'
       return:
         description: ''
-        type: '"Asterisk" | "Tag"'
+        type: string
   - name: suggestedFrom
     uid: >-
       @azure-rest/ai-translation-text.TranslateQueryParamProperties.suggestedFrom
@@ -194,10 +194,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'textType?: "plain" | "html"'
+      content: 'textType?: string'
       return:
         description: ''
-        type: '"plain" | "html"'
+        type: string
   - name: to
     uid: '@azure-rest/ai-translation-text.TranslateQueryParamProperties.to'
     package: '@azure-rest/ai-translation-text'

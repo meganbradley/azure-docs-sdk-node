@@ -1,0 +1,38 @@
+### YamlMime:TSType
+name: OnYourDataEncodedApiKeyAuthenticationOptions
+uid: '@azure-rest/openai.OnYourDataEncodedApiKeyAuthenticationOptions'
+package: '@azure-rest/openai'
+summary: >-
+  The authentication options for Azure OpenAI On Your Data when using an
+  Elasticsearch encoded API key.
+fullName: OnYourDataEncodedApiKeyAuthenticationOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: encoded_api_key
+    uid: >-
+      @azure-rest/openai.OnYourDataEncodedApiKeyAuthenticationOptions.encoded_api_key
+    package: '@azure-rest/openai'
+    summary: The encoded API key to use for authentication.
+    fullName: encoded_api_key
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'encoded_api_key: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: '@azure-rest/openai.OnYourDataEncodedApiKeyAuthenticationOptions.type'
+    package: '@azure-rest/openai'
+    summary: The authentication type of Elasticsearch encoded API Key.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "encoded_api_key"'
+      return:
+        description: ''
+        type: '"encoded_api_key"'
+extends: <xref uid="@azure-rest/openai.OnYourDataAuthenticationOptionsParent" />
