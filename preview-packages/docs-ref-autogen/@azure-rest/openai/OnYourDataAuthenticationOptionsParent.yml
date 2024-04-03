@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: OnYourDataAuthenticationOptionsParent
+uid: '@azure-rest/openai.OnYourDataAuthenticationOptionsParent'
+package: '@azure-rest/openai'
+summary: The authentication options for Azure OpenAI On Your Data.
+fullName: OnYourDataAuthenticationOptionsParent
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@azure-rest/openai.OnYourDataAuthenticationOptionsParent.type'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: string'
+      return:
+        description: ''
+        type: string

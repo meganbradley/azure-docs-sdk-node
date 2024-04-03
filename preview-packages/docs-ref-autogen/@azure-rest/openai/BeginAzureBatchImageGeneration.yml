@@ -1,0 +1,35 @@
+### YamlMime:TSType
+name: BeginAzureBatchImageGeneration
+uid: '@azure-rest/openai.BeginAzureBatchImageGeneration'
+package: '@azure-rest/openai'
+summary: ''
+fullName: BeginAzureBatchImageGeneration
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(BeginAzureBatchImageGenerationParameters)
+    uid: '@azure-rest/openai.BeginAzureBatchImageGeneration.post'
+    package: '@azure-rest/openai'
+    summary: Starts the generation of a batch of images from a text caption
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: BeginAzureBatchImageGenerationParameters):
+        StreamableMethod<BeginAzureBatchImageGenerationDefaultResponse |
+        BeginAzureBatchImageGeneration202Response>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure-rest/openai.BeginAzureBatchImageGenerationParameters" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.BeginAzureBatchImageGenerationDefaultResponse"
+          /> | <xref
+          uid="@azure-rest/openai.BeginAzureBatchImageGeneration202Response"
+          />&gt;
