@@ -1,0 +1,31 @@
+### YamlMime:TSType
+name: GetAudioSpeech
+uid: '@azure-rest/openai.GetAudioSpeech'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioSpeech
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(GetAudioSpeechParameters)
+    uid: '@azure-rest/openai.GetAudioSpeech.post'
+    package: '@azure-rest/openai'
+    summary: Generates text-to-speech audio from the input text.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: GetAudioSpeechParameters):
+        StreamableMethod<GetAudioSpeech200Response |
+        GetAudioSpeechDefaultResponse>
+      parameters:
+        - id: options
+          type: <xref uid="@azure-rest/openai.GetAudioSpeechParameters" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetAudioSpeech200Response" /> | <xref
+          uid="@azure-rest/openai.GetAudioSpeechDefaultResponse" />&gt;

@@ -68,7 +68,9 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'transliteration?: TransliterationOutput'
+      content: 'transliteration?: TransliteratedTextOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/ai-translation-text.TransliterationOutput" />
+        type: >-
+          <xref uid="@azure-rest/ai-translation-text.TransliteratedTextOutput"
+          />

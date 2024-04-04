@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: GetJob200Headers
+uid: '@azure-rest/health-insights-radiologyinsights.GetJob200Headers'
+package: '@azure-rest/health-insights-radiologyinsights'
+summary: ''
+fullName: GetJob200Headers
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: retry-after
+    uid: '@azure-rest/health-insights-radiologyinsights.GetJob200Headers.retry-after'
+    package: '@azure-rest/health-insights-radiologyinsights'
+    summary: >-
+      The Retry-After header can indicate how long the client should wait before
+      polling the operation status.
+    fullName: retry-after
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'retry-after?: number'
+      return:
+        description: ''
+        type: number
