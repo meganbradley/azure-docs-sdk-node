@@ -47,7 +47,7 @@ methods:
                                             sibling set.
         - id: networkFeatures
           type: string
-          description: Network features available to the volume
+          description: Network features available to the volume, some such
         - id: options
           type: >-
             <xref
@@ -98,7 +98,7 @@ methods:
                                             sibling set.
         - id: networkFeatures
           type: string
-          description: Network features available to the volume
+          description: Network features available to the volume, some such
         - id: options
           type: >-
             <xref

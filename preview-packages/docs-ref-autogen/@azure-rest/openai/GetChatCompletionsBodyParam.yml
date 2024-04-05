@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: GetChatCompletionsBodyParam
+uid: '@azure-rest/openai.GetChatCompletionsBodyParam'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetChatCompletionsBodyParam
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.GetChatCompletionsBodyParam.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body?: ChatCompletionsOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ChatCompletionsOptions" />

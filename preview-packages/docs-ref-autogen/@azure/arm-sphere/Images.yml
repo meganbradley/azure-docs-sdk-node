@@ -31,7 +31,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: resource
           type: <xref uid="@azure/arm-sphere.Image" />
           description: Resource create parameters.
@@ -66,7 +66,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: resource
           type: <xref uid="@azure/arm-sphere.Image" />
           description: Resource create parameters.
@@ -96,7 +96,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: options
           type: <xref uid="@azure/arm-sphere.ImagesDeleteOptionalParams" />
           description: The options parameters.
@@ -125,7 +125,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: options
           type: <xref uid="@azure/arm-sphere.ImagesDeleteOptionalParams" />
           description: The options parameters.
@@ -151,7 +151,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: options
           type: <xref uid="@azure/arm-sphere.ImagesGetOptionalParams" />
           description: The options parameters.
