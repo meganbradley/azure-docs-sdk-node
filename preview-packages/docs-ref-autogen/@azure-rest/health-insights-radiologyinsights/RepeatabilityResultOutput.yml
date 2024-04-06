@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: RepeatabilityResultOutput
+uid: '@azure-rest/health-insights-radiologyinsights.RepeatabilityResultOutput'
+package: '@azure-rest/health-insights-radiologyinsights'
+summary: Alias for RepeatabilityResultOutput
+fullName: RepeatabilityResultOutput
+remarks: ''
+isDeprecated: false
+syntax: |
+  type RepeatabilityResultOutput = "accepted" | "rejected"

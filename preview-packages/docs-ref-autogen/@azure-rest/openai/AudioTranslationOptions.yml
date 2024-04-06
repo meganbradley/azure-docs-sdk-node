@@ -1,0 +1,103 @@
+### YamlMime:TSType
+name: AudioTranslationOptions
+uid: '@azure-rest/openai.AudioTranslationOptions'
+package: '@azure-rest/openai'
+summary: The configuration information for an audio translation request.
+fullName: AudioTranslationOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: file
+    uid: '@azure-rest/openai.AudioTranslationOptions.file'
+    package: '@azure-rest/openai'
+    summary: >-
+      The audio data to translate. This must be the binary content of a file in
+      one of the supported media formats:
+       flac, mp3, mp4, mpeg, mpga, m4a, ogg, wav, webm.
+    fullName: file
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'file: string'
+      return:
+        description: ''
+        type: string
+  - name: filename
+    uid: '@azure-rest/openai.AudioTranslationOptions.filename'
+    package: '@azure-rest/openai'
+    summary: >-
+      The optional filename or descriptive identifier to associate with with the
+      audio data.
+    fullName: filename
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'filename?: string'
+      return:
+        description: ''
+        type: string
+  - name: model
+    uid: '@azure-rest/openai.AudioTranslationOptions.model'
+    package: '@azure-rest/openai'
+    summary: The model to use for this translation request.
+    fullName: model
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'model?: string'
+      return:
+        description: ''
+        type: string
+  - name: prompt
+    uid: '@azure-rest/openai.AudioTranslationOptions.prompt'
+    package: '@azure-rest/openai'
+    summary: >-
+      An optional hint to guide the model's style or continue from a prior audio
+      segment. The written language of the
+
+      prompt should match the primary spoken language of the audio data.
+    fullName: prompt
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'prompt?: string'
+      return:
+        description: ''
+        type: string
+  - name: response_format
+    uid: '@azure-rest/openai.AudioTranslationOptions.response_format'
+    package: '@azure-rest/openai'
+    summary: >-
+      The requested format of the translation response data, which will
+      influence the content and detail of the result.
+
+
+      Possible values: "json", "verbose_json", "text", "srt", "vtt"
+    fullName: response_format
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'response_format?: string'
+      return:
+        description: ''
+        type: string
+  - name: temperature
+    uid: '@azure-rest/openai.AudioTranslationOptions.temperature'
+    package: '@azure-rest/openai'
+    summary: >-
+      The sampling temperature, between 0 and 1.
+
+      Higher values like 0.8 will make the output more random, while lower
+      values like 0.2 will make it more focused and deterministic.
+
+      If set to 0, the model will use log probability to automatically increase
+      the temperature until certain thresholds are hit.
+    fullName: temperature
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'temperature?: number'
+      return:
+        description: ''
+        type: number

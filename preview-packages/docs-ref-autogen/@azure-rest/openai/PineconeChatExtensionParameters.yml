@@ -1,0 +1,141 @@
+### YamlMime:TSType
+name: PineconeChatExtensionParameters
+uid: '@azure-rest/openai.PineconeChatExtensionParameters'
+package: '@azure-rest/openai'
+summary: >-
+  Parameters for configuring Azure OpenAI Pinecone chat extensions. The
+  supported authentication type is APIKey.
+fullName: PineconeChatExtensionParameters
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: authentication
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.authentication'
+    package: '@azure-rest/openai'
+    summary: >-
+      The authentication method to use when accessing the defined data source.
+
+      Each data source type supports a specific set of available authentication
+      methods; please see the documentation of
+
+      the data source for supported mechanisms.
+
+      If not otherwise provided, On Your Data will attempt to use System Managed
+      Identity (default credential)
+
+      authentication.
+    fullName: authentication
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'authentication?: OnYourDataAuthenticationOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.OnYourDataAuthenticationOptions" />
+  - name: embedding_dependency
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.embedding_dependency'
+    package: '@azure-rest/openai'
+    summary: The embedding dependency for vector search.
+    fullName: embedding_dependency
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'embedding_dependency: OnYourDataVectorizationSource'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.OnYourDataVectorizationSource" />
+  - name: environment
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.environment'
+    package: '@azure-rest/openai'
+    summary: The environment name of Pinecone.
+    fullName: environment
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'environment: string'
+      return:
+        description: ''
+        type: string
+  - name: fields_mapping
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.fields_mapping'
+    package: '@azure-rest/openai'
+    summary: >-
+      Customized field mapping behavior to use when interacting with the search
+      index.
+    fullName: fields_mapping
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'fields_mapping: PineconeFieldMappingOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.PineconeFieldMappingOptions" />
+  - name: index_name
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.index_name'
+    package: '@azure-rest/openai'
+    summary: The name of the Pinecone database index.
+    fullName: index_name
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'index_name: string'
+      return:
+        description: ''
+        type: string
+  - name: in_scope
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.in_scope'
+    package: '@azure-rest/openai'
+    summary: Whether queries should be restricted to use of indexed data.
+    fullName: in_scope
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'in_scope?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: role_information
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.role_information'
+    package: '@azure-rest/openai'
+    summary: >-
+      Give the model instructions about how it should behave and any context it
+      should reference when generating a response. You can describe the
+      assistant's personality and tell it how to format responses. There's a 100
+      token limit for it, and it counts against the overall token limit.
+    fullName: role_information
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'role_information?: string'
+      return:
+        description: ''
+        type: string
+  - name: strictness
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.strictness'
+    package: '@azure-rest/openai'
+    summary: >-
+      The configured strictness of the search relevance filtering. The higher of
+      strictness, the higher of the precision but lower recall of the answer.
+    fullName: strictness
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'strictness?: number'
+      return:
+        description: ''
+        type: number
+  - name: top_n_documents
+    uid: '@azure-rest/openai.PineconeChatExtensionParameters.top_n_documents'
+    package: '@azure-rest/openai'
+    summary: >-
+      The configured top number of documents to feature for the configured
+      query.
+    fullName: top_n_documents
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'top_n_documents?: number'
+      return:
+        description: ''
+        type: number

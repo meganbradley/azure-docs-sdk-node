@@ -1,0 +1,18 @@
+### YamlMime:TSTypeAlias
+name: OnYourDataAuthenticationOptions
+uid: '@azure-rest/openai.OnYourDataAuthenticationOptions'
+package: '@azure-rest/openai'
+summary: The authentication options for Azure OpenAI On Your Data.
+fullName: OnYourDataAuthenticationOptions
+remarks: ''
+isDeprecated: false
+syntax: |
+  type OnYourDataAuthenticationOptions =
+    | OnYourDataAuthenticationOptionsParent
+    | OnYourDataApiKeyAuthenticationOptions
+    | OnYourDataConnectionStringAuthenticationOptions
+    | OnYourDataKeyAndKeyIdAuthenticationOptions
+    | OnYourDataEncodedApiKeyAuthenticationOptions
+    | OnYourDataAccessTokenAuthenticationOptions
+    | OnYourDataSystemAssignedManagedIdentityAuthenticationOptions
+    | OnYourDataUserAssignedManagedIdentityAuthenticationOptions

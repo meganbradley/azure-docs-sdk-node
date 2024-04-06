@@ -8,21 +8,6 @@ remarks: ''
 isDeprecated: false
 type: interface
 properties:
-  - name: promoteRequest
-    uid: >-
-      @azure/arm-cosmosdbforpostgresql.ClustersPromoteReadReplicaOptionalParams.promoteRequest
-    package: '@azure/arm-cosmosdbforpostgresql'
-    summary: >-
-      The parameter for enabling geo-redundant backup while promoting read
-      replica.
-    fullName: promoteRequest
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'promoteRequest?: PromoteRequest'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-cosmosdbforpostgresql.PromoteRequest" />
   - name: resumeFrom
     uid: >-
       @azure/arm-cosmosdbforpostgresql.ClustersPromoteReadReplicaOptionalParams.resumeFrom

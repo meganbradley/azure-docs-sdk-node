@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: GetAudioTranslationAsPlainText
+uid: '@azure-rest/openai.GetAudioTranslationAsPlainText'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioTranslationAsPlainText
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(GetAudioTranslationAsPlainTextParameters)
+    uid: '@azure-rest/openai.GetAudioTranslationAsPlainText.post'
+    package: '@azure-rest/openai'
+    summary: >-
+      Gets English language transcribed text and associated metadata from
+      provided spoken audio data.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: GetAudioTranslationAsPlainTextParameters):
+        StreamableMethod<GetAudioTranslationAsPlainText200Response |
+        GetAudioTranslationAsPlainTextDefaultResponse>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure-rest/openai.GetAudioTranslationAsPlainTextParameters" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetAudioTranslationAsPlainText200Response" />
+          | <xref
+          uid="@azure-rest/openai.GetAudioTranslationAsPlainTextDefaultResponse"
+          />&gt;
+  - name: post(GetAudioTranslationAsResponseObjectParameters)
+    uid: '@azure-rest/openai.GetAudioTranslationAsPlainText.post_1'
+    package: '@azure-rest/openai'
+    summary: >-
+      Gets English language transcribed text and associated metadata from
+      provided spoken audio data.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options: GetAudioTranslationAsResponseObjectParameters):
+        StreamableMethod<GetAudioTranslationAsResponseObject200Response |
+        GetAudioTranslationAsResponseObjectDefaultResponse>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure-rest/openai.GetAudioTranslationAsResponseObjectParameters"
+            />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetAudioTranslationAsResponseObject200Response"
+          /> | <xref
+          uid="@azure-rest/openai.GetAudioTranslationAsResponseObjectDefaultResponse"
+          />&gt;

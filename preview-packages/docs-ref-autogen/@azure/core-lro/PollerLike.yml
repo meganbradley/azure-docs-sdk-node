@@ -2,145 +2,83 @@
 name: PollerLike
 uid: '@azure/core-lro.PollerLike'
 package: '@azure/core-lro'
-summary: A simple poller interface.
+summary: >-
+  Abstract representation of a poller, intended to expose just the minimal API
+  that the user needs to work with.
 fullName: PollerLike<TState, TResult>
 remarks: ''
 isDeprecated: false
 type: interface
-properties:
-  - name: isDone
-    uid: '@azure/core-lro.PollerLike.isDone'
+methods:
+  - name: 'cancelOperation({ abortSignal?: AbortSignalLike })'
+    uid: '@azure/core-lro.PollerLike.cancelOperation'
     package: '@azure/core-lro'
-    summary: Returns true if the poller has finished polling.
-    fullName: isDone
+    summary: Attempts to cancel the underlying operation.
+    remarks: ''
+    isDeprecated: true
+    customDeprecatedMessage: '`cancelOperation` has been deprecated because it was not implemented.'
+    syntax:
+      content: >-
+        function cancelOperation(options?: { abortSignal?: AbortSignalLike }):
+        Promise<void>
+      parameters:
+        - id: options
+          type: '{ abortSignal?: AbortSignalLike }'
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: getOperationState()
+    uid: '@azure/core-lro.PollerLike.getOperationState'
+    package: '@azure/core-lro'
+    summary: |-
+      Returns the state of the operation.
+      The TState defined in PollerLike can be a subset of the TState defined in
+      the Poller implementation.
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'isDone: boolean'
+      content: 'function getOperationState(): TState'
       return:
         description: ''
-        type: boolean
-  - name: isStopped
-    uid: '@azure/core-lro.PollerLike.isStopped'
-    package: '@azure/core-lro'
-    summary: Returns true if the poller is stopped.
-    fullName: isStopped
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'isStopped: boolean'
-      return:
-        description: ''
-        type: boolean
-  - name: operationState
-    uid: '@azure/core-lro.PollerLike.operationState'
-    package: '@azure/core-lro'
-    summary: Returns the state of the operation.
-    fullName: operationState
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'operationState: undefined | TState'
-      return:
-        description: ''
-        type: undefined | TState
-  - name: result
-    uid: '@azure/core-lro.PollerLike.result'
+        type: TState
+  - name: getResult()
+    uid: '@azure/core-lro.PollerLike.getResult'
     package: '@azure/core-lro'
     summary: |-
       Returns the result value of the operation,
       regardless of the state of the poller.
       It can return undefined or an incomplete form of the final TResult value
       depending on the implementation.
-    fullName: result
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'result: undefined | TResult'
+      content: 'function getResult(): undefined | TResult'
       return:
         description: ''
         type: undefined | TResult
-inheritedProperties:
-  - name: '[toStringTag]'
-    uid: '@azure/core-lro.PollerLike.[toStringTag]'
+  - name: isDone()
+    uid: '@azure/core-lro.PollerLike.isDone'
     package: '@azure/core-lro'
-    summary: ''
-    fullName: '[toStringTag]'
+    summary: Returns true if the poller has finished polling.
     remarks: ''
     isDeprecated: false
     syntax:
-      content: '[toStringTag]: string'
+      content: 'function isDone(): boolean'
       return:
         description: ''
-        type: string
-    inheritanceDescription: <b>Inherited From</b> Promise.__@toStringTag@69
-inheritedMethods:
-  - name: 'catch<TResult>(null | (reason: any) => TResult | PromiseLike<TResult>)'
-    uid: '@azure/core-lro.PollerLike.catch'
+        type: boolean
+  - name: isStopped()
+    uid: '@azure/core-lro.PollerLike.isStopped'
     package: '@azure/core-lro'
-    summary: Attaches a callback for only the rejection of the Promise.
+    summary: Returns true if the poller is stopped.
     remarks: ''
     isDeprecated: false
     syntax:
-      content: >-
-        function catch<TResult>(onrejected?: null | (reason: any) => TResult |
-        PromiseLike<TResult>): Promise<TResult | TResult>
-      parameters:
-        - id: onrejected
-          type: 'null | (reason: any) =&gt; TResult | PromiseLike&lt;TResult&gt;'
-          description: The callback to execute when the Promise is rejected.
+      content: 'function isStopped(): boolean'
       return:
-        description: A Promise for the completion of the callback.
-        type: Promise&lt;TResult | TResult&gt;
-    inheritanceDescription: <b>Inherited From</b> Promise.catch
-  - name: finally(null | () => void)
-    uid: '@azure/core-lro.PollerLike.finally'
-    package: '@azure/core-lro'
-    summary: >-
-      Attaches a callback that is invoked when the Promise is settled (fulfilled
-      or rejected). The
-
-      resolved value cannot be modified from the callback.
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'function finally(onfinally?: null | () => void): Promise<TResult>'
-      parameters:
-        - id: onfinally
-          type: null | () =&gt; void
-          description: >-
-            The callback to execute when the Promise is settled (fulfilled or
-            rejected).
-      return:
-        description: A Promise for the completion of the callback.
-        type: Promise&lt;TResult&gt;
-    inheritanceDescription: <b>Inherited From</b> Promise.finally
-  - name: >-
-      then<TResult1, TResult2>(null | (value: TResult) => TResult1 |
-      PromiseLike<TResult1>, null | (reason: any) => TResult2 |
-      PromiseLike<TResult2>)
-    uid: '@azure/core-lro.PollerLike.then'
-    package: '@azure/core-lro'
-    summary: Attaches callbacks for the resolution and/or rejection of the Promise.
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: >-
-        function then<TResult1, TResult2>(onfulfilled?: null | (value: TResult)
-        => TResult1 | PromiseLike<TResult1>, onrejected?: null | (reason: any)
-        => TResult2 | PromiseLike<TResult2>): Promise<TResult1 | TResult2>
-      parameters:
-        - id: onfulfilled
-          type: 'null | (value: TResult) =&gt; TResult1 | PromiseLike&lt;TResult1&gt;'
-          description: The callback to execute when the Promise is resolved.
-        - id: onrejected
-          type: 'null | (reason: any) =&gt; TResult2 | PromiseLike&lt;TResult2&gt;'
-          description: The callback to execute when the Promise is rejected.
-      return:
-        description: A Promise for the completion of which ever callback is executed.
-        type: Promise&lt;TResult1 | TResult2&gt;
-    inheritanceDescription: <b>Inherited From</b> Promise.then
-methods:
+        description: ''
+        type: boolean
   - name: 'onProgress((state: TState) => void)'
     uid: '@azure/core-lro.PollerLike.onProgress'
     package: '@azure/core-lro'
@@ -176,14 +114,14 @@ methods:
     syntax:
       content: >-
         function poll(options?: { abortSignal?: AbortSignalLike }):
-        Promise<TState>
+        Promise<void>
       parameters:
         - id: options
           type: '{ abortSignal?: AbortSignalLike }'
           description: ''
       return:
         description: ''
-        type: Promise&lt;TState&gt;
+        type: Promise&lt;void&gt;
   - name: 'pollUntilDone({ abortSignal?: AbortSignalLike })'
     uid: '@azure/core-lro.PollerLike.pollUntilDone'
     package: '@azure/core-lro'
@@ -203,32 +141,24 @@ methods:
       return:
         description: ''
         type: Promise&lt;TResult&gt;
-  - name: serialize()
-    uid: '@azure/core-lro.PollerLike.serialize'
+  - name: stopPolling()
+    uid: '@azure/core-lro.PollerLike.stopPolling'
     package: '@azure/core-lro'
-    summary: >-
-      Returns a promise that could be used for serialized version of the
-      poller's operation
-
-      by invoking the operation's serialize method.
+    summary: Stops the poller. After this, no manual or automated requests can be sent.
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function serialize(): Promise<string>'
-      return:
-        description: ''
-        type: Promise&lt;string&gt;
-  - name: submitted()
-    uid: '@azure/core-lro.PollerLike.submitted'
+      content: function stopPolling()
+  - name: toString()
+    uid: '@azure/core-lro.PollerLike.toString'
     package: '@azure/core-lro'
-    summary: >-
-      Returns a promise that could be used to check if the poller has been
-      submitted.
+    summary: |-
+      Returns a serialized version of the poller's operation
+      by invoking the operation's toString method.
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'function submitted(): Promise<void>'
+      content: 'function toString(): string'
       return:
         description: ''
-        type: Promise&lt;void&gt;
-extends: Promise&lt;TResult&gt;
+        type: string

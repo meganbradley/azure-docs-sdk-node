@@ -1,0 +1,32 @@
+### YamlMime:TSType
+name: GetJob
+uid: '@azure-rest/health-insights-radiologyinsights.GetJob'
+package: '@azure-rest/health-insights-radiologyinsights'
+summary: ''
+fullName: GetJob
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: get(RequestParameters)
+    uid: '@azure-rest/health-insights-radiologyinsights.GetJob.get'
+    package: '@azure-rest/health-insights-radiologyinsights'
+    summary: Gets the status and details of the Radiology Insights job.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(options?: RequestParameters):
+        StreamableMethod<GetJob200Response | GetJobDefaultResponse>
+      parameters:
+        - id: options
+          type: RequestParameters
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/health-insights-radiologyinsights.GetJob200Response"
+          /> | <xref
+          uid="@azure-rest/health-insights-radiologyinsights.GetJobDefaultResponse"
+          />&gt;

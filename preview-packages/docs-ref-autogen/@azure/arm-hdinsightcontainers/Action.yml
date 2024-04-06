@@ -26,11 +26,7 @@ summary: >-
 
   **LIST_SAVEPOINT** \
 
-  **DELETE** \
-
-  **LAST_STATE_UPDATE** \
-
-  **RE_LAUNCH**
+  **DELETE**
 fullName: Action
 remarks: ''
 isDeprecated: false

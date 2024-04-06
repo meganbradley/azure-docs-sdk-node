@@ -20,18 +20,32 @@ properties:
       return:
         description: ''
         type: string
-  - name: properties
-    uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewResult.properties'
+  - name: serviceStatuses
+    uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewResult.serviceStatuses'
     package: '@azure/arm-hdinsightcontainers'
-    summary: Properties of the instance view.
-    fullName: properties
+    summary: >-
+      List of statuses of relevant services that make up the HDInsight on aks
+      cluster to surface to the customer.
+    fullName: serviceStatuses
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'properties: ClusterInstanceViewResultProperties'
+      content: 'serviceStatuses: ServiceStatus[]'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-hdinsightcontainers.ServiceStatus" />[]
+  - name: status
+    uid: '@azure/arm-hdinsightcontainers.ClusterInstanceViewResult.status'
+    package: '@azure/arm-hdinsightcontainers'
+    summary: Status of the instance view.
+    fullName: status
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'status: ClusterInstanceViewPropertiesStatus'
       return:
         description: ''
         type: >-
           <xref
-          uid="@azure/arm-hdinsightcontainers.ClusterInstanceViewResultProperties"
+          uid="@azure/arm-hdinsightcontainers.ClusterInstanceViewPropertiesStatus"
           />

@@ -1,0 +1,139 @@
+### YamlMime:TSType
+name: ContentFilterResultDetailsForPromptOutput
+uid: '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput'
+package: '@azure-rest/openai'
+summary: >-
+  Information about content filtering evaluated against input data to Azure
+  OpenAI.
+fullName: ContentFilterResultDetailsForPromptOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: custom_blocklists
+    uid: >-
+      @azure-rest/openai.ContentFilterResultDetailsForPromptOutput.custom_blocklists
+    package: '@azure-rest/openai'
+    summary: Describes detection results against configured custom blocklists.
+    fullName: custom_blocklists
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'custom_blocklists?: ContentFilterBlocklistIdResultOutput[]'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure-rest/openai.ContentFilterBlocklistIdResultOutput"
+          />[]
+  - name: error
+    uid: '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput.error'
+    package: '@azure-rest/openai'
+    summary: |-
+      Describes an error returned if the content filtering system is
+      down or otherwise unable to complete the operation in time.
+    fullName: error
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'error?: ErrorModel'
+      return:
+        description: ''
+        type: ErrorModel
+  - name: hate
+    uid: '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput.hate'
+    package: '@azure-rest/openai'
+    summary: >-
+      Describes language attacks or uses that include pejorative or
+      discriminatory language
+
+      with reference to a person or identity group on the basis of certain
+      differentiating
+
+      attributes of these groups including but not limited to race, ethnicity,
+      nationality,
+
+      gender identity and expression, sexual orientation, religion, immigration
+      status, ability
+
+      status, personal appearance, and body size.
+    fullName: hate
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'hate?: ContentFilterResultOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ContentFilterResultOutput" />
+  - name: jailbreak
+    uid: '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput.jailbreak'
+    package: '@azure-rest/openai'
+    summary: Whether a jailbreak attempt was detected in the prompt.
+    fullName: jailbreak
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'jailbreak?: ContentFilterDetectionResultOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ContentFilterDetectionResultOutput" />
+  - name: profanity
+    uid: '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput.profanity'
+    package: '@azure-rest/openai'
+    summary: Describes whether profanity was detected.
+    fullName: profanity
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'profanity?: ContentFilterDetectionResultOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ContentFilterDetectionResultOutput" />
+  - name: self_harm
+    uid: '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput.self_harm'
+    package: '@azure-rest/openai'
+    summary: >-
+      Describes language related to physical actions intended to purposely hurt,
+      injure,
+
+      or damage one’s body, or kill oneself.
+    fullName: self_harm
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'self_harm?: ContentFilterResultOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ContentFilterResultOutput" />
+  - name: sexual
+    uid: '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput.sexual'
+    package: '@azure-rest/openai'
+    summary: >-
+      Describes language related to anatomical organs and genitals, romantic
+      relationships,
+       acts portrayed in erotic or affectionate terms, physical sexual acts, including
+       those portrayed as an assault or a forced sexual violent act against one’s will,
+       prostitution, pornography, and abuse.
+    fullName: sexual
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'sexual?: ContentFilterResultOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ContentFilterResultOutput" />
+  - name: violence
+    uid: '@azure-rest/openai.ContentFilterResultDetailsForPromptOutput.violence'
+    package: '@azure-rest/openai'
+    summary: >-
+      Describes language related to physical actions intended to hurt, injure,
+      damage, or
+
+      kill someone or something; describes weapons, etc.
+    fullName: violence
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'violence?: ContentFilterResultOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ContentFilterResultOutput" />

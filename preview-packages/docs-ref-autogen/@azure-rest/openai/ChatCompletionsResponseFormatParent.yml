@@ -1,0 +1,26 @@
+### YamlMime:TSType
+name: ChatCompletionsResponseFormatParent
+uid: '@azure-rest/openai.ChatCompletionsResponseFormatParent'
+package: '@azure-rest/openai'
+summary: >-
+  An abstract representation of a response format configuration usable by Chat
+  Completions. Can be used to enable JSON
+
+  mode.
+fullName: ChatCompletionsResponseFormatParent
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@azure-rest/openai.ChatCompletionsResponseFormatParent.type'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: string'
+      return:
+        description: ''
+        type: string

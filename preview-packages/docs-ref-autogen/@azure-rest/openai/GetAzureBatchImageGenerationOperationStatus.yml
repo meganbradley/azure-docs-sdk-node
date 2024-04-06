@@ -1,0 +1,33 @@
+### YamlMime:TSType
+name: GetAzureBatchImageGenerationOperationStatus
+uid: '@azure-rest/openai.GetAzureBatchImageGenerationOperationStatus'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAzureBatchImageGenerationOperationStatus
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: get(RequestParameters)
+    uid: '@azure-rest/openai.GetAzureBatchImageGenerationOperationStatus.get'
+    package: '@azure-rest/openai'
+    summary: Returns the status of the images operation
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(options?: RequestParameters):
+        StreamableMethod<GetAzureBatchImageGenerationOperationStatus200Response
+        | GetAzureBatchImageGenerationOperationStatusDefaultResponse>
+      parameters:
+        - id: options
+          type: RequestParameters
+          description: ''
+      return:
+        description: ''
+        type: >-
+          StreamableMethod&lt;<xref
+          uid="@azure-rest/openai.GetAzureBatchImageGenerationOperationStatus200Response"
+          /> | <xref
+          uid="@azure-rest/openai.GetAzureBatchImageGenerationOperationStatusDefaultResponse"
+          />&gt;
