@@ -882,7 +882,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: Dns
+  - name: DNS
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1142,6 +1142,14 @@
         href: ~/docs-ref-services/{moniker}/arm-healthbot-readme.md
         children:
         - '@azure/arm-healthbot'
+  - name: Health Decision Support
+    href: ~/docs-ref-services/{moniker}/health-decision-support.md
+    landingPageType: Service
+    items:
+    - name: Health Insights
+      href: ~/docs-ref-services/{moniker}/health-insights-radiologyinsights-rest-readme.md
+      children:
+      - '@azure-rest/health-insights-radiologyinsights'
   - name: Healthcare APIs
     href: ~/docs-ref-services/{moniker}/healthcare-apis.md
     landingPageType: Service
