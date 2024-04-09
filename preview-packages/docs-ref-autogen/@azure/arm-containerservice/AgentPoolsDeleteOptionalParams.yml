@@ -8,21 +8,6 @@ remarks: ''
 isDeprecated: false
 type: interface
 properties:
-  - name: ignorePodDisruptionBudget
-    uid: >-
-      @azure/arm-containerservice.AgentPoolsDeleteOptionalParams.ignorePodDisruptionBudget
-    package: '@azure/arm-containerservice'
-    summary: >-
-      ignore-pod-disruption-budget=true to delete those pods on a node without
-      considering Pod Disruption Budget
-    fullName: ignorePodDisruptionBudget
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'ignorePodDisruptionBudget?: boolean'
-      return:
-        description: ''
-        type: boolean
   - name: resumeFrom
     uid: '@azure/arm-containerservice.AgentPoolsDeleteOptionalParams.resumeFrom'
     package: '@azure/arm-containerservice'
@@ -62,7 +47,7 @@ inheritedProperties:
       content: 'abortSignal?: AbortSignalLike'
       return:
         description: ''
-        type: AbortSignalLike
+        type: <xref uid="@azure/abort-controller.AbortSignalLike" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.abortSignal
   - name: onResponse
     uid: '@azure/arm-containerservice.AgentPoolsDeleteOptionalParams.onResponse'
@@ -78,7 +63,7 @@ inheritedProperties:
       content: 'onResponse?: RawResponseCallback'
       return:
         description: ''
-        type: RawResponseCallback
+        type: <xref uid="@azure/core-client.RawResponseCallback" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.onResponse
   - name: requestOptions
     uid: '@azure/arm-containerservice.AgentPoolsDeleteOptionalParams.requestOptions'
@@ -91,7 +76,7 @@ inheritedProperties:
       content: 'requestOptions?: OperationRequestOptions'
       return:
         description: ''
-        type: OperationRequestOptions
+        type: <xref uid="@azure/core-client.OperationRequestOptions" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
@@ -105,7 +90,7 @@ inheritedProperties:
       content: 'serializerOptions?: SerializerOptions'
       return:
         description: ''
-        type: SerializerOptions
+        type: <xref uid="@azure/core-client.SerializerOptions" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.serializerOptions
   - name: tracingOptions
     uid: '@azure/arm-containerservice.AgentPoolsDeleteOptionalParams.tracingOptions'
@@ -118,6 +103,6 @@ inheritedProperties:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         description: ''
-        type: OperationTracingOptions
+        type: <xref uid="@azure/core-tracing.OperationTracingOptions" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.tracingOptions
-extends: OperationOptions
+extends: <xref uid="@azure/core-client.OperationOptions" />

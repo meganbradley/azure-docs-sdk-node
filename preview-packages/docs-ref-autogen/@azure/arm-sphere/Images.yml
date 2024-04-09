@@ -31,7 +31,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: resource
           type: <xref uid="@azure/arm-sphere.Image" />
           description: Resource create parameters.
@@ -41,7 +41,8 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;SimplePollerLike&lt;OperationState&lt;<xref
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;<xref
           uid="@azure/arm-sphere.Image" />&gt;, <xref
           uid="@azure/arm-sphere.Image" />&gt;&gt;
   - name: >-
@@ -66,7 +67,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: resource
           type: <xref uid="@azure/arm-sphere.Image" />
           description: Resource create parameters.
@@ -96,15 +97,15 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: options
           type: <xref uid="@azure/arm-sphere.ImagesDeleteOptionalParams" />
           description: The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;SimplePollerLike&lt;OperationState&lt;void&gt;,
-          void&gt;&gt;
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;void&gt;, void&gt;&gt;
   - name: beginDeleteAndWait(string, string, string, ImagesDeleteOptionalParams)
     uid: '@azure/arm-sphere.Images.beginDeleteAndWait'
     package: '@azure/arm-sphere'
@@ -125,7 +126,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: options
           type: <xref uid="@azure/arm-sphere.ImagesDeleteOptionalParams" />
           description: The options parameters.
@@ -151,7 +152,7 @@ methods:
           description: Name of catalog
         - id: imageName
           type: string
-          description: Image name. Use .default for image creation.
+          description: Image name. Use an image GUID for GA versions of the API.
         - id: options
           type: <xref uid="@azure/arm-sphere.ImagesGetOptionalParams" />
           description: The options parameters.
@@ -182,5 +183,6 @@ methods:
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-sphere.Image" />,
-          <xref uid="@azure/arm-sphere.Image" />[], PageSettings&gt;
+          <xref uid="@azure/core-paging.PagedAsyncIterableIterator" />&lt;<xref
+          uid="@azure/arm-sphere.Image" />, <xref uid="@azure/arm-sphere.Image"
+          />[], <xref uid="@azure/core-paging.PageSettings" />&gt;

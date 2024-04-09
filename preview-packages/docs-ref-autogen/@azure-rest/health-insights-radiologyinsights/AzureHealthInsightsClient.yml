@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: AzureHealthInsightsClient
+uid: '@azure-rest/health-insights-radiologyinsights.AzureHealthInsightsClient'
+package: '@azure-rest/health-insights-radiologyinsights'
+summary: ''
+fullName: AzureHealthInsightsClient
+remarks: ''
+isDeprecated: false
+syntax: |
+  type AzureHealthInsightsClient = Client & { path: Routes }

@@ -24,7 +24,10 @@ properties:
   - name: type
     uid: '@azure/arm-containerservicefleet.ManagedClusterUpgradeSpec.type'
     package: '@azure/arm-containerservicefleet'
-    summary: ManagedClusterUpgradeType is the type of upgrade to be applied.
+    summary: |-
+      The upgrade type.
+      Full requires the KubernetesVersion property to be set.
+      NodeImageOnly requires the KubernetesVersion property not to be set.
     fullName: type
     remarks: ''
     isDeprecated: false

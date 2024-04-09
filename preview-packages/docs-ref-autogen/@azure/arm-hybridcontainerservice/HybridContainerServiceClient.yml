@@ -23,7 +23,7 @@ constructors:
         HybridContainerServiceClientOptionalParams)
       parameters:
         - id: credentials
-          type: TokenCredential
+          type: <xref uid="@azure/core-auth.TokenCredential" />
           description: ''
         - id: options
           type: >-
@@ -46,7 +46,7 @@ constructors:
         HybridContainerServiceClientOptionalParams)
       parameters:
         - id: credentials
-          type: TokenCredential
+          type: <xref uid="@azure/core-auth.TokenCredential" />
           description: >-
             Subscription credentials which uniquely identify client
             subscription.
@@ -203,7 +203,7 @@ inheritedProperties:
       content: 'pipeline: Pipeline'
       return:
         description: ''
-        type: Pipeline
+        type: <xref uid="@azure/core-rest-pipeline.Pipeline" />
     inheritanceDescription: <b>Inherited From</b> coreClient.ServiceClient.pipeline
 inheritedMethods:
   - name: sendOperationRequest<T>(OperationArguments, OperationSpec)
@@ -219,12 +219,12 @@ inheritedMethods:
         operationSpec: OperationSpec): Promise<T>
       parameters:
         - id: operationArguments
-          type: OperationArguments
+          type: <xref uid="@azure/core-client.OperationArguments" />
           description: >-
             The arguments that the HTTP request's templated values will be
             populated from.
         - id: operationSpec
-          type: OperationSpec
+          type: <xref uid="@azure/core-client.OperationSpec" />
           description: The OperationSpec to use to populate the httpRequest.
       return:
         description: ''
@@ -242,11 +242,13 @@ inheritedMethods:
         Promise<PipelineResponse>
       parameters:
         - id: request
-          type: PipelineRequest
+          type: <xref uid="@azure/core-rest-pipeline.PipelineRequest" />
           description: ''
       return:
         description: ''
-        type: Promise&lt;PipelineResponse&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/core-rest-pipeline.PipelineResponse"
+          />&gt;
     inheritanceDescription: <b>Inherited From</b> coreClient.ServiceClient.sendRequest
 methods:
   - name: >-
@@ -255,7 +257,7 @@ methods:
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.beginDeleteKubernetesVersions
     package: '@azure/arm-hybridcontainerservice'
-    summary: Delete the kubernetes versions resource type
+    summary: Delete the default kubernetes versions resource type
     remarks: ''
     isDeprecated: false
     syntax:
@@ -268,7 +270,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: options
           type: >-
@@ -279,7 +281,8 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;SimplePollerLike&lt;OperationState&lt;<xref
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;<xref
           uid="@azure/arm-hybridcontainerservice.HybridContainerServiceClientDeleteKubernetesVersionsHeaders"
           />&gt;, <xref
           uid="@azure/arm-hybridcontainerservice.HybridContainerServiceClientDeleteKubernetesVersionsHeaders"
@@ -290,7 +293,7 @@ methods:
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.beginDeleteKubernetesVersionsAndWait
     package: '@azure/arm-hybridcontainerservice'
-    summary: Delete the kubernetes versions resource type
+    summary: Delete the default kubernetes versions resource type
     remarks: ''
     isDeprecated: false
     syntax:
@@ -302,7 +305,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: options
           type: >-
@@ -320,7 +323,7 @@ methods:
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.beginDeleteVMSkus
     package: '@azure/arm-hybridcontainerservice'
-    summary: Deletes the Vm Sku resource type
+    summary: Deletes the default VM skus resource type
     remarks: ''
     isDeprecated: false
     syntax:
@@ -333,7 +336,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: options
           type: >-
@@ -344,7 +347,8 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;SimplePollerLike&lt;OperationState&lt;<xref
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;<xref
           uid="@azure/arm-hybridcontainerservice.HybridContainerServiceClientDeleteVMSkusHeaders"
           />&gt;, <xref
           uid="@azure/arm-hybridcontainerservice.HybridContainerServiceClientDeleteVMSkusHeaders"
@@ -353,7 +357,7 @@ methods:
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.beginDeleteVMSkusAndWait
     package: '@azure/arm-hybridcontainerservice'
-    summary: Deletes the Vm Sku resource type
+    summary: Deletes the default VM skus resource type
     remarks: ''
     isDeprecated: false
     syntax:
@@ -365,7 +369,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: options
           type: >-
@@ -385,7 +389,11 @@ methods:
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.beginPutKubernetesVersions
     package: '@azure/arm-hybridcontainerservice'
-    summary: Puts the kubernetes version resource type
+    summary: >-
+      Puts the default kubernetes version resource type (one time operation,
+      before listing the kubernetes
+
+      versions)
     remarks: ''
     isDeprecated: false
     syntax:
@@ -399,7 +407,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: kubernetesVersions
           type: >-
@@ -415,7 +423,8 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;SimplePollerLike&lt;OperationState&lt;<xref
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;<xref
           uid="@azure/arm-hybridcontainerservice.KubernetesVersionProfile"
           />&gt;, <xref
           uid="@azure/arm-hybridcontainerservice.KubernetesVersionProfile"
@@ -426,7 +435,11 @@ methods:
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.beginPutKubernetesVersionsAndWait
     package: '@azure/arm-hybridcontainerservice'
-    summary: Puts the kubernetes version resource type
+    summary: >-
+      Puts the default kubernetes version resource type (one time operation,
+      before listing the kubernetes
+
+      versions)
     remarks: ''
     isDeprecated: false
     syntax:
@@ -438,7 +451,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: kubernetesVersions
           type: >-
@@ -461,7 +474,9 @@ methods:
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.beginPutVMSkus
     package: '@azure/arm-hybridcontainerservice'
-    summary: Puts the VM SKUs resource type
+    summary: >-
+      Puts the default VM skus resource type (one time operation, before listing
+      the VM skus)
     remarks: ''
     isDeprecated: false
     syntax:
@@ -473,7 +488,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: skus
           type: <xref uid="@azure/arm-hybridcontainerservice.VmSkuProfile" />
@@ -486,14 +501,17 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;SimplePollerLike&lt;OperationState&lt;<xref
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;<xref
           uid="@azure/arm-hybridcontainerservice.VmSkuProfile" />&gt;, <xref
           uid="@azure/arm-hybridcontainerservice.VmSkuProfile" />&gt;&gt;
   - name: beginPutVMSkusAndWait(string, VmSkuProfile, PutVMSkusOptionalParams)
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.beginPutVMSkusAndWait
     package: '@azure/arm-hybridcontainerservice'
-    summary: Puts the VM SKUs resource type
+    summary: >-
+      Puts the default VM skus resource type (one time operation, before listing
+      the VM skus)
     remarks: ''
     isDeprecated: false
     syntax:
@@ -504,7 +522,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: skus
           type: <xref uid="@azure/arm-hybridcontainerservice.VmSkuProfile" />
@@ -523,7 +541,7 @@ methods:
     uid: >-
       @azure/arm-hybridcontainerservice.HybridContainerServiceClient.getKubernetesVersions
     package: '@azure/arm-hybridcontainerservice'
-    summary: Gets the supported kubernetes versions from the underlying custom location
+    summary: Lists the supported kubernetes versions for the specified custom location
     remarks: ''
     isDeprecated: false
     syntax:
@@ -535,7 +553,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: options
           type: >-
@@ -552,7 +570,7 @@ methods:
   - name: getVMSkus(string, GetVMSkusOptionalParams)
     uid: '@azure/arm-hybridcontainerservice.HybridContainerServiceClient.getVMSkus'
     package: '@azure/arm-hybridcontainerservice'
-    summary: Gets the supported VM skus from the underlying custom location
+    summary: Lists the supported VM skus for the specified custom location
     remarks: ''
     isDeprecated: false
     syntax:
@@ -563,7 +581,7 @@ methods:
         - id: customLocationResourceUri
           type: string
           description: |-
-            The fully qualified Azure Resource manager identifier of the custom
+            The fully qualified Azure Resource Manager identifier of the custom
                                              location resource.
         - id: options
           type: >-
@@ -575,4 +593,4 @@ methods:
         type: >-
           Promise&lt;<xref uid="@azure/arm-hybridcontainerservice.VmSkuProfile"
           />&gt;
-extends: ServiceClient
+extends: <xref uid="@azure/core-client.ServiceClient" />

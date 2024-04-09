@@ -7,19 +7,6 @@ fullName: ServicesCreateOrUpdateOptionalParams
 remarks: ''
 isDeprecated: false
 type: interface
-properties:
-  - name: resource
-    uid: '@azure/arm-apicenter.ServicesCreateOrUpdateOptionalParams.resource'
-    package: '@azure/arm-apicenter'
-    summary: The service entity.
-    fullName: resource
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: 'resource?: Service'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-apicenter.Service" />
 inheritedProperties:
   - name: abortSignal
     uid: '@azure/arm-apicenter.ServicesCreateOrUpdateOptionalParams.abortSignal'
@@ -32,7 +19,7 @@ inheritedProperties:
       content: 'abortSignal?: AbortSignalLike'
       return:
         description: ''
-        type: AbortSignalLike
+        type: <xref uid="@azure/abort-controller.AbortSignalLike" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.abortSignal
   - name: onResponse
     uid: '@azure/arm-apicenter.ServicesCreateOrUpdateOptionalParams.onResponse'
@@ -48,7 +35,7 @@ inheritedProperties:
       content: 'onResponse?: RawResponseCallback'
       return:
         description: ''
-        type: RawResponseCallback
+        type: <xref uid="@azure/core-client.RawResponseCallback" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.onResponse
   - name: requestOptions
     uid: '@azure/arm-apicenter.ServicesCreateOrUpdateOptionalParams.requestOptions'
@@ -61,7 +48,7 @@ inheritedProperties:
       content: 'requestOptions?: OperationRequestOptions'
       return:
         description: ''
-        type: OperationRequestOptions
+        type: <xref uid="@azure/core-client.OperationRequestOptions" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
@@ -75,7 +62,7 @@ inheritedProperties:
       content: 'serializerOptions?: SerializerOptions'
       return:
         description: ''
-        type: SerializerOptions
+        type: <xref uid="@azure/core-client.SerializerOptions" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.serializerOptions
   - name: tracingOptions
     uid: '@azure/arm-apicenter.ServicesCreateOrUpdateOptionalParams.tracingOptions'
@@ -88,6 +75,6 @@ inheritedProperties:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         description: ''
-        type: OperationTracingOptions
+        type: <xref uid="@azure/core-tracing.OperationTracingOptions" />
     inheritanceDescription: <b>Inherited From</b> coreClient.OperationOptions.tracingOptions
-extends: OperationOptions
+extends: <xref uid="@azure/core-client.OperationOptions" />

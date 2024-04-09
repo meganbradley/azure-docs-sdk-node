@@ -1,0 +1,56 @@
+### YamlMime:TSType
+name: ChatCompletionsFunctionToolCallOutput
+uid: '@azure-rest/openai.ChatCompletionsFunctionToolCallOutput'
+package: '@azure-rest/openai'
+summary: >-
+  A tool call to a function tool, issued by the model in evaluation of a
+  configured function tool, that represents
+
+  a function invocation needed for a subsequent chat completions request to
+  resolve.
+fullName: ChatCompletionsFunctionToolCallOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: function
+    uid: '@azure-rest/openai.ChatCompletionsFunctionToolCallOutput.function'
+    package: '@azure-rest/openai'
+    summary: The details of the function invocation requested by the tool call.
+    fullName: function
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function: FunctionCallOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.FunctionCallOutput" />
+  - name: type
+    uid: '@azure-rest/openai.ChatCompletionsFunctionToolCallOutput.type'
+    package: '@azure-rest/openai'
+    summary: The type of tool call, in this case always 'function'.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "function"'
+      return:
+        description: ''
+        type: '"function"'
+inheritedProperties:
+  - name: id
+    uid: '@azure-rest/openai.ChatCompletionsFunctionToolCallOutput.id'
+    package: '@azure-rest/openai'
+    summary: The ID of the tool call.
+    fullName: id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ChatCompletionsToolCallOutputParent.id](xref:@azure-rest/openai.ChatCompletionsToolCallOutputParent.id)
+extends: <xref uid="@azure-rest/openai.ChatCompletionsToolCallOutputParent" />

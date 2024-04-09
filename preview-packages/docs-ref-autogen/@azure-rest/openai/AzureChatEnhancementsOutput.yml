@@ -1,0 +1,28 @@
+### YamlMime:TSType
+name: AzureChatEnhancementsOutput
+uid: '@azure-rest/openai.AzureChatEnhancementsOutput'
+package: '@azure-rest/openai'
+summary: >-
+  Represents the output results of Azure enhancements to chat completions, as
+  configured via the matching input provided
+
+  in the request.
+fullName: AzureChatEnhancementsOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: grounding
+    uid: '@azure-rest/openai.AzureChatEnhancementsOutput.grounding'
+    package: '@azure-rest/openai'
+    summary: >-
+      The grounding enhancement that returns the bounding box of the objects
+      detected in the image.
+    fullName: grounding
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'grounding?: AzureGroundingEnhancementOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.AzureGroundingEnhancementOutput" />

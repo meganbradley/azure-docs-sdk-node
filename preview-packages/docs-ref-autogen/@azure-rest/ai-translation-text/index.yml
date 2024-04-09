@@ -89,7 +89,6 @@ interfaces:
   - '@azure-rest/ai-translation-text.TransliterateQueryParamProperties'
   - '@azure-rest/ai-translation-text.TransliteratedTextOutput'
   - '@azure-rest/ai-translation-text.TransliterationLanguageOutput'
-  - '@azure-rest/ai-translation-text.TransliterationOutput'
 typeAliases:
   - '@azure-rest/ai-translation-text.FindSentenceBoundariesParameters'
   - '@azure-rest/ai-translation-text.GetLanguagesParameters'
@@ -107,10 +106,10 @@ functions:
     isDeprecated: false
     syntax:
       content: >-
-        function buildMultiCollection(queryParameters: string[], parameterName:
-        string): string
+        function buildMultiCollection(items: string[], parameterName: string):
+        string
       parameters:
-        - id: queryParameters
+        - id: items
           type: string[]
           description: ''
         - id: parameterName
@@ -142,10 +141,11 @@ functions:
         - id: credential
           type: >-
             <xref uid="@azure-rest/ai-translation-text.TranslatorCredential" />
-            | KeyCredential | TokenCredential
+            | <xref uid="@azure/core-auth.KeyCredential" /> | <xref
+            uid="@azure/core-auth.TokenCredential" />
           description: ''
         - id: options
-          type: ClientOptions
+          type: <xref uid="@azure-rest/core-client.ClientOptions" />
           description: 'type: ClientOptions, the parameter for all optional parameters'
       return:
         description: ''

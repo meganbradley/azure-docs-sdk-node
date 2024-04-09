@@ -8,18 +8,18 @@ remarks: ''
 isDeprecated: false
 type: interface
 properties:
-  - name: properties
-    uid: '@azure/arm-hdinsightcontainers.ClusterResizeData.properties'
+  - name: targetWorkerNodeCount
+    uid: '@azure/arm-hdinsightcontainers.ClusterResizeData.targetWorkerNodeCount'
     package: '@azure/arm-hdinsightcontainers'
-    summary: Sets the properties. Define cluster resize specific properties.
-    fullName: properties
+    summary: Target node count of worker node.
+    fullName: targetWorkerNodeCount
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'properties?: ClusterResizeProperties'
+      content: 'targetWorkerNodeCount?: number'
       return:
         description: ''
-        type: <xref uid="@azure/arm-hdinsightcontainers.ClusterResizeProperties" />
+        type: number
 inheritedProperties:
   - name: id
     uid: '@azure/arm-hdinsightcontainers.ClusterResizeData.id'

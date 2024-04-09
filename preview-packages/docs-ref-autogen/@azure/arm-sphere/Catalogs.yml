@@ -40,7 +40,8 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;SimplePollerLike&lt;OperationState&lt;<xref
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;<xref
           uid="@azure/arm-sphere.Catalog" />&gt;, <xref
           uid="@azure/arm-sphere.Catalog" />&gt;&gt;
   - name: >-
@@ -98,8 +99,8 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;SimplePollerLike&lt;OperationState&lt;void&gt;,
-          void&gt;&gt;
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;void&gt;, void&gt;&gt;
   - name: beginDeleteAndWait(string, string, CatalogsDeleteOptionalParams)
     uid: '@azure/arm-sphere.Catalogs.beginDeleteAndWait'
     package: '@azure/arm-sphere'
@@ -123,6 +124,72 @@ methods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+  - name: >-
+      beginUploadImage(string, string, Image_2,
+      CatalogsUploadImageOptionalParams)
+    uid: '@azure/arm-sphere.Catalogs.beginUploadImage'
+    package: '@azure/arm-sphere'
+    summary: Creates an image. Use this action when the image ID is unknown.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginUploadImage(resourceGroupName: string, catalogName:
+        string, uploadImageRequest: Image_2, options?:
+        CatalogsUploadImageOptionalParams):
+        Promise<SimplePollerLike<OperationState<CatalogsUploadImageHeaders>,
+        CatalogsUploadImageHeaders>>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: catalogName
+          type: string
+          description: Name of catalog
+        - id: uploadImageRequest
+          type: <xref uid="@azure/arm-sphere.Image" />
+          description: Image upload request body.
+        - id: options
+          type: <xref uid="@azure/arm-sphere.CatalogsUploadImageOptionalParams" />
+          description: The options parameters.
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;<xref
+          uid="@azure/arm-sphere.CatalogsUploadImageHeaders" />&gt;, <xref
+          uid="@azure/arm-sphere.CatalogsUploadImageHeaders" />&gt;&gt;
+  - name: >-
+      beginUploadImageAndWait(string, string, Image_2,
+      CatalogsUploadImageOptionalParams)
+    uid: '@azure/arm-sphere.Catalogs.beginUploadImageAndWait'
+    package: '@azure/arm-sphere'
+    summary: Creates an image. Use this action when the image ID is unknown.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginUploadImageAndWait(resourceGroupName: string, catalogName:
+        string, uploadImageRequest: Image_2, options?:
+        CatalogsUploadImageOptionalParams): Promise<CatalogsUploadImageHeaders>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: catalogName
+          type: string
+          description: Name of catalog
+        - id: uploadImageRequest
+          type: <xref uid="@azure/arm-sphere.Image" />
+          description: Image upload request body.
+        - id: options
+          type: <xref uid="@azure/arm-sphere.CatalogsUploadImageOptionalParams" />
+          description: The options parameters.
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-sphere.CatalogsUploadImageHeaders"
+          />&gt;
   - name: countDevices(string, string, CatalogsCountDevicesOptionalParams)
     uid: '@azure/arm-sphere.Catalogs.countDevices'
     package: '@azure/arm-sphere'
@@ -133,7 +200,7 @@ methods:
       content: >-
         function countDevices(resourceGroupName: string, catalogName: string,
         options?: CatalogsCountDevicesOptionalParams):
-        Promise<CountDeviceResponse>
+        Promise<CountDevicesResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -146,7 +213,7 @@ methods:
           description: The options parameters.
       return:
         description: ''
-        type: Promise&lt;<xref uid="@azure/arm-sphere.CountDeviceResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-sphere.CountDevicesResponse" />&gt;
   - name: get(string, string, CatalogsGetOptionalParams)
     uid: '@azure/arm-sphere.Catalogs.get'
     package: '@azure/arm-sphere'
@@ -193,8 +260,10 @@ methods:
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-sphere.Catalog"
-          />, <xref uid="@azure/arm-sphere.Catalog" />[], PageSettings&gt;
+          <xref uid="@azure/core-paging.PagedAsyncIterableIterator" />&lt;<xref
+          uid="@azure/arm-sphere.Catalog" />, <xref
+          uid="@azure/arm-sphere.Catalog" />[], <xref
+          uid="@azure/core-paging.PageSettings" />&gt;
   - name: listBySubscription(CatalogsListBySubscriptionOptionalParams)
     uid: '@azure/arm-sphere.Catalogs.listBySubscription'
     package: '@azure/arm-sphere'
@@ -215,8 +284,10 @@ methods:
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-sphere.Catalog"
-          />, <xref uid="@azure/arm-sphere.Catalog" />[], PageSettings&gt;
+          <xref uid="@azure/core-paging.PagedAsyncIterableIterator" />&lt;<xref
+          uid="@azure/arm-sphere.Catalog" />, <xref
+          uid="@azure/arm-sphere.Catalog" />[], <xref
+          uid="@azure/core-paging.PageSettings" />&gt;
   - name: listDeployments(string, string, CatalogsListDeploymentsOptionalParams)
     uid: '@azure/arm-sphere.Catalogs.listDeployments'
     package: '@azure/arm-sphere'
@@ -243,8 +314,10 @@ methods:
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-sphere.Deployment"
-          />, <xref uid="@azure/arm-sphere.Deployment" />[], PageSettings&gt;
+          <xref uid="@azure/core-paging.PagedAsyncIterableIterator" />&lt;<xref
+          uid="@azure/arm-sphere.Deployment" />, <xref
+          uid="@azure/arm-sphere.Deployment" />[], <xref
+          uid="@azure/core-paging.PageSettings" />&gt;
   - name: >-
       listDeviceGroups(string, string, ListDeviceGroupsRequest,
       CatalogsListDeviceGroupsOptionalParams)
@@ -277,9 +350,10 @@ methods:
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
+          <xref uid="@azure/core-paging.PagedAsyncIterableIterator" />&lt;<xref
           uid="@azure/arm-sphere.DeviceGroup" />, <xref
-          uid="@azure/arm-sphere.DeviceGroup" />[], PageSettings&gt;
+          uid="@azure/arm-sphere.DeviceGroup" />[], <xref
+          uid="@azure/core-paging.PageSettings" />&gt;
   - name: >-
       listDeviceInsights(string, string,
       CatalogsListDeviceInsightsOptionalParams)
@@ -308,9 +382,10 @@ methods:
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
+          <xref uid="@azure/core-paging.PagedAsyncIterableIterator" />&lt;<xref
           uid="@azure/arm-sphere.DeviceInsight" />, <xref
-          uid="@azure/arm-sphere.DeviceInsight" />[], PageSettings&gt;
+          uid="@azure/arm-sphere.DeviceInsight" />[], <xref
+          uid="@azure/core-paging.PageSettings" />&gt;
   - name: listDevices(string, string, CatalogsListDevicesOptionalParams)
     uid: '@azure/arm-sphere.Catalogs.listDevices'
     package: '@azure/arm-sphere'
@@ -335,8 +410,10 @@ methods:
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-sphere.Device" />,
-          <xref uid="@azure/arm-sphere.Device" />[], PageSettings&gt;
+          <xref uid="@azure/core-paging.PagedAsyncIterableIterator" />&lt;<xref
+          uid="@azure/arm-sphere.Device" />, <xref
+          uid="@azure/arm-sphere.Device" />[], <xref
+          uid="@azure/core-paging.PageSettings" />&gt;
   - name: update(string, string, CatalogUpdate, CatalogsUpdateOptionalParams)
     uid: '@azure/arm-sphere.Catalogs.update'
     package: '@azure/arm-sphere'
