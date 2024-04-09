@@ -21,12 +21,12 @@ methods:
         DeleteClassifierDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.DeleteClassifier204Response"
           /> | <xref
           uid="@azure-rest/ai-document-intelligence.DeleteClassifierDefaultResponse"
@@ -44,12 +44,12 @@ methods:
         GetClassifierDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.GetClassifier200Response" />
           | <xref
           uid="@azure-rest/ai-document-intelligence.GetClassifierDefaultResponse"

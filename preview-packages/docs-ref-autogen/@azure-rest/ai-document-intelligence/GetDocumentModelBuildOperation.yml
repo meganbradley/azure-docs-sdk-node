@@ -21,12 +21,12 @@ methods:
         GetDocumentModelBuildOperationDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.GetDocumentModelBuildOperation200Response"
           /> | <xref
           uid="@azure-rest/ai-document-intelligence.GetDocumentModelBuildOperationDefaultResponse"
@@ -44,12 +44,12 @@ methods:
         GetDocumentModelComposeOperationDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.GetDocumentModelComposeOperation200Response"
           /> | <xref
           uid="@azure-rest/ai-document-intelligence.GetDocumentModelComposeOperationDefaultResponse"
@@ -67,12 +67,12 @@ methods:
         GetDocumentModelCopyToOperationDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.GetDocumentModelCopyToOperation200Response"
           /> | <xref
           uid="@azure-rest/ai-document-intelligence.GetDocumentModelCopyToOperationDefaultResponse"
@@ -90,12 +90,12 @@ methods:
         GetDocumentClassifierBuildOperationDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.GetDocumentClassifierBuildOperation200Response"
           /> | <xref
           uid="@azure-rest/ai-document-intelligence.GetDocumentClassifierBuildOperationDefaultResponse"
@@ -112,12 +112,12 @@ methods:
         StreamableMethod<GetOperation200Response | GetOperationDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.GetOperation200Response" />
           | <xref
           uid="@azure-rest/ai-document-intelligence.GetOperationDefaultResponse"

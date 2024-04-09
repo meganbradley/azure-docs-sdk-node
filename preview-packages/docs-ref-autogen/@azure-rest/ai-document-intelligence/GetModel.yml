@@ -20,12 +20,12 @@ methods:
         StreamableMethod<DeleteModel204Response | DeleteModelDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.DeleteModel204Response" /> |
           <xref
           uid="@azure-rest/ai-document-intelligence.DeleteModelDefaultResponse"
@@ -42,12 +42,12 @@ methods:
         StreamableMethod<GetModel200Response | GetModelDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.GetModel200Response" /> |
           <xref
           uid="@azure-rest/ai-document-intelligence.GetModelDefaultResponse"

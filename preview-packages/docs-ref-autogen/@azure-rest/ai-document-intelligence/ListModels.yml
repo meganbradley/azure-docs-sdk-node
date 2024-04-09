@@ -20,12 +20,12 @@ methods:
         StreamableMethod<ListModels200Response | ListModelsDefaultResponse>
       parameters:
         - id: options
-          type: RequestParameters
+          type: <xref uid="@azure-rest/core-client.RequestParameters" />
           description: ''
       return:
         description: ''
         type: >-
-          StreamableMethod&lt;<xref
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
           uid="@azure-rest/ai-document-intelligence.ListModels200Response" /> |
           <xref
           uid="@azure-rest/ai-document-intelligence.ListModelsDefaultResponse"
