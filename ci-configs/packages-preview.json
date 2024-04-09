@@ -433,6 +433,9 @@
       "name": "@azure/core-lro@3.0.0-beta.1"
     },
     {
+      "name": "@azure/cosmos@4.0.1-alpha.20240328.2"
+    },
+    {
       "name": "@azure/digital-twins@next"
     },
     {
@@ -535,7 +538,7 @@
       "name": "@azure/synapse-spark@1.0.0-beta.4"
     },
     {
-      "name": "@azure/template@1.0.12-beta.3667862"
+      "name": "@azure/template@1.0.12-beta.3677844"
     },
     {
       "name": "@azure/template-dpg@1.0.0-beta.1"
