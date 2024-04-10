@@ -882,7 +882,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: Dns
+  - name: DNS
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -2602,6 +2602,10 @@
       href: ~/docs-ref-services/{moniker}/functions-authentication-events-readme.md
       children:
       - '@azure/functions-authentication-events'
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/iot-modelsrepository-readme.md
+      children:
+      - '@azure/iot-modelsrepository'
     - name: unknown
       href: ~/docs-ref-services/{moniker}/template-dpg-readme.md
       children:
