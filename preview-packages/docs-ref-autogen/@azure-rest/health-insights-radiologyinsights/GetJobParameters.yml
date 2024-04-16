@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GetJobParameters
+uid: '@azure-rest/health-insights-radiologyinsights.GetJobParameters'
+package: '@azure-rest/health-insights-radiologyinsights'
+summary: ''
+fullName: GetJobParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GetJobParameters = RequestParameters

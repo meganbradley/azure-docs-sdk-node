@@ -1,0 +1,268 @@
+### YamlMime:TSPackage
+uid: '@azure-rest/health-insights-radiologyinsights'
+name: '@azure-rest/health-insights-radiologyinsights'
+summary: ''
+type: package
+interfaces:
+  - '@azure-rest/health-insights-radiologyinsights.AgeMismatchInferenceOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Annotation'
+  - '@azure-rest/health-insights-radiologyinsights.AnnotationOutput'
+  - '@azure-rest/health-insights-radiologyinsights.CodeableConcept'
+  - '@azure-rest/health-insights-radiologyinsights.CodeableConceptOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Coding'
+  - '@azure-rest/health-insights-radiologyinsights.CodingOutput'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.CompleteOrderDiscrepancyInferenceOutput
+  - '@azure-rest/health-insights-radiologyinsights.Condition'
+  - '@azure-rest/health-insights-radiologyinsights.ConditionOutput'
+  - '@azure-rest/health-insights-radiologyinsights.ConditionStage'
+  - '@azure-rest/health-insights-radiologyinsights.ConditionStageOutput'
+  - '@azure-rest/health-insights-radiologyinsights.ContactDetail'
+  - '@azure-rest/health-insights-radiologyinsights.ContactDetailOutput'
+  - '@azure-rest/health-insights-radiologyinsights.ContactPoint'
+  - '@azure-rest/health-insights-radiologyinsights.ContactPointOutput'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJob'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJob202Headers'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJob202Response'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJobBodyParam'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJobDefaultHeaders'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJobDefaultResponse'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJobHeaderParam'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJobHeaders'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJobLogicalResponse'
+  - '@azure-rest/health-insights-radiologyinsights.CriticalResultInferenceOutput'
+  - '@azure-rest/health-insights-radiologyinsights.CriticalResultOutput'
+  - '@azure-rest/health-insights-radiologyinsights.DocumentAdministrativeMetadata'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.DocumentAdministrativeMetadataOutput
+  - '@azure-rest/health-insights-radiologyinsights.DocumentAuthor'
+  - '@azure-rest/health-insights-radiologyinsights.DocumentAuthorOutput'
+  - '@azure-rest/health-insights-radiologyinsights.DocumentContent'
+  - '@azure-rest/health-insights-radiologyinsights.DocumentContentOutput'
+  - '@azure-rest/health-insights-radiologyinsights.DomainResourceOutputParent'
+  - '@azure-rest/health-insights-radiologyinsights.DomainResourceParent'
+  - '@azure-rest/health-insights-radiologyinsights.Element'
+  - '@azure-rest/health-insights-radiologyinsights.ElementOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Encounter'
+  - '@azure-rest/health-insights-radiologyinsights.EncounterOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Extension'
+  - '@azure-rest/health-insights-radiologyinsights.ExtensionOutput'
+  - '@azure-rest/health-insights-radiologyinsights.FindingInferenceOutput'
+  - '@azure-rest/health-insights-radiologyinsights.FindingOptions'
+  - '@azure-rest/health-insights-radiologyinsights.FindingOptionsOutput'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.FollowupCommunicationInferenceOutput
+  - >-
+    @azure-rest/health-insights-radiologyinsights.FollowupRecommendationInferenceOutput
+  - '@azure-rest/health-insights-radiologyinsights.FollowupRecommendationOptions'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.FollowupRecommendationOptionsOutput
+  - >-
+    @azure-rest/health-insights-radiologyinsights.GenericProcedureRecommendationOutput
+  - '@azure-rest/health-insights-radiologyinsights.GetJob'
+  - '@azure-rest/health-insights-radiologyinsights.GetJob200Headers'
+  - '@azure-rest/health-insights-radiologyinsights.GetJob200Response'
+  - '@azure-rest/health-insights-radiologyinsights.GetJobDefaultHeaders'
+  - '@azure-rest/health-insights-radiologyinsights.GetJobDefaultResponse'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.HealthInsightsOperationStatusOutput
+  - '@azure-rest/health-insights-radiologyinsights.Identifier'
+  - '@azure-rest/health-insights-radiologyinsights.IdentifierOutput'
+  - '@azure-rest/health-insights-radiologyinsights.ImagingProcedureOutput'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.ImagingProcedureRecommendationOutput
+  - >-
+    @azure-rest/health-insights-radiologyinsights.LateralityDiscrepancyInferenceOutput
+  - >-
+    @azure-rest/health-insights-radiologyinsights.LimitedOrderDiscrepancyInferenceOutput
+  - '@azure-rest/health-insights-radiologyinsights.Meta'
+  - '@azure-rest/health-insights-radiologyinsights.MetaOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Narrative'
+  - '@azure-rest/health-insights-radiologyinsights.NarrativeOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Observation'
+  - '@azure-rest/health-insights-radiologyinsights.ObservationComponent'
+  - '@azure-rest/health-insights-radiologyinsights.ObservationComponentOutput'
+  - '@azure-rest/health-insights-radiologyinsights.ObservationOutput'
+  - '@azure-rest/health-insights-radiologyinsights.ObservationReferenceRange'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.ObservationReferenceRangeOutput
+  - '@azure-rest/health-insights-radiologyinsights.OrderedProcedure'
+  - '@azure-rest/health-insights-radiologyinsights.OrderedProcedureOutput'
+  - '@azure-rest/health-insights-radiologyinsights.PatientDocument'
+  - '@azure-rest/health-insights-radiologyinsights.PatientDocumentOutput'
+  - '@azure-rest/health-insights-radiologyinsights.PatientInfo'
+  - '@azure-rest/health-insights-radiologyinsights.PatientInfoOutput'
+  - '@azure-rest/health-insights-radiologyinsights.PatientRecord'
+  - '@azure-rest/health-insights-radiologyinsights.PatientRecordOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Period'
+  - '@azure-rest/health-insights-radiologyinsights.PeriodOutput'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.ProcedureRecommendationOutputParent
+  - '@azure-rest/health-insights-radiologyinsights.Quantity'
+  - '@azure-rest/health-insights-radiologyinsights.QuantityOutput'
+  - '@azure-rest/health-insights-radiologyinsights.RadiologyCodeWithTypesOutput'
+  - '@azure-rest/health-insights-radiologyinsights.RadiologyInsightsData'
+  - '@azure-rest/health-insights-radiologyinsights.RadiologyInsightsDataOutput'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyInsightsInferenceOptions
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyInsightsInferenceOptionsOutput
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyInsightsInferenceOutputParent
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyInsightsInferenceResultOutput
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyInsightsModelConfiguration
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyInsightsModelConfigurationOutput
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyInsightsPatientResultOutput
+  - '@azure-rest/health-insights-radiologyinsights.RadiologyInsightsResultOutput'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyProcedureInferenceOutput
+  - '@azure-rest/health-insights-radiologyinsights.Range'
+  - '@azure-rest/health-insights-radiologyinsights.RangeOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Ratio'
+  - '@azure-rest/health-insights-radiologyinsights.RatioOutput'
+  - '@azure-rest/health-insights-radiologyinsights.RecommendationFindingOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Reference'
+  - '@azure-rest/health-insights-radiologyinsights.ReferenceOutput'
+  - '@azure-rest/health-insights-radiologyinsights.ResearchStudy'
+  - '@azure-rest/health-insights-radiologyinsights.ResearchStudyOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Resource'
+  - '@azure-rest/health-insights-radiologyinsights.ResourceOutput'
+  - '@azure-rest/health-insights-radiologyinsights.Routes'
+  - '@azure-rest/health-insights-radiologyinsights.SampledData'
+  - '@azure-rest/health-insights-radiologyinsights.SampledDataOutput'
+  - '@azure-rest/health-insights-radiologyinsights.SexMismatchInferenceOutput'
+  - '@azure-rest/health-insights-radiologyinsights.TimePeriod'
+  - '@azure-rest/health-insights-radiologyinsights.TimePeriodOutput'
+typeAliases:
+  - '@azure-rest/health-insights-radiologyinsights.AzureHealthInsightsClient'
+  - '@azure-rest/health-insights-radiologyinsights.CreateJobParameters'
+  - '@azure-rest/health-insights-radiologyinsights.DomainResource'
+  - '@azure-rest/health-insights-radiologyinsights.DomainResourceOutput'
+  - '@azure-rest/health-insights-radiologyinsights.GetJobParameters'
+  - '@azure-rest/health-insights-radiologyinsights.ProcedureRecommendationOutput'
+  - >-
+    @azure-rest/health-insights-radiologyinsights.RadiologyInsightsInferenceOutput
+  - '@azure-rest/health-insights-radiologyinsights.RepeatabilityResultOutput'
+functions:
+  - name: default(string, KeyCredential, ClientOptions)
+    uid: '@azure-rest/health-insights-radiologyinsights.default'
+    package: '@azure-rest/health-insights-radiologyinsights'
+    summary: Initialize a new instance of `AzureHealthInsightsClient`
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function default(endpoint: string, credentials: KeyCredential, options?:
+        ClientOptions): AzureHealthInsightsClient
+      parameters:
+        - id: endpoint
+          type: string
+          description: >-
+            Supported Cognitive Services endpoints (protocol and hostname, for
+            example: https://westus2.api.cognitive.microsoft.com).
+        - id: credentials
+          type: <xref uid="@azure/core-auth.KeyCredential" />
+          description: uniquely identify client credential
+        - id: options
+          type: <xref uid="@azure-rest/core-client.ClientOptions" />
+          description: the parameter for all optional parameters
+      return:
+        description: ''
+        type: >-
+          <xref
+          uid="@azure-rest/health-insights-radiologyinsights.AzureHealthInsightsClient"
+          />
+  - name: >-
+      getLongRunningPoller<TResult>(Client, CreateJobDefaultResponse |
+      CreateJob202Response, CreateHttpPollerOptions<TResult,
+      OperationState<TResult>>)
+    uid: '@azure-rest/health-insights-radiologyinsights.getLongRunningPoller'
+    package: '@azure-rest/health-insights-radiologyinsights'
+    summary: >-
+      Helper function that builds a Poller object to help polling a long running
+      operation.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getLongRunningPoller<TResult>(client: Client, initialResponse:
+        CreateJobDefaultResponse | CreateJob202Response, options?:
+        CreateHttpPollerOptions<TResult, OperationState<TResult>>):
+        Promise<SimplePollerLike<OperationState<TResult>, TResult>>
+      parameters:
+        - id: client
+          type: <xref uid="@azure-rest/core-client.Client" />
+          description: Client to use for sending the request to get additional pages.
+        - id: initialResponse
+          type: >-
+            <xref
+            uid="@azure-rest/health-insights-radiologyinsights.CreateJobDefaultResponse"
+            /> | <xref
+            uid="@azure-rest/health-insights-radiologyinsights.CreateJob202Response"
+            />
+          description: The initial response.
+        - id: options
+          type: >-
+            <xref uid="@azure/core-lro.CreateHttpPollerOptions" />&lt;TResult,
+            <xref uid="@azure/core-lro.OperationState" />&lt;TResult&gt;&gt;
+          description: Options to set a resume state or custom polling interval.
+      return:
+        description: >-
+          - A poller object to poll for operation state updates and eventually
+          get the final response.
+        type: >-
+          Promise&lt;<xref uid="@azure/core-lro.SimplePollerLike" />&lt;<xref
+          uid="@azure/core-lro.OperationState" />&lt;TResult&gt;,
+          TResult&gt;&gt;
+  - name: isUnexpected(GetJob200Response | GetJobDefaultResponse)
+    uid: '@azure-rest/health-insights-radiologyinsights.isUnexpected'
+    package: '@azure-rest/health-insights-radiologyinsights'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response: GetJob200Response |
+        GetJobDefaultResponse): response
+      parameters:
+        - id: response
+          type: >-
+            <xref
+            uid="@azure-rest/health-insights-radiologyinsights.GetJob200Response"
+            /> | <xref
+            uid="@azure-rest/health-insights-radiologyinsights.GetJobDefaultResponse"
+            />
+          description: ''
+      return:
+        description: ''
+        type: response
+  - name: >-
+      isUnexpected(CreateJobLogicalResponse | CreateJobDefaultResponse |
+      CreateJob202Response)
+    uid: '@azure-rest/health-insights-radiologyinsights.isUnexpected_1'
+    package: '@azure-rest/health-insights-radiologyinsights'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isUnexpected(response: CreateJobLogicalResponse |
+        CreateJobDefaultResponse | CreateJob202Response): response
+      parameters:
+        - id: response
+          type: >-
+            <xref
+            uid="@azure-rest/health-insights-radiologyinsights.CreateJobLogicalResponse"
+            /> | <xref
+            uid="@azure-rest/health-insights-radiologyinsights.CreateJobDefaultResponse"
+            /> | <xref
+            uid="@azure-rest/health-insights-radiologyinsights.CreateJob202Response"
+            />
+          description: ''
+      return:
+        description: ''
+        type: response
