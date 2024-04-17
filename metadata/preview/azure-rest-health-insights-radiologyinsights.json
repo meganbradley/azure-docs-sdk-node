@@ -1,0 +1,14 @@
+{
+  "Name": "@azure-rest/health-insights-radiologyinsights",
+  "Version": "1.0.0-alpha.20240417.1",
+  "DevVersion": "1.0.0-alpha.20240417.1",
+  "DirectoryPath": "sdk/healthinsights/health-insights-radiologyinsights-rest",
+  "ServiceDirectory": "healthinsights",
+  "ReadMePath": "sdk/healthinsights/health-insights-radiologyinsights-rest/README.md",
+  "ChangeLogPath": "sdk/healthinsights/health-insights-radiologyinsights-rest/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-rest-health-insights-radiologyinsights",
+  "ReleaseStatus": "Unreleased"
+}
