@@ -76,6 +76,7 @@ interfaces:
   - '@azure-rest/ai-translation-text.TranslationLanguageOutput'
   - '@azure-rest/ai-translation-text.TranslationOutput'
   - '@azure-rest/ai-translation-text.TranslatorCredential'
+  - '@azure-rest/ai-translation-text.TranslatorTokenCredential'
   - '@azure-rest/ai-translation-text.TransliterableScriptOutput'
   - '@azure-rest/ai-translation-text.Transliterate'
   - '@azure-rest/ai-translation-text.Transliterate200Headers'
@@ -89,7 +90,6 @@ interfaces:
   - '@azure-rest/ai-translation-text.TransliterateQueryParamProperties'
   - '@azure-rest/ai-translation-text.TransliteratedTextOutput'
   - '@azure-rest/ai-translation-text.TransliterationLanguageOutput'
-  - '@azure-rest/ai-translation-text.TransliterationOutput'
 typeAliases:
   - '@azure-rest/ai-translation-text.FindSentenceBoundariesParameters'
   - '@azure-rest/ai-translation-text.GetLanguagesParameters'
@@ -107,10 +107,10 @@ functions:
     isDeprecated: false
     syntax:
       content: >-
-        function buildMultiCollection(queryParameters: string[], parameterName:
-        string): string
+        function buildMultiCollection(items: string[], parameterName: string):
+        string
       parameters:
-        - id: queryParameters
+        - id: items
           type: string[]
           description: ''
         - id: parameterName
@@ -120,8 +120,9 @@ functions:
         description: ''
         type: string
   - name: >-
-      default(undefined | string, TranslatorCredential | KeyCredential |
-      TokenCredential, ClientOptions)
+      default(undefined | string, TranslatorCredential |
+      TranslatorTokenCredential | TokenCredential | KeyCredential,
+      ClientOptions)
     uid: '@azure-rest/ai-translation-text.default'
     package: '@azure-rest/ai-translation-text'
     summary: Initialize a new instance of `TextTranslationClient`
@@ -130,8 +131,8 @@ functions:
     syntax:
       content: >-
         function default(endpoint: undefined | string, credential?:
-        TranslatorCredential | KeyCredential | TokenCredential, options?:
-        ClientOptions): TextTranslationClient
+        TranslatorCredential | TranslatorTokenCredential | TokenCredential |
+        KeyCredential, options?: ClientOptions): TextTranslationClient
       parameters:
         - id: endpoint
           type: undefined | string
@@ -142,8 +143,10 @@ functions:
         - id: credential
           type: >-
             <xref uid="@azure-rest/ai-translation-text.TranslatorCredential" />
-            | <xref uid="@azure/core-auth.KeyCredential" /> | <xref
-            uid="@azure/core-auth.TokenCredential" />
+            | <xref
+            uid="@azure-rest/ai-translation-text.TranslatorTokenCredential" /> |
+            <xref uid="@azure/core-auth.TokenCredential" /> | <xref
+            uid="@azure/core-auth.KeyCredential" />
           description: ''
         - id: options
           type: <xref uid="@azure-rest/core-client.ClientOptions" />
