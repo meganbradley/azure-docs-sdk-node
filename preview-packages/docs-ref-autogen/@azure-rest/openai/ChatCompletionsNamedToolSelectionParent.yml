@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: ChatCompletionsNamedToolSelectionParent
+uid: '@azure-rest/openai.ChatCompletionsNamedToolSelectionParent'
+package: '@azure-rest/openai'
+summary: >-
+  An abstract representation of an explicit, named tool selection to use for a
+  chat completions request.
+fullName: ChatCompletionsNamedToolSelectionParent
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@azure-rest/openai.ChatCompletionsNamedToolSelectionParent.type'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: string'
+      return:
+        description: ''
+        type: string

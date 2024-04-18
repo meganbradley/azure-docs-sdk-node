@@ -1,0 +1,27 @@
+### YamlMime:TSType
+name: ChatCompletionsJsonResponseFormat
+uid: '@azure-rest/openai.ChatCompletionsJsonResponseFormat'
+package: '@azure-rest/openai'
+summary: >-
+  A response format for Chat Completions that restricts responses to emitting
+  valid JSON objects.
+fullName: ChatCompletionsJsonResponseFormat
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@azure-rest/openai.ChatCompletionsJsonResponseFormat.type'
+    package: '@azure-rest/openai'
+    summary: >-
+      The discriminated object type, which is always 'json_object' for this
+      format.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "json_object"'
+      return:
+        description: ''
+        type: '"json_object"'
+extends: <xref uid="@azure-rest/openai.ChatCompletionsResponseFormatParent" />

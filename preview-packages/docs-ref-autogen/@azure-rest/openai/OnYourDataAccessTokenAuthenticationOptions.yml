@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: OnYourDataAccessTokenAuthenticationOptions
+uid: '@azure-rest/openai.OnYourDataAccessTokenAuthenticationOptions'
+package: '@azure-rest/openai'
+summary: >-
+  The authentication options for Azure OpenAI On Your Data when using access
+  token.
+fullName: OnYourDataAccessTokenAuthenticationOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: access_token
+    uid: '@azure-rest/openai.OnYourDataAccessTokenAuthenticationOptions.access_token'
+    package: '@azure-rest/openai'
+    summary: The access token to use for authentication.
+    fullName: access_token
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'access_token: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: '@azure-rest/openai.OnYourDataAccessTokenAuthenticationOptions.type'
+    package: '@azure-rest/openai'
+    summary: The authentication type of access token.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "access_token"'
+      return:
+        description: ''
+        type: '"access_token"'
+extends: <xref uid="@azure-rest/openai.OnYourDataAuthenticationOptionsParent" />

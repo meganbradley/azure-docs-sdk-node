@@ -1,0 +1,151 @@
+### YamlMime:TSType
+name: AudioTranslationSegmentOutput
+uid: '@azure-rest/openai.AudioTranslationSegmentOutput'
+package: '@azure-rest/openai'
+summary: >-
+  Extended information about a single segment of translated audio data.
+
+  Segments generally represent roughly 5-10 seconds of speech. Segment
+  boundaries typically occur between words but not
+
+  necessarily sentences.
+fullName: AudioTranslationSegmentOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: avg_logprob
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.avg_logprob'
+    package: '@azure-rest/openai'
+    summary: The average log probability associated with this audio segment.
+    fullName: avg_logprob
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'avg_logprob: number'
+      return:
+        description: ''
+        type: number
+  - name: compression_ratio
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.compression_ratio'
+    package: '@azure-rest/openai'
+    summary: The compression ratio of this audio segment.
+    fullName: compression_ratio
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'compression_ratio: number'
+      return:
+        description: ''
+        type: number
+  - name: end
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.end'
+    package: '@azure-rest/openai'
+    summary: >-
+      The time at which this segment ended relative to the beginning of the
+      translated audio.
+    fullName: end
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'end: number'
+      return:
+        description: ''
+        type: number
+  - name: id
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.id'
+    package: '@azure-rest/openai'
+    summary: The 0-based index of this segment within a translation.
+    fullName: id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'id: number'
+      return:
+        description: ''
+        type: number
+  - name: no_speech_prob
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.no_speech_prob'
+    package: '@azure-rest/openai'
+    summary: The probability of no speech detection within this audio segment.
+    fullName: no_speech_prob
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'no_speech_prob: number'
+      return:
+        description: ''
+        type: number
+  - name: seek
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.seek'
+    package: '@azure-rest/openai'
+    summary: >-
+      The seek position associated with the processing of this audio segment.
+
+      Seek positions are expressed as hundredths of seconds.
+
+      The model may process several segments from a single seek position, so
+      while the seek position will never represent
+
+      a later time than the segment's start, the segment's start may represent a
+      significantly later time than the
+
+      segment's associated seek position.
+    fullName: seek
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'seek: number'
+      return:
+        description: ''
+        type: number
+  - name: start
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.start'
+    package: '@azure-rest/openai'
+    summary: >-
+      The time at which this segment started relative to the beginning of the
+      translated audio.
+    fullName: start
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'start: number'
+      return:
+        description: ''
+        type: number
+  - name: temperature
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.temperature'
+    package: '@azure-rest/openai'
+    summary: The temperature score associated with this audio segment.
+    fullName: temperature
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'temperature: number'
+      return:
+        description: ''
+        type: number
+  - name: text
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.text'
+    package: '@azure-rest/openai'
+    summary: The translated text that was part of this audio segment.
+    fullName: text
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'text: string'
+      return:
+        description: ''
+        type: string
+  - name: tokens
+    uid: '@azure-rest/openai.AudioTranslationSegmentOutput.tokens'
+    package: '@azure-rest/openai'
+    summary: The token IDs matching the translated text in this audio segment.
+    fullName: tokens
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'tokens: number[]'
+      return:
+        description: ''
+        type: number[]

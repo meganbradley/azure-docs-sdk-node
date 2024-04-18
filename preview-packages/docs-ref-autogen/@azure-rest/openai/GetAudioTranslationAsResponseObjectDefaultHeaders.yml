@@ -1,0 +1,23 @@
+### YamlMime:TSType
+name: GetAudioTranslationAsResponseObjectDefaultHeaders
+uid: '@azure-rest/openai.GetAudioTranslationAsResponseObjectDefaultHeaders'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioTranslationAsResponseObjectDefaultHeaders
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: x-ms-error-code
+    uid: >-
+      @azure-rest/openai.GetAudioTranslationAsResponseObjectDefaultHeaders.x-ms-error-code
+    package: '@azure-rest/openai'
+    summary: String error code indicating what went wrong.
+    fullName: x-ms-error-code
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'x-ms-error-code?: string'
+      return:
+        description: ''
+        type: string

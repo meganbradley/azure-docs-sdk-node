@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: ContentFilterResultsForPromptOutput
+uid: '@azure-rest/openai.ContentFilterResultsForPromptOutput'
+package: '@azure-rest/openai'
+summary: Content filtering results for a single prompt in the request.
+fullName: ContentFilterResultsForPromptOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: content_filter_results
+    uid: >-
+      @azure-rest/openai.ContentFilterResultsForPromptOutput.content_filter_results
+    package: '@azure-rest/openai'
+    summary: Content filtering results for this prompt
+    fullName: content_filter_results
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'content_filter_results: ContentFilterResultDetailsForPromptOutput'
+      return:
+        description: ''
+        type: >-
+          <xref
+          uid="@azure-rest/openai.ContentFilterResultDetailsForPromptOutput" />
+  - name: prompt_index
+    uid: '@azure-rest/openai.ContentFilterResultsForPromptOutput.prompt_index'
+    package: '@azure-rest/openai'
+    summary: The index of this prompt in the set of prompt results
+    fullName: prompt_index
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'prompt_index: number'
+      return:
+        description: ''
+        type: number

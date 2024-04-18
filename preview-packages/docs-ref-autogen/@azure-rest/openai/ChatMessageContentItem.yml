@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: ChatMessageContentItem
+uid: '@azure-rest/openai.ChatMessageContentItem'
+package: '@azure-rest/openai'
+summary: An abstract representation of a structured content item within a chat message.
+fullName: ChatMessageContentItem
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ChatMessageContentItem =
+    | ChatMessageContentItemParent
+    | ChatMessageTextContentItem
+    | ChatMessageImageContentItem
