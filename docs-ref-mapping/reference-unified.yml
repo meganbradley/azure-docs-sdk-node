@@ -356,6 +356,10 @@
       href: ~/docs-ref-services/{moniker}/ai-vision-image-analysis-rest-readme.md
       children:
       - '@azure-rest/ai-vision-image-analysis'
+    - name: Health Insights Radiology Insights
+      href: ~/docs-ref-services/{moniker}/health-insights-radiologyinsights-rest-readme.md
+      children:
+      - '@azure-rest/health-insights-radiologyinsights'
     - name: Anomaly Detector (deprecated)
       href: ~/docs-ref-services/{moniker}/ai-anomaly-detector-readme.md
       children:
@@ -896,7 +900,7 @@
         href: ~/docs-ref-services/{moniker}/arm-devtestlabs-readme.md
         children:
         - '@azure/arm-devtestlabs'
-  - name: DNS
+  - name: Dns
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
     items:
@@ -1216,6 +1220,10 @@
       href: ~/docs-ref-services/{moniker}/identity-readme.md
       children:
       - '@azure/identity'
+    - name: Identity Broker
+      href: ~/docs-ref-services/{moniker}/identity-broker-readme.md
+      children:
+      - '@azure/identity-broker'
     - name: Token Cache Persistence Plugin
       href: ~/docs-ref-services/{moniker}/identity-cache-persistence-readme.md
       children:
@@ -1930,7 +1938,7 @@
         href: ~/docs-ref-services/{moniker}/arm-portal-readme.md
         children:
         - '@azure/arm-portal'
-  - name: PostgreSQL
+  - name: Postgresql
     href: ~/docs-ref-services/{moniker}/postgresql.md
     landingPageType: Service
     items:
@@ -2586,6 +2594,10 @@
       href: ~/docs-ref-services/{moniker}/functions-authentication-events-readme.md
       children:
       - '@azure/functions-authentication-events'
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/iot-modelsrepository-readme.md
+      children:
+      - '@azure/iot-modelsrepository'
     - name: unknown
       href: ~/docs-ref-services/{moniker}/template-dpg-readme.md
       children:
