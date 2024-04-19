@@ -1,0 +1,35 @@
+### YamlMime:TSType
+name: CreateJob
+uid: '@azure-rest/health-insights-radiologyinsights.CreateJob'
+package: '@azure-rest/health-insights-radiologyinsights'
+summary: ''
+fullName: CreateJob
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: post(CreateJobParameters)
+    uid: '@azure-rest/health-insights-radiologyinsights.CreateJob.post'
+    package: '@azure-rest/health-insights-radiologyinsights'
+    summary: Creates a Radiology Insights job with the given request body.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: CreateJobParameters):
+        StreamableMethod<CreateJobDefaultResponse | CreateJob202Response>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure-rest/health-insights-radiologyinsights.CreateJobParameters"
+            />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure-rest/core-client.StreamableMethod" />&lt;<xref
+          uid="@azure-rest/health-insights-radiologyinsights.CreateJobDefaultResponse"
+          /> | <xref
+          uid="@azure-rest/health-insights-radiologyinsights.CreateJob202Response"
+          />&gt;
