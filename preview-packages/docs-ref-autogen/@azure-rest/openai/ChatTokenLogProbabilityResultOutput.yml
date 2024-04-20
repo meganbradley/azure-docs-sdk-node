@@ -1,0 +1,70 @@
+### YamlMime:TSType
+name: ChatTokenLogProbabilityResultOutput
+uid: '@azure-rest/openai.ChatTokenLogProbabilityResultOutput'
+package: '@azure-rest/openai'
+summary: >-
+  A representation of the log probability information for a single content
+  token, including a list of most likely tokens if 'top_logprobs' were
+  requested.
+fullName: ChatTokenLogProbabilityResultOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: bytes
+    uid: '@azure-rest/openai.ChatTokenLogProbabilityResultOutput.bytes'
+    package: '@azure-rest/openai'
+    summary: >-
+      A list of integers representing the UTF-8 bytes representation of the
+      token. Useful in instances where characters are represented by multiple
+      tokens and their byte representations must be combined to generate the
+      correct text representation. Can be null if there is no bytes
+      representation for the token.
+    fullName: bytes
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'bytes: null | number[]'
+      return:
+        description: ''
+        type: null | number[]
+  - name: logprob
+    uid: '@azure-rest/openai.ChatTokenLogProbabilityResultOutput.logprob'
+    package: '@azure-rest/openai'
+    summary: The log probability of the message content token.
+    fullName: logprob
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'logprob: number'
+      return:
+        description: ''
+        type: number
+  - name: token
+    uid: '@azure-rest/openai.ChatTokenLogProbabilityResultOutput.token'
+    package: '@azure-rest/openai'
+    summary: The message content token.
+    fullName: token
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'token: string'
+      return:
+        description: ''
+        type: string
+  - name: top_logprobs
+    uid: '@azure-rest/openai.ChatTokenLogProbabilityResultOutput.top_logprobs'
+    package: '@azure-rest/openai'
+    summary: >-
+      The list of most likely tokens and their log probability information, as
+      requested via 'top_logprobs'.
+    fullName: top_logprobs
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'top_logprobs: null | ChatTokenLogProbabilityInfoOutput[]'
+      return:
+        description: ''
+        type: >-
+          null | <xref
+          uid="@azure-rest/openai.ChatTokenLogProbabilityInfoOutput" />[]

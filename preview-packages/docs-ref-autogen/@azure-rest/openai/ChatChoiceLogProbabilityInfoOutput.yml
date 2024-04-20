@@ -1,0 +1,28 @@
+### YamlMime:TSType
+name: ChatChoiceLogProbabilityInfoOutput
+uid: '@azure-rest/openai.ChatChoiceLogProbabilityInfoOutput'
+package: '@azure-rest/openai'
+summary: >-
+  Log probability information for a choice, as requested via 'logprobs' and
+  'top_logprobs'.
+fullName: ChatChoiceLogProbabilityInfoOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: content
+    uid: '@azure-rest/openai.ChatChoiceLogProbabilityInfoOutput.content'
+    package: '@azure-rest/openai'
+    summary: >-
+      The list of log probability information entries for the choice's message
+      content tokens, as requested via the 'logprobs' option.
+    fullName: content
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'content: null | ChatTokenLogProbabilityResultOutput[]'
+      return:
+        description: ''
+        type: >-
+          null | <xref
+          uid="@azure-rest/openai.ChatTokenLogProbabilityResultOutput" />[]

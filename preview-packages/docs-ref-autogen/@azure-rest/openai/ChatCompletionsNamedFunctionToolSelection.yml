@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: ChatCompletionsNamedFunctionToolSelection
+uid: '@azure-rest/openai.ChatCompletionsNamedFunctionToolSelection'
+package: '@azure-rest/openai'
+summary: >-
+  A tool selection of a specific, named function tool that will limit chat
+  completions to using the named function.
+fullName: ChatCompletionsNamedFunctionToolSelection
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: function
+    uid: '@azure-rest/openai.ChatCompletionsNamedFunctionToolSelection.function'
+    package: '@azure-rest/openai'
+    summary: The function that should be called.
+    fullName: function
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function: ChatCompletionsFunctionToolSelection'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ChatCompletionsFunctionToolSelection" />
+  - name: type
+    uid: '@azure-rest/openai.ChatCompletionsNamedFunctionToolSelection.type'
+    package: '@azure-rest/openai'
+    summary: The object type, which is always 'function'.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "function"'
+      return:
+        description: ''
+        type: '"function"'
+extends: <xref uid="@azure-rest/openai.ChatCompletionsNamedToolSelectionParent" />
