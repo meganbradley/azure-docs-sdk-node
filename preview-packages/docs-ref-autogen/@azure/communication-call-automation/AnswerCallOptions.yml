@@ -8,19 +8,21 @@ remarks: ''
 isDeprecated: false
 type: interface
 properties:
-  - name: cognitiveServicesEndpoint
+  - name: callIntelligenceOptions
     uid: >-
-      @azure/communication-call-automation.AnswerCallOptions.cognitiveServicesEndpoint
+      @azure/communication-call-automation.AnswerCallOptions.callIntelligenceOptions
     package: '@azure/communication-call-automation'
-    summary: The Azure cognitive services end point url.
-    fullName: cognitiveServicesEndpoint
+    summary: AI options for the call.
+    fullName: callIntelligenceOptions
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'cognitiveServicesEndpoint?: string'
+      content: 'callIntelligenceOptions?: CallIntelligenceOptions'
       return:
         description: ''
-        type: string
+        type: >-
+          <xref
+          uid="@azure/communication-call-automation.CallIntelligenceOptions" />
   - name: operationContext
     uid: '@azure/communication-call-automation.AnswerCallOptions.operationContext'
     package: '@azure/communication-call-automation'

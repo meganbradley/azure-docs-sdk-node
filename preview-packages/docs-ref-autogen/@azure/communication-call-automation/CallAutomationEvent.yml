@@ -29,3 +29,5 @@ syntax: |
     | ContinuousDtmfRecognitionStopped
     | SendDtmfTonesCompleted
     | SendDtmfTonesFailed
+    | CancelAddParticipantSucceeded
+    | CancelAddParticipantFailed
