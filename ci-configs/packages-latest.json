@@ -13,7 +13,7 @@
       "name": "@azure-rest/confidential-ledger@1.0.0"
     },
     {
-      "name": "@azure-rest/core-client@1.4.0"
+      "name": "@azure-rest/core-client@2.0.0"
     },
     {
       "name": "@azure-rest/iot-device-update@1.0.0"

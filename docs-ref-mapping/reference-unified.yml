@@ -1216,6 +1216,10 @@
       href: ~/docs-ref-services/{moniker}/identity-readme.md
       children:
       - '@azure/identity'
+    - name: Identity Broker
+      href: ~/docs-ref-services/{moniker}/identity-broker-readme.md
+      children:
+      - '@azure/identity-broker'
     - name: Token Cache Persistence Plugin
       href: ~/docs-ref-services/{moniker}/identity-cache-persistence-readme.md
       children:
@@ -2586,6 +2590,10 @@
       href: ~/docs-ref-services/{moniker}/functions-authentication-events-readme.md
       children:
       - '@azure/functions-authentication-events'
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/iot-modelsrepository-readme.md
+      children:
+      - '@azure/iot-modelsrepository'
     - name: unknown
       href: ~/docs-ref-services/{moniker}/template-dpg-readme.md
       children:
