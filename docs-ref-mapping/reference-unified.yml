@@ -356,6 +356,10 @@
       href: ~/docs-ref-services/{moniker}/ai-vision-image-analysis-rest-readme.md
       children:
       - '@azure-rest/ai-vision-image-analysis'
+    - name: Health Insights Radiology Insights
+      href: ~/docs-ref-services/{moniker}/health-insights-radiologyinsights-rest-readme.md
+      children:
+      - '@azure-rest/health-insights-radiologyinsights'
     - name: Anomaly Detector (deprecated)
       href: ~/docs-ref-services/{moniker}/ai-anomaly-detector-readme.md
       children:
