@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: OpenAIClient
+uid: '@azure-rest/openai.OpenAIClient'
+package: '@azure-rest/openai'
+summary: ''
+fullName: OpenAIClient
+remarks: ''
+isDeprecated: false
+syntax: |
+  type OpenAIClient = Client & { path: Routes }

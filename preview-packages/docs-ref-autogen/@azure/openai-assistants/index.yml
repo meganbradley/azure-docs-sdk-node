@@ -81,6 +81,7 @@ interfaces:
   - '@azure/openai-assistants.SubmitToolOutputsDetails'
   - '@azure/openai-assistants.SubmitToolOutputsToRunOptions'
   - '@azure/openai-assistants.ThreadDeletionStatus'
+  - '@azure/openai-assistants.ThreadInitializationMessage'
   - '@azure/openai-assistants.ThreadMessage'
   - '@azure/openai-assistants.ThreadRun'
   - '@azure/openai-assistants.ToolOutput'

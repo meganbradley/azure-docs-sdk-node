@@ -16,10 +16,10 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'messages?: { content: string, role: string }[]'
+      content: 'messages?: ThreadInitializationMessage[]'
       return:
         description: ''
-        type: '{ content: string, role: string }[]'
+        type: <xref uid="@azure/openai-assistants.ThreadInitializationMessage" />[]
   - name: metadata
     uid: '@azure/openai-assistants.AssistantThreadCreationOptions.metadata'
     package: '@azure/openai-assistants'
