@@ -5,8 +5,8 @@ ms.date: 04/30/2024
 ms.topic: reference
 ms.devlang: javascript
 ms.service: service-bus-relay
-manager: timlt
 ms.technology: azure
+manager: timlt
 ---
 # Azure Relay modules for JavaScript
 
