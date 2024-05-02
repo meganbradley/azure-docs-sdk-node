@@ -1,0 +1,54 @@
+### YamlMime:TSType
+name: ImageGenerationDataOutput
+uid: '@azure-rest/openai.ImageGenerationDataOutput'
+package: '@azure-rest/openai'
+summary: >-
+  A representation of a single generated image, provided as either
+  base64-encoded data or as a URL from which the image
+
+  may be retrieved.
+fullName: ImageGenerationDataOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: b64_json
+    uid: '@azure-rest/openai.ImageGenerationDataOutput.b64_json'
+    package: '@azure-rest/openai'
+    summary: The complete data for an image, represented as a base64-encoded string.
+    fullName: b64_json
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'b64_json?: string'
+      return:
+        description: ''
+        type: string
+  - name: revised_prompt
+    uid: '@azure-rest/openai.ImageGenerationDataOutput.revised_prompt'
+    package: '@azure-rest/openai'
+    summary: >-
+      The final prompt used by the model to generate the image.
+
+      Only provided with dall-3-models and only when revisions were made to the
+      prompt.
+    fullName: revised_prompt
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'revised_prompt?: string'
+      return:
+        description: ''
+        type: string
+  - name: url
+    uid: '@azure-rest/openai.ImageGenerationDataOutput.url'
+    package: '@azure-rest/openai'
+    summary: The URL that provides temporary access to download the generated image.
+    fullName: url
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'url?: string'
+      return:
+        description: ''
+        type: string

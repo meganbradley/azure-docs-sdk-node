@@ -1,0 +1,48 @@
+### YamlMime:TSType
+name: AzureMachineLearningIndexChatExtensionConfiguration
+uid: '@azure-rest/openai.AzureMachineLearningIndexChatExtensionConfiguration'
+package: '@azure-rest/openai'
+summary: >-
+  A specific representation of configurable options for Azure Machine Learning
+  vector index when using it as an Azure
+
+  OpenAI chat extension.
+fullName: AzureMachineLearningIndexChatExtensionConfiguration
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: parameters
+    uid: >-
+      @azure-rest/openai.AzureMachineLearningIndexChatExtensionConfiguration.parameters
+    package: '@azure-rest/openai'
+    summary: The parameters for the Azure Machine Learning vector index chat extension.
+    fullName: parameters
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'parameters: AzureMachineLearningIndexChatExtensionParameters'
+      return:
+        description: ''
+        type: >-
+          <xref
+          uid="@azure-rest/openai.AzureMachineLearningIndexChatExtensionParameters"
+          />
+  - name: type
+    uid: >-
+      @azure-rest/openai.AzureMachineLearningIndexChatExtensionConfiguration.type
+    package: '@azure-rest/openai'
+    summary: >-
+      The type label to use when configuring Azure OpenAI chat extensions. This
+      should typically not be changed from its
+
+      default value for Azure Machine Learning vector index.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "azure_ml_index"'
+      return:
+        description: ''
+        type: '"azure_ml_index"'
+extends: <xref uid="@azure-rest/openai.AzureChatExtensionConfigurationParent" />

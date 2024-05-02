@@ -1,0 +1,25 @@
+### YamlMime:TSType
+name: GetAudioTranslationAsResponseObjectMediaTypesParam
+uid: '@azure-rest/openai.GetAudioTranslationAsResponseObjectMediaTypesParam'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioTranslationAsResponseObjectMediaTypesParam
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: contentType
+    uid: >-
+      @azure-rest/openai.GetAudioTranslationAsResponseObjectMediaTypesParam.contentType
+    package: '@azure-rest/openai'
+    summary: >-
+      The content type for the operation. Always multipart/form-data for this
+      operation.
+    fullName: contentType
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'contentType: "multipart/form-data"'
+      return:
+        description: ''
+        type: '"multipart/form-data"'

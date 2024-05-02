@@ -1,0 +1,36 @@
+### YamlMime:TSType
+name: ContentFilterBlocklistIdResultOutput
+uid: '@azure-rest/openai.ContentFilterBlocklistIdResultOutput'
+package: '@azure-rest/openai'
+summary: >-
+  Represents the outcome of an evaluation against a custom blocklist as
+  performed by content filtering.
+fullName: ContentFilterBlocklistIdResultOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: filtered
+    uid: '@azure-rest/openai.ContentFilterBlocklistIdResultOutput.filtered'
+    package: '@azure-rest/openai'
+    summary: A value indicating whether or not the content has been filtered.
+    fullName: filtered
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'filtered: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: id
+    uid: '@azure-rest/openai.ContentFilterBlocklistIdResultOutput.id'
+    package: '@azure-rest/openai'
+    summary: The ID of the custom blocklist evaluated.
+    fullName: id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string

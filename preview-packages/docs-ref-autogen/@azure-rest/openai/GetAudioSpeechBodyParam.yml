@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: GetAudioSpeechBodyParam
+uid: '@azure-rest/openai.GetAudioSpeechBodyParam'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAudioSpeechBodyParam
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: body
+    uid: '@azure-rest/openai.GetAudioSpeechBodyParam.body'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: body
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'body?: AudioSpeechOptions'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.AudioSpeechOptions" />
