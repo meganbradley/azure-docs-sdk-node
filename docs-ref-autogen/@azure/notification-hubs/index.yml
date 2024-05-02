@@ -72,6 +72,7 @@ interfaces:
   - '@azure/notification-hubs.FirebaseV1ApnsFcmOptions'
   - '@azure/notification-hubs.FirebaseV1FcmOptions'
   - '@azure/notification-hubs.FirebaseV1NativeMessage'
+  - '@azure/notification-hubs.FirebaseV1NativeMessageEnvelope'
   - '@azure/notification-hubs.FirebaseV1NativeNotification'
   - '@azure/notification-hubs.FirebaseV1RegistrationChannel'
   - '@azure/notification-hubs.FirebaseV1WebPushConfig'
@@ -679,7 +680,7 @@ functions:
       return:
         description: The JSON body to send to Notification Hubs.
         type: string
-  - name: createFirebaseV1NotificationBody(FirebaseV1NativeMessage)
+  - name: createFirebaseV1NotificationBody(FirebaseV1NativeMessageEnvelope)
     uid: '@azure/notification-hubs.createFirebaseV1NotificationBody'
     package: '@azure/notification-hubs'
     summary: Creates a FcmV1Notification from a native Firebase payload.
@@ -688,10 +689,12 @@ functions:
     syntax:
       content: >-
         function createFirebaseV1NotificationBody(nativeMessage:
-        FirebaseV1NativeMessage): string
+        FirebaseV1NativeMessageEnvelope): string
       parameters:
         - id: nativeMessage
-          type: <xref uid="@azure/notification-hubs.FirebaseV1NativeMessage" />
+          type: >-
+            <xref uid="@azure/notification-hubs.FirebaseV1NativeMessageEnvelope"
+            />
           description: The native message payload to send to Notification Hubs.
       return:
         description: The JSON body to send to Notification Hubs.
