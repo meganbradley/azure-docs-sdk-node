@@ -2587,6 +2587,10 @@
       children:
       - '@azure/functions-authentication-events'
     - name: unknown
+      href: ~/docs-ref-services/{moniker}/iot-modelsrepository-readme.md
+      children:
+      - '@azure/iot-modelsrepository'
+    - name: unknown
       href: ~/docs-ref-services/{moniker}/template-dpg-readme.md
       children:
       - '@azure/template-dpg'
