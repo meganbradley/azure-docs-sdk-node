@@ -2,7 +2,7 @@
 name: OpenAIClientOptions
 uid: '@azure/openai.OpenAIClientOptions'
 package: '@azure/openai'
-summary: ''
+summary: Options for OpenAI Client
 fullName: OpenAIClientOptions
 remarks: ''
 isDeprecated: false

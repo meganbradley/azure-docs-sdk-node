@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: BeginAzureBatchImageGenerationParameters
+uid: '@azure-rest/openai.BeginAzureBatchImageGenerationParameters'
+package: '@azure-rest/openai'
+summary: ''
+fullName: BeginAzureBatchImageGenerationParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type BeginAzureBatchImageGenerationParameters =
+    BeginAzureBatchImageGenerationBodyParam & RequestParameters

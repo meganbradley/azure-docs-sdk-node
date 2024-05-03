@@ -63,7 +63,9 @@ properties:
   - name: model
     uid: '@azure/openai-assistants.AssistantCreationOptions.model'
     package: '@azure/openai-assistants'
-    summary: The ID of the model to use.
+    summary: >-
+      The ID of the model to use. (In Azure AI Studio, corresponds to
+      "Deployment name")
     fullName: model
     remarks: ''
     isDeprecated: false
