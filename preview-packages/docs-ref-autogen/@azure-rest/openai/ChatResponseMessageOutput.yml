@@ -1,0 +1,87 @@
+### YamlMime:TSType
+name: ChatResponseMessageOutput
+uid: '@azure-rest/openai.ChatResponseMessageOutput'
+package: '@azure-rest/openai'
+summary: A representation of a chat message as received in a response.
+fullName: ChatResponseMessageOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: content
+    uid: '@azure-rest/openai.ChatResponseMessageOutput.content'
+    package: '@azure-rest/openai'
+    summary: The content of the message.
+    fullName: content
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'content: null | string'
+      return:
+        description: ''
+        type: null | string
+  - name: context
+    uid: '@azure-rest/openai.ChatResponseMessageOutput.context'
+    package: '@azure-rest/openai'
+    summary: >-
+      If Azure OpenAI chat extensions are configured, this array represents the
+      incremental steps performed by those
+
+      extensions while processing the chat completions request.
+    fullName: context
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'context?: AzureChatExtensionsMessageContextOutput'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure-rest/openai.AzureChatExtensionsMessageContextOutput"
+          />
+  - name: function_call
+    uid: '@azure-rest/openai.ChatResponseMessageOutput.function_call'
+    package: '@azure-rest/openai'
+    summary: >-
+      The function call that must be resolved and have its output appended to
+      subsequent input messages for the chat
+
+      completions request to resolve as configured.
+    fullName: function_call
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function_call?: FunctionCallOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.FunctionCallOutput" />
+  - name: role
+    uid: '@azure-rest/openai.ChatResponseMessageOutput.role'
+    package: '@azure-rest/openai'
+    summary: |-
+      The chat role associated with the message.
+
+      Possible values: "system", "assistant", "user", "function", "tool"
+    fullName: role
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'role: string'
+      return:
+        description: ''
+        type: string
+  - name: tool_calls
+    uid: '@azure-rest/openai.ChatResponseMessageOutput.tool_calls'
+    package: '@azure-rest/openai'
+    summary: >-
+      The tool calls that must be resolved and have their outputs appended to
+      subsequent input messages for the chat
+
+      completions request to resolve as configured.
+    fullName: tool_calls
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'tool_calls?: ChatCompletionsToolCallOutput[]'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.ChatCompletionsToolCallOutput" />[]

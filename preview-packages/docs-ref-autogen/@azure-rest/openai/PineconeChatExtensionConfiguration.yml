@@ -1,0 +1,43 @@
+### YamlMime:TSType
+name: PineconeChatExtensionConfiguration
+uid: '@azure-rest/openai.PineconeChatExtensionConfiguration'
+package: '@azure-rest/openai'
+summary: >-
+  A specific representation of configurable options for Pinecone when using it
+  as an Azure OpenAI chat
+
+  extension.
+fullName: PineconeChatExtensionConfiguration
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: parameters
+    uid: '@azure-rest/openai.PineconeChatExtensionConfiguration.parameters'
+    package: '@azure-rest/openai'
+    summary: The parameters to use when configuring Azure OpenAI chat extensions.
+    fullName: parameters
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'parameters: PineconeChatExtensionParameters'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/openai.PineconeChatExtensionParameters" />
+  - name: type
+    uid: '@azure-rest/openai.PineconeChatExtensionConfiguration.type'
+    package: '@azure-rest/openai'
+    summary: >-
+      The type label to use when configuring Azure OpenAI chat extensions. This
+      should typically not be changed from its
+
+      default value for Pinecone.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "Pinecone"'
+      return:
+        description: ''
+        type: '"Pinecone"'
+extends: <xref uid="@azure-rest/openai.AzureChatExtensionConfigurationParent" />

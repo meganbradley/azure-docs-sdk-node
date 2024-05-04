@@ -1,0 +1,9 @@
+### YamlMime:TSType
+name: Routes
+uid: '@azure-rest/openai.Routes'
+package: '@azure-rest/openai'
+summary: ''
+fullName: Routes
+remarks: ''
+isDeprecated: false
+type: interface

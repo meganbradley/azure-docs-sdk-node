@@ -1,0 +1,23 @@
+### YamlMime:TSType
+name: GetAzureBatchImageGenerationOperationStatusDefaultHeaders
+uid: '@azure-rest/openai.GetAzureBatchImageGenerationOperationStatusDefaultHeaders'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAzureBatchImageGenerationOperationStatusDefaultHeaders
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: x-ms-error-code
+    uid: >-
+      @azure-rest/openai.GetAzureBatchImageGenerationOperationStatusDefaultHeaders.x-ms-error-code
+    package: '@azure-rest/openai'
+    summary: String error code indicating what went wrong.
+    fullName: x-ms-error-code
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'x-ms-error-code?: string'
+      return:
+        description: ''
+        type: string

@@ -1,0 +1,49 @@
+### YamlMime:TSType
+name: OnYourDataKeyAndKeyIdAuthenticationOptions
+uid: '@azure-rest/openai.OnYourDataKeyAndKeyIdAuthenticationOptions'
+package: '@azure-rest/openai'
+summary: >-
+  The authentication options for Azure OpenAI On Your Data when using an
+  Elasticsearch key and key ID pair.
+fullName: OnYourDataKeyAndKeyIdAuthenticationOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: key
+    uid: '@azure-rest/openai.OnYourDataKeyAndKeyIdAuthenticationOptions.key'
+    package: '@azure-rest/openai'
+    summary: The key to use for authentication.
+    fullName: key
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'key: string'
+      return:
+        description: ''
+        type: string
+  - name: key_id
+    uid: '@azure-rest/openai.OnYourDataKeyAndKeyIdAuthenticationOptions.key_id'
+    package: '@azure-rest/openai'
+    summary: The key ID to use for authentication.
+    fullName: key_id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'key_id: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: '@azure-rest/openai.OnYourDataKeyAndKeyIdAuthenticationOptions.type'
+    package: '@azure-rest/openai'
+    summary: The authentication type of Elasticsearch key and key ID pair.
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: "key_and_key_id"'
+      return:
+        description: ''
+        type: '"key_and_key_id"'
+extends: <xref uid="@azure-rest/openai.OnYourDataAuthenticationOptionsParent" />

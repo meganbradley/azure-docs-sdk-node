@@ -1,0 +1,135 @@
+### YamlMime:TSType
+name: ImageGenerationOptionsOutput
+uid: '@azure-rest/openai.ImageGenerationOptionsOutput'
+package: '@azure-rest/openai'
+summary: Represents the request data used to generate images.
+fullName: ImageGenerationOptionsOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: model
+    uid: '@azure-rest/openai.ImageGenerationOptionsOutput.model'
+    package: '@azure-rest/openai'
+    summary: >-
+      The model name or Azure OpenAI model deployment name to use for image
+      generation. If not specified, dall-e-2 will be
+
+      inferred as a default.
+    fullName: model
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'model?: string'
+      return:
+        description: ''
+        type: string
+  - name: 'n'
+    uid: '@azure-rest/openai.ImageGenerationOptionsOutput.n'
+    package: '@azure-rest/openai'
+    summary: |-
+      The number of images to generate.
+      Dall-e-2 models support values between 1 and 10.
+      Dall-e-3 models only support a value of 1.
+    fullName: 'n'
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'n?: number'
+      return:
+        description: ''
+        type: number
+  - name: prompt
+    uid: '@azure-rest/openai.ImageGenerationOptionsOutput.prompt'
+    package: '@azure-rest/openai'
+    summary: A description of the desired images.
+    fullName: prompt
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'prompt: string'
+      return:
+        description: ''
+        type: string
+  - name: quality
+    uid: '@azure-rest/openai.ImageGenerationOptionsOutput.quality'
+    package: '@azure-rest/openai'
+    summary: |-
+      The desired image generation quality level to use.
+      Only configurable with dall-e-3 models.
+
+      Possible values: "standard", "hd"
+    fullName: quality
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'quality?: string'
+      return:
+        description: ''
+        type: string
+  - name: response_format
+    uid: '@azure-rest/openai.ImageGenerationOptionsOutput.response_format'
+    package: '@azure-rest/openai'
+    summary: |-
+      The format in which image generation response items should be presented.
+
+      Possible values: "url", "b64_json"
+    fullName: response_format
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'response_format?: string'
+      return:
+        description: ''
+        type: string
+  - name: size
+    uid: '@azure-rest/openai.ImageGenerationOptionsOutput.size'
+    package: '@azure-rest/openai'
+    summary: >-
+      The desired dimensions for generated images.
+
+      Dall-e-2 models support 256x256, 512x512, or 1024x1024.
+
+      Dall-e-3 models support 1024x1024, 1792x1024, or 1024x1792.
+
+
+      Possible values: "256x256", "512x512", "1024x1024", "1792x1024",
+      "1024x1792"
+    fullName: size
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'size?: string'
+      return:
+        description: ''
+        type: string
+  - name: style
+    uid: '@azure-rest/openai.ImageGenerationOptionsOutput.style'
+    package: '@azure-rest/openai'
+    summary: |-
+      The desired image generation style to use.
+      Only configurable with dall-e-3 models.
+
+      Possible values: "natural", "vivid"
+    fullName: style
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'style?: string'
+      return:
+        description: ''
+        type: string
+  - name: user
+    uid: '@azure-rest/openai.ImageGenerationOptionsOutput.user'
+    package: '@azure-rest/openai'
+    summary: >-
+      A unique identifier representing your end-user, which can help to monitor
+      and detect abuse.
+    fullName: user
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'user?: string'
+      return:
+        description: ''
+        type: string
