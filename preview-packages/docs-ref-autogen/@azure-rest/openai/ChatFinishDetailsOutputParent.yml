@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: ChatFinishDetailsOutputParent
+uid: '@azure-rest/openai.ChatFinishDetailsOutputParent'
+package: '@azure-rest/openai'
+summary: >-
+  An abstract representation of structured information about why a chat
+  completions response terminated.
+fullName: ChatFinishDetailsOutputParent
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@azure-rest/openai.ChatFinishDetailsOutputParent.type'
+    package: '@azure-rest/openai'
+    summary: ''
+    fullName: type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'type: string'
+      return:
+        description: ''
+        type: string

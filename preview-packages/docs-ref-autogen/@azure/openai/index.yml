@@ -6,6 +6,7 @@ type: package
 classes:
   - '@azure/openai.AzureKeyCredential'
   - '@azure/openai.OpenAIClient'
+  - '@azure/openai.OpenAIError'
   - '@azure/openai.OpenAIKeyCredential'
 interfaces:
   - '@azure/openai.AudioResultSimpleJson'
@@ -134,3 +135,19 @@ typeAliases:
   - '@azure/openai.OnYourDataAuthenticationType'
   - '@azure/openai.OnYourDataVectorizationSourceType'
   - '@azure/openai.OnYourDataVectorizationSourceUnion'
+functions:
+  - name: isOpenAIError(unknown)
+    uid: '@azure/openai.isOpenAIError'
+    package: '@azure/openai'
+    summary: Typeguard for RestError
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function isOpenAIError(e: unknown): e'
+      parameters:
+        - id: e
+          type: unknown
+          description: Something caught by a catch clause.
+      return:
+        description: ''
+        type: e

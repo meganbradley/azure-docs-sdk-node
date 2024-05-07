@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: DeploymentOutput
+uid: '@azure-rest/openai.DeploymentOutput'
+package: '@azure-rest/openai'
+summary: A specific deployment
+fullName: DeploymentOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: deploymentId
+    uid: '@azure-rest/openai.DeploymentOutput.deploymentId'
+    package: '@azure-rest/openai'
+    summary: >-
+      Specifies either the model deployment name (when using Azure OpenAI) or
+      model name (when using non-Azure OpenAI) to use for this request.
+    fullName: deploymentId
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'deploymentId: string'
+      return:
+        description: ''
+        type: string

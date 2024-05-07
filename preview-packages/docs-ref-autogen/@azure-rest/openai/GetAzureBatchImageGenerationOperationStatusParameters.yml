@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GetAzureBatchImageGenerationOperationStatusParameters
+uid: '@azure-rest/openai.GetAzureBatchImageGenerationOperationStatusParameters'
+package: '@azure-rest/openai'
+summary: ''
+fullName: GetAzureBatchImageGenerationOperationStatusParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GetAzureBatchImageGenerationOperationStatusParameters = RequestParameters

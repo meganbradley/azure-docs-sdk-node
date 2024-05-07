@@ -62,6 +62,18 @@ properties:
       return:
         description: ''
         type: string
+  - name: model
+    uid: '@azure/openai.ChatCompletions.model'
+    package: '@azure/openai'
+    summary: The current model used for the chat completions request.
+    fullName: model
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'model: string'
+      return:
+        description: ''
+        type: string
   - name: promptFilterResults
     uid: '@azure/openai.ChatCompletions.promptFilterResults'
     package: '@azure/openai'

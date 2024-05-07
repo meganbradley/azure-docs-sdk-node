@@ -1,0 +1,34 @@
+### YamlMime:TSType
+name: EmbeddingsUsageOutput
+uid: '@azure-rest/openai.EmbeddingsUsageOutput'
+package: '@azure-rest/openai'
+summary: Measurement of the amount of tokens used in this request and response.
+fullName: EmbeddingsUsageOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: prompt_tokens
+    uid: '@azure-rest/openai.EmbeddingsUsageOutput.prompt_tokens'
+    package: '@azure-rest/openai'
+    summary: Number of tokens sent in the original request.
+    fullName: prompt_tokens
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'prompt_tokens: number'
+      return:
+        description: ''
+        type: number
+  - name: total_tokens
+    uid: '@azure-rest/openai.EmbeddingsUsageOutput.total_tokens'
+    package: '@azure-rest/openai'
+    summary: Total number of tokens transacted in this request/response.
+    fullName: total_tokens
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'total_tokens: number'
+      return:
+        description: ''
+        type: number

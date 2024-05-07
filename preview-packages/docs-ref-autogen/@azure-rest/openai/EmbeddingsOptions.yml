@@ -1,0 +1,85 @@
+### YamlMime:TSType
+name: EmbeddingsOptions
+uid: '@azure-rest/openai.EmbeddingsOptions'
+package: '@azure-rest/openai'
+summary: >-
+  The configuration information for an embeddings request.
+
+  Embeddings measure the relatedness of text strings and are commonly used for
+  search, clustering,
+
+  recommendations, and other similar scenarios.
+fullName: EmbeddingsOptions
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: input
+    uid: '@azure-rest/openai.EmbeddingsOptions.input'
+    package: '@azure-rest/openai'
+    summary: >-
+      Input texts to get embeddings for, encoded as a an array of strings.
+
+      Each input must not exceed 2048 tokens in length.
+
+
+      Unless you are embedding code, we suggest replacing newlines (\n) in your
+      input with a single space,
+
+      as we have observed inferior results when newlines are present.
+    fullName: input
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'input: string[]'
+      return:
+        description: ''
+        type: string[]
+  - name: input_type
+    uid: '@azure-rest/openai.EmbeddingsOptions.input_type'
+    package: '@azure-rest/openai'
+    summary: >-
+      When using Azure OpenAI, specifies the input type to use for embedding
+      search.
+    fullName: input_type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'input_type?: string'
+      return:
+        description: ''
+        type: string
+  - name: model
+    uid: '@azure-rest/openai.EmbeddingsOptions.model'
+    package: '@azure-rest/openai'
+    summary: >-
+      The model name to provide as part of this embeddings request.
+
+      Not applicable to Azure OpenAI, where deployment information should be
+      included in the Azure
+
+      resource URI that's connected to.
+    fullName: model
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'model?: string'
+      return:
+        description: ''
+        type: string
+  - name: user
+    uid: '@azure-rest/openai.EmbeddingsOptions.user'
+    package: '@azure-rest/openai'
+    summary: >-
+      An identifier for the caller or end user of the operation. This may be
+      used for tracking
+
+      or rate-limiting purposes.
+    fullName: user
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'user?: string'
+      return:
+        description: ''
+        type: string
